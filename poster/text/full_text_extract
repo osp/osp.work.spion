@@ -3,7 +3,20 @@ During the conference possible strategies for addressing privacy and security ne
 Content of Day 1 – 29 November 2012
 
 At the first conference day panel members will discuss the pitfalls for social media users in relation to their privacy, the commodification of their personal data, uninformed consent strategies, the right to privacy, the protection of personal data and the (absence of a) right to be forgotten. Opportunities and risks related to social media use of minors will be discussed from various perspectives and regulatory challenges in this area will be identified.
-Panel “Minors and social media: between protection and empowerment”
+
+
+
+
+
+
+
+
+
+
+
+
+
+Panel 1 “Minors and social media: between protection and empowerment”
 
 The aim of this panel is to provide various perspectives (legal, pedagogic, sociological) on social media use and privacy practices by minors and to identify opportunities, risks, challenges and innovative regulatory mechanisms to empower them
 
@@ -18,7 +31,28 @@ Ellen Wauters is PhD student at IBBT-ICRI K.U.Leuven and researches the multidim
 Chair Eva Lievens has been a member of IBBT-ICRI‘s Communications Law department of K.U.Leuven since 2003. She obtained her PhD in law titled ‘Regulatory instruments for content regulation in digital media – A prospective study on the protection of minors against harmful content’ in June 2009. Other media law related research she is involved in deals with legal challenges posed by new communication phenomena, such as the regulation of audiovisual media services, user-generated content, and virtual and social networks. Eva regularly publishes, presents and lectures about her research interests, and is the assistant editor for the International Encyclopaedia of Laws – Media Law (edited by Prof. Peggy Valcke.
 
 Discussant Peggy Valcke is a leading European expert on media and communications law. She is a full time research professor at the Catholic University of Leuven (K.U.Leuven), teaches media law at the Catholic University of Brussels (H.U.Brussel), and is visiting professor at the University of Tilburg. She is the current director of the Interdisciplinary Centre for Law & ICT (IBBT-ICRI), a research centre at the Faculty of Law of K.U.Leuven, specialized in legal aspects of the information society and one of the founding partners of the Interdisciplinary Institute for BroadBand Technology (IBBT).
-Panel ”Living apart together? The propertisation of personal data, the right to privacy and the protection of personal data”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Panel 2 ”Living apart together? The propertisation of personal data, the right to privacy and the protection of personal data”
 
 “If you’re not paying for it, you’re the product” has become a widespread buzz-phrase to refer to Facebook’s business model. Facebook offers people a service ‘for free’, collects information about them as they use that service and monetizes that information through advertising. A number of new start-ups might turn this model upside down however. Social networks like chime.in intend to give their users a 50 percent commission—or even let them sell their own ads and keep all the revenue. Such a model fits into a broader trend to see personal data as a currency or a property that can be stored in personal data vaults or ‘lockers’.
 
@@ -37,7 +71,25 @@ Orla Lynskey holds a PhD from the London School of Economics (thesis title: the 
 Chair Mathias Vermeulen is a Research Fellow at the European University Institute (EUI) in Florence, Italy and  PhD student  at the Research Group on Law, Science, Technology & Society at the Vrije Universiteit Brussel. His research interests include counter-terrorism policies; the EU’s area of justice and home affairs; the impact of the use of new technologies on human rights, especially on the right to privacy; and accountability and oversight mechanisms of security agencies.
 
 Discussant Serge Gutwirth is (since 2003) holder of a 10 year research fellowship in the framework of the VUB-Research contingent for his project ‘Sciences and the democratic constitutional state: a mutual transformation process’. Gutwirth founded and still chairs the VUB-Research group Law Science Technology & Society. He publishes widely in Dutch French and English and participates (inter)national and interdisciplinary research projects (FP6, FP7).. Gutwirth has been (co-)promoter of 8 publicly defended PhD’s and he has often been invited to be an external member of PhD-juries in other universities in Belgium and abroad. He is a member of several editorial boards of scientific journals.
-Panel “Are there alternatives to the consensual exploitation on social media?“
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Panel 3 “Are there alternatives to the consensual exploitation on social media?“
 
 The state of current affairs on the commodification of User Generated Content and personal information will be discussed for popular social media in order to raise ideas on how to change this in favor of the user. Experts from different disciplines e.g. user studies, computer studies and political economic research will focus on the alternatives for social media advertising business models.
 
@@ -57,11 +109,23 @@ Discussant Ike Picone is since April 2006 researcher at IBBT-SMIT Vrije Universi
 Content of Day 2 –  30 November 2012
 
 On the second day of the conference socio-technical solutions are central to the debate. We will look at nudging as a design strategy, discuss how privacy and security can be integrated into design from the early conception of systems, and present concrete proposals for improving the privacy and security infrastructures of online social networks.
-Panel “Security and privacy protection in Online Social Networks”
+
+
+
+
+
+
+
+
+
+
+Panel 4 “Security and privacy protection in Online Social Networks”
 
 Privacy in social network is typically associated with the difficulty of configuring the settings so that the uploaded information does not become available to unintended audiences. There is however a wide range of security and privacy issues in these systems, as well as a diversity of technologies that have been proposed to improve the protection of their users. In this panel we will tackle the question of what it means to protect security and privacy in social networks. We will discuss the different types of threats, assumptions, adversarial models, security and privacy objectives, available technologies to achieve these objectives, as well as the limitations of these technologies.
 
 The technologies that will be reviewed include: (1) enforcement of information flow security in browsers and how this improves the security of social apps; (2) content protection in social networks through the encryption of uploaded content; (3) dummy traffic strategies that prevent the analysis of interactions (traffic data) in social networks; (4) advanced access control policies for managing content in online social networks and accountability and auditing facilities for dealing with violations of trust amount online social network users; and (5) distributed social network architectures as an alternative to centralized online social network platforms.
+
+
 
 Speakers of this panel
 
@@ -76,7 +140,22 @@ Claudia Diaz is Assistant Professor at the COSIC research group of the Departmen
 Chair: Bart Preneel is full professor (gewoon hoogleraar) in the research group COSIC of the Electrical Engineering Department of the Katholieke Universiteit Leuven. His main research area is information security. His research focuses on cryptographic algorithms and protocols as well as their applications to computer and network security and mobile communications. His favourite research topics are hash functions, MAC algorithms, stream ciphers and block ciphers. He is teaching cryptology, network security, coding theory, and discrete applied algebra at the K.U.Leuven. He has been visiting professor at the Technical University Denmark, the Ruhr Universitaet Bochum (Germany), the Graz University of Technology (Austria), the University of Bergen (Norway), and the Universiteit Gent (Belgium). In ’93-’94 he was a research fellow at the University of California at Berkeley.Bart Preneel contributed to the growth of COSIC, a research group in cryptology and its applications.
 
 Discussant: Seda Gürses is currently a post-doc at COSIC/ESAT working on privacy in social networks, requirements engineering, privacy enhancing technologies and identity management systems. She is also part of the Privacy and Identity Management Group. She completed her PhD titled “Multilateral Privacy Requirements Analysis in Online Social Networks” at the Arenberg School in the group HMDB of the Computer Science Department also at the Catholic University in Leuven. Bettina Berendt and Bart Preneel were her supervisors. She is the coordinator of the interdisciplinary project “Security and Privacy in Social Networks” (SPION) supported by the Agency for Innovation by Science and Technology (IWT) in Belgium. She participates as a researcher in two EU projects “Trusted Architecture for Securely Shared Services” (TAS³) and “Global Identity Networking of Individuals” (GINI) where she does research on privacy and security requirements engineering.
-Panel ‘The social shaping of privacy enhancing technology’
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Panel 5 ‘The social shaping of privacy enhancing technology’
 
 The key challenge of communication and media studies in the 21st century, is, or will be the disappearance of media (Deuze 2011). This proposition implies that from now on people will always be ‘online’, making the differentiation between offline and online world negligible. Through this process the online media environment becomes a given, as well as the underlying privacy assumptions as perceived by social network sites providers. This is problematic, because of a common trend where the responsibility is pushed towards the users, for whom it is difficult to question these new technologies.
 
@@ -95,7 +174,20 @@ Seda Gürses is currently a post-doc at COSIC/ESAT working on privacy in social 
 Chair: Shenja van der Graaf is a senior researcher and project leader at IBBT-SMIT of Vrije Universiteit Brussel. She is a visiting senior fellows at LSE, fellow at MIT Media Lab ID³ Hub, and a Futures of Entertainment fellow. Her current research is concerned with issues arising from innovations associated with the Future Internet. She is particularly intrigued by social, urban and organisational transformation and new technologies. Van der Graaf is a graduate of Utrecht University (MA, 1999) and the London School of Economics and Political Science (PhD, 2009). She was a Fellow at the Berkman Center for Internet and Society (Harvard) and the Research Center for Information Law (University of St. Gallen), a consulting researcher at Convergence Culture Consortium (MIT), an alumna of the Oxford Internet Institute, and worked as consultant for Hakuhodo in Tokyo.
 
 Discussant: Deirdre Mulligan is a professor of law at the UC Berkeley School of Information and a Faculty Director of the Berkeley Center for Law and Technology, University of California. She was the founding director of the Samuelson Clinic, which she led from 2001-2008. Before coming to Boalt, she was staff counsel at the Center for Democracy & Technology in Washington. Professor Mulligan’s current research agenda focuses on information privacy and security. Current projects include qualitative interviews to understand the institutionalization and management of privacy within corporate America, and role of law in corporate information security policy and practice. Other areas of current research include digital rights management technology and privacy and security issues in sensor networks and visual surveillance systems, and alternative legal strategies to advance network security.
-Panel “Behavioral economics and privacy nudging”
+
+
+
+
+
+
+
+
+
+
+
+
+
+Panel 6 “Behavioral economics and privacy nudging”
 
 
 Speakers of this panel
