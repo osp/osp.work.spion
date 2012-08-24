@@ -1,0 +1,140 @@
+
+" [...] the protection of personal data and the (absence of a) right to be forgotten. "
+
+" Are both rights uneasy bedfollows, or can they happily live (apart) together? "
+
+Privacy in social network is typically associated with the difficulty of configuring the settings so that the uploaded information does not become available to unintended audiences. 
+
+
+1
+Alice E. Marwick
+Simone van der Hof
+Ellen Wauters
+Chair Eva Lievens
+Discussant Peggy Valcke
+
+2
+James B. Rule
+Nadezhda Purtova
+Sören Preibusch
+Orla Lynskey
+Chair Mathias Vermeulen
+Discussant Serge Gutwirth
+
+3
+Trebor Scholz
+Solon Barocas
+Claudia Diaz
+Rob Heyman
+Chair: Jo Pierson
+Discussant Ike Picone
+
+4
+Refik Molva
+Frank Piessens
+Dave Clarke
+Claudia Diaz
+Chair: Bart Preneel
+Discussant: Seda Gürses
+
+5
+Airi lampinen
+Bettina Berendt
+Ralf De Wolf
+Seda Gürses
+Chair: Shenja van der Graaf
+Discussant: Deirdre Mulligan
+
+6
+Lorrie Faith Cranor
+Sandra Petronio
+Adam Joinson
+Chair: Seda Gürses
+Discussant: Acquisti Alessandro
+
+
+
+
+
+
+The 4xx class of status code is intended for cases in which the client seems to have erred. Except when responding to a HEAD request, the server should include an entity containing an explanation of the error situation, and whether it is a temporary or permanent condition. These status codes are applicable to any request method. User agents should display any included entity to the user.
+
+400 Bad Request
+    The request cannot be fulfilled due to bad syntax.[2]
+401 Unauthorized
+    Similar to 403 Forbidden, but specifically for use when authentication is required and has failed or has not yet been provided.[2] The response must include a WWW-Authenticate header field containing a challenge applicable to the requested resource. See Basic access authentication and Digest access authentication.
+402 Payment Required
+    Reserved for future use.[2] The original intention was that this code might be used as part of some form of digital cash or micropayment scheme, but that has not happened, and this code is not usually used. As an example of its use, however, Apple's MobileMe service generates a 402 error ("httpStatusCode:402" in the Mac OS X Console log) if the MobileMe account is delinquent.[citation needed]
+403 Forbidden
+    The request was a valid request, but the server is refusing to respond to it.[2] Unlike a 401 Unauthorized response, authenticating will make no difference.[2] On servers where authentication is required, this commonly means that the provided credentials were successfully authenticated but that the credentials still do not grant the client permission to access the resource (e.g. a recognized user attempting to access restricted content).
+404 Not Found
+    The requested resource could not be found but may be available again in the future.[2] Subsequent requests by the client are permissible.
+405 Method Not Allowed
+    A request was made of a resource using a request method not supported by that resource;[2] for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.
+406 Not Acceptable
+    The requested resource is only capable of generating content not acceptable according to the Accept headers sent in the request.[2]
+407 Proxy Authentication Required
+    The client must first authenticate itself with the proxy.[2]
+408 Request Timeout
+    The server timed out waiting for the request.[2] According to W3 HTTP specifications: "The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time."
+409 Conflict
+    Indicates that the request could not be processed because of conflict in the request, such as an edit conflict.[2]
+410 Gone
+    Indicates that the resource requested is no longer available and will not be available again.[2] This should be used when a resource has been intentionally removed and the resource should be purged. Upon receiving a 410 status code, the client should not request the resource again in the future. Clients such as search engines should remove the resource from their indices. Most use cases do not require clients and search engines to purge the resource, and a "404 Not Found" may be used instead.
+411 Length Required
+    The request did not specify the length of its content, which is required by the requested resource.[2]
+412 Precondition Failed
+    The server does not meet one of the preconditions that the requester put on the request.[2]
+413 Request Entity Too Large
+    The request is larger than the server is willing or able to process.[2]
+414 Request-URI Too Long
+    The URI provided was too long for the server to process.[2]
+415 Unsupported Media Type
+    The request entity has a media type which the server or resource does not support.[2] For example, the client uploads an image as image/svg+xml, but the server requires that images use a different format.
+416 Requested Range Not Satisfiable
+    The client has asked for a portion of the file, but the server cannot supply that portion.[2] For example, if the client asked for a part of the file that lies beyond the end of the file.[2]
+417 Expectation Failed
+    The server cannot meet the requirements of the Expect request-header field.[2]
+418 I'm a teapot (RFC 2324)
+    This code was defined in 1998 as one of the traditional IETF April Fools' jokes, in RFC 2324, Hyper Text Coffee Pot Control Protocol, and is not expected to be implemented by actual HTTP servers. However, known implementations do exist.[12]
+
+420 Enhance Your Calm (Twitter)
+    Not part of the HTTP standard, but returned by the Twitter Search and Trends API when the client is being rate limited.[13] Other services may wish to implement the 429 Too Many Requests response code instead.
+422 Unprocessable Entity (WebDAV; RFC 4918)
+    The request was well-formed but was unable to be followed due to semantic errors.[4]
+423 Locked (WebDAV; RFC 4918)
+    The resource that is being accessed is locked.[4]
+424 Failed Dependency (WebDAV; RFC 4918)
+    The request failed due to failure of a previous request (e.g. a PROPPATCH).[4]
+424 Method Failure (WebDAV)[14]
+    Indicates the method was not executed on a particular resource within its scope because some part of the method's execution failed causing the entire method to be aborted. 
+425 Unordered Collection (Internet draft)
+    Defined in drafts of "WebDAV Advanced Collections Protocol",[15] but not present in "Web Distributed Authoring and Versioning (WebDAV) Ordered Collections Protocol".[16]
+426 Upgrade Required (RFC 2817)
+    The client should switch to a different protocol such as TLS/1.0.[17]
+428 Precondition Required (RFC 6585)
+    The origin server requires the request to be conditional. Intended to prevent "the 'lost update' problem, where a client GETs a resource's state, modifies it, and PUTs it back to the server, when meanwhile a third party has modified the state on the server, leading to a conflict."[18]
+429 Too Many Requests (RFC 6585)
+    The user has sent too many requests in a given amount of time. Intended for use with rate limiting schemes.[18]
+431 Request Header Fields Too Large (RFC 6585)
+    The server is unwilling to process the request because either an individual header field, or all the header fields collectively, are too large.[18]
+444 No Response (Nginx)
+    Used in Nginx logs to indicate that the server has returned no information to the client and closed the connection (useful as a deterrent for malware).
+449 Retry With (Microsoft)
+    A Microsoft extension. The request should be retried after performing the appropriate action.[19]
+    Often search-engines or custom applications will ignore required parameters. Where no default action is appropriate, the Aviongoo website sends a "HTTP/1.1 449 Retry with valid parameters: param1, param2, . . ." response. The applications may choose to learn, or not.
+450 Blocked by Windows Parental Controls (Microsoft)
+    A Microsoft extension. This error is given when Windows Parental Controls are turned on and are blocking access to the given webpage.[20]
+451 Unavailable For Legal Reasons (Internet draft)
+    Defined in the internet draft "A New HTTP Status Code for Legally-restricted Resources".[21] Intended to be used when resource access is denied for legal reasons, e.g. censorship or government-mandated blocked access. Likely a reference to the 1953 dystopian novel Fahrenheit 451, where books are outlawed.[22]
+494 Request Header Too Large (Nginx)
+    Nginx internal code similar to 431 but it was introduced earlier.[23]
+495 Cert Error (Nginx)
+    Nginx internal code used when SSL client certificate error occured to distinguish it from 4XX in a log and an error page redirection.
+496 No Cert (Nginx)
+    Nginx internal code used when client didn't provide certificate to distinguish it from 4XX in a log and an error page redirection.
+497 HTTP to HTTPS (Nginx)
+    Nginx internal code used for the plain HTTP requests that are sent to HTTPS port to distinguish it from 4XX in a log and an error page redirection.
+499 Client Closed Request (Nginx)
+    Used in Nginx logs to indicate when the connection has been closed by client while the server is still processing its request, making server unable to send a status code back.[24]
+
