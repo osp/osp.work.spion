@@ -16,7 +16,6 @@ body {
 }
 
 .error-message {
-	color:red;
 	font-size:40px;
 	padding-top: 20px;
 	

@@ -1,0 +1,4 @@
+$(function () {
+    $(".widget").draggable().resizable();
+});
+

@@ -72,7 +72,7 @@ including updates to our Data Use Policy and Terms. "</p>
 		<li>Discussant: Peggy Valcke</li>
 	</div>
 	
-	<div id="error-panel1" class="widget-error">
+	<div id="error-panel1" class="widget">
 		<p class="error-message">Error 413 Request Entity Too Large</p>
 	</div>	
 
@@ -104,7 +104,7 @@ including updates to our Data Use Policy and Terms. "</p>
 		<li>Discussant: Ike Picone</li>
 	</div>
 	
-	<div class="widget-error" id="error-panel3">
+	<div class="widget" id="error-panel3">
 		<p class="error-message"> Error 417 Expectation Failed </p>
 	</div>
 
@@ -118,7 +118,7 @@ including updates to our Data Use Policy and Terms. "</p>
 		<li>Discussant: Seda Gürses</li>
   	</div>
   	
-	<div id="error-panel4" class="widget-error">
+	<div id="error-panel4" class="widget">
 			<p class="error-message">Error 424 Failed Dependency</p>
 	</div>  	
   	
@@ -132,7 +132,7 @@ including updates to our Data Use Policy and Terms. "</p>
 		<li>Discussant: Deirdre Mulligan</li>
   	</div>
 
-<div class="widget-error" id="error-panel5">
+<div class="widget" id="error-panel5">
 	<p class="error-message"> Error 406 Not Acceptable </p>
 </div>
 	<div id="panel6" class="widget">
@@ -144,7 +144,7 @@ including updates to our Data Use Policy and Terms. "</p>
 		<li>Discussant: Alessandro Acquisti</li>
 	</div>
 		
-	<div class="widget-error" id="error-panel6">
+	<div class="widget" id="error-panel6">
 		<p class="error-message">Error 405 Method Not Allowed</p>
 	</div>
 
