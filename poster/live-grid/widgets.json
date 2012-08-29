@@ -1,104 +1,104 @@
 [
   {
-    "html": "<p contenteditable=\"true\"><br></p>\n<p class=\"title\" contenteditable=\"true\">For Your Eyes Only</p>\n", 
+    "html": "<h1 class=\"title\" contenteditable=\"true\">For Your Eyes Only</h1>\n", 
     "size_y": 4, 
     "size_x": 4, 
     "col": 7, 
     "row": 3
   }, 
   {
-    "html": "<p contenteditable=\"true\">&nbsp;Panel 1 ‘Minors and social media: between protection and empowerment’<br>Alice E. Marwick<br>Simone van der Hof<br>Ellen Wauters<br>Chair: Eva Lievens<br>Discussant: Peggy Valcke<br></p>", 
+    "html": "<h2 contenteditable=\"true\">&nbsp;‘Minors and social media: between protection and empowerment’</h2><p contenteditable=\"true\">Error 413 Request Entity Too Large<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 5, 
     "row": 5
   }, 
   {
-    "html": "<p contenteditable=\"true\">Panel 5 ‘The social shaping of privacy enhancing technology’<br>Airi lampinen<br>Bettina Berendt<br>Ralf De Wolf<br>Seda Gürses<br>Chair: Shenja van der Graaf<br>Discussant: Deirdre Mulligan<br></p>", 
+    "html": "<h2 contenteditable=\"true\">‘The social shaping of privacy enhancing technology’</h2><p contenteditable=\"true\">Error 406 Not Acceptable<br></p>", 
     "size_y": 2, 
     "size_x": 4, 
     "col": 1, 
     "row": 5
   }, 
   {
-    "html": "<p contenteditable=\"true\">&nbsp;15% of Americans have never checked their social networking privacy and security account settings.<br>(National Cyber Security Alliane (NCSA)-MacAfee Online Safety Study, 2011)<br></p>", 
-    "size_y": 4, 
-    "size_x": 4, 
+    "html": "<p contenteditable=\"true\">Logo SPION</p>", 
+    "size_y": 2, 
+    "size_x": 2, 
     "col": 1, 
     "row": 1
   }, 
   {
-    "html": "<p contenteditable=\"true\">Panel 4 ‘Security and privacy protection in Online Social Networks’<br>Refik Molva Frank Piessens<br>Dave Clarke<br>Claudia Diaz<br>Chair: Bart Preneel<br>Discussant: Seda Gürses<br>&nbsp; &nbsp;&nbsp;&nbsp; <br></p>", 
+    "html": "<h2 contenteditable=\"true\">‘Security and privacy protection in Online Social Networks’</h2><p contenteditable=\"true\">Error 424 Failed Dependency<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 5, 
     "row": 3
   }, 
   {
-    "html": "<p contenteditable=\"true\">\" Please visit and like the Facebook Site Governance page to get site governance news from Facebook,<br>including updates to our Data Use Policy and Terms. \"<br></p>", 
+    "html": "<p contenteditable=\"true\">\"LOGO EMSOC</p>", 
     "size_y": 2, 
-    "size_x": 4, 
+    "size_x": 2, 
     "col": 5, 
     "row": 1
   }, 
   {
-    "html": "<p contenteditable=\"true\">Error 413 Request Entity Too Large<br></p>", 
+    "html": "Warning: your geospatial location could not be identified.", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 9, 
     "row": 1
   }, 
   {
-    "html": "<p contenteditable=\"true\">Panel 6 ‘Behavioral economics and privacy nudging’<br>Lorrie Faith Cranor<br>Sandra Petronio<br>Adam Joinson<br>Chair: Seda Gürses<br>Discussant: Alessandro Acquisti<br></p>", 
+    "html": "<h2 contenteditable=\"true\">‘Behavioral economics and privacy nudging’</h2><p contenteditable=\"true\">Error 405 Method Not Allowed<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 2, 
+    "col": 1, 
     "row": 9
   }, 
   {
-    "html": "<p contenteditable=\"true\">Error 404 Not Found</p>", 
+    "html": "<p contenteditable=\"true\">Warning</p>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
     "row": 7
   }, 
   {
-    "html": "<p contenteditable=\"true\">Error 424 Failed Dependency<br></p>", 
+    "html": "Warning 2", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 6, 
+    "col": 5, 
     "row": 7
   }, 
   {
-    "html": "<p contenteditable=\"true\">Panel 3 ‘Are there alternatives to the consensual exploitation on social media?’&nbsp;&nbsp;&nbsp; <br>Trebor Scholz<br>Solon Barocas<br>Claudia Diaz<br>Rob Heyman<br>Chair: Jo Pierson<br>Discussant: Ike Picone<br></p>", 
+    "html": "<h2 contenteditable=\"true\">‘Are there alternatives to the consensual exploitation on social media?’</h2><p contenteditable=\"true\">Error 417 Expectation Failed<br></p>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 7, 
-    "row": 9
+    "row": 7
   }, 
   {
-    "html": "<p contenteditable=\"true\">Error 417 Expectation Failed<br></p>", 
+    "html": "Warning 3", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 6, 
-    "row": 13
+    "row": 11
   }, 
   {
-    "html": "<p contenteditable=\"true\">Error 406 Not Acceptable<br></p>", 
+    "html": "Warning: We are not sure if you speak English.", 
     "size_y": 1, 
     "size_x": 1, 
     "col": 3, 
     "row": 7
   }, 
   {
-    "html": "<p contenteditable=\"true\">Panel 2 ‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’<br>James B. Rule<br>Nadezhda Purtova<br>Sören Preibusch<br>Orla Lynskey<br>Chair: Mathias Vermeulen<br>Discussant: Serge Gutwirth<br></p>", 
+    "html": "<h2 contenteditable=\"true\">‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p>", 
     "size_y": 4, 
     "size_x": 2, 
-    "col": 4, 
-    "row": 7
+    "col": 3, 
+    "row": 8
   }, 
   {
-    "html": "<p contenteditable=\"true\">Error 405 Method Not Allowed<br></p>", 
+    "html": "<p>Warning: your level of eyesight could not be detected.</p>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 9, 
@@ -109,6 +109,6 @@
     "size_y": 4, 
     "size_x": 2, 
     "col": 7, 
-    "row": 17
+    "row": 15
   }
 ]
