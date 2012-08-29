@@ -21,7 +21,7 @@ def index():
 def store():
     foo = json.loads(request.data)
     w = codecs.open('widgets.json', 'w', 'utf-8')
-    w.write(json.dumps(foo))
+    w.write(json.dumps(foo, indent=2, ensure_ascii=False))
     w.close()
     return "Elements processed: %s" % len(foo)
 
