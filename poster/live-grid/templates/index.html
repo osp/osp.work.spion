@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>SPION POSTER</title>
+
+    <link rel="stylesheet/less" type="text/css" href="static/typo.less">    
+    <link rel="stylesheet/less" type="text/css" href="static/widgets.less">
+
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.0/less-1.3.0.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="static/jquery.gridster.min.css">
+
+    <style>
+    .gridster {
+        width: 940px;
+    }
+    </style>
+</head>
+<body>
+
+<div role="main">
+
+    <section class="demo">
+
+        <div class="gridster">
+          <ul>
+              {% for widget in widgets %}
+              <li data-row="{{ widget.row }}" data-col="{{ widget.col }}" data-sizex="{{ widget.size_x }}" data-sizey="{{ widget.size_y }}">{{ widget.html|safe }}</li>
+              {% endfor %}
+          </ul>
+        </div>
+
+    </section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="static/jquery.gridster.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+var gridster;
+var grid;
+
+var store = function() {
+    // store grid positions
+    grid = gridster.serialize();
+    // add innerHTML
+    for (var i=0; i < grid.length; i++) {
+        grid[i].html = $($('.gridster > ul > li')[i]).html();
+    };
+    // send to server
+    $.ajax({
+        type: 'POST',
+        url: 'store',
+        data: JSON.stringify(grid),
+        contentType: 'application/json;charset=UTF-8',
+        success: function(returndata) {
+          //debug: alert(returndata);
+        }
+    });
+       
+}
+
+$(function(){
+
+gridster = $(".gridster ul").gridster({
+    widget_margins: [10, 10],
+    widget_base_dimensions: [140, 140],
+    min_cols: 6,
+    draggable: {
+        stop: store
+    }
+}).data('gridster');
+
+});
+</script>
+
+
+
+</body>
+</html>

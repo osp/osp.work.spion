@@ -1,0 +1,79 @@
+[
+    {
+        "col": 1,
+        "row": 1,
+        "size_x": 2,
+        "size_y": 1,
+        "html": "\n                <p class=\"panel\"> Panel 1 ‘Minors and social media: between protection and empowerment’</p>\n                <ul style=\"position: relative; \">\n            \t\t<li class=\"gs_w\">Alice E. Marwick</li>\n            \t\t<li class=\"gs_w\">Simone van der Hof</li>\n            \t\t<li class=\"gs_w\">Ellen Wauters</li>\n            \t\t<li class=\"gs_w\">Chair: Eva Lievens</li>\n            \t\t<li class=\"gs_w\">Discussant: Peggy Valcke</li>\n                </ul>\n            "
+    },
+    {
+        "col": 1,
+        "row": 3,
+        "size_x": 1,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 2,
+        "row": 3,
+        "size_x": 2,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 3,
+        "row": 1,
+        "size_x": 2,
+        "size_y": 2,
+        "html": ""
+    },
+    {
+        "col": 5,
+        "row": 1,
+        "size_x": 1,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 1,
+        "row": 2,
+        "size_x": 2,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 4,
+        "row": 3,
+        "size_x": 1,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 6,
+        "row": 1,
+        "size_x": 1,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 5,
+        "row": 3,
+        "size_x": 1,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 5,
+        "row": 2,
+        "size_x": 1,
+        "size_y": 1,
+        "html": ""
+    },
+    {
+        "col": 6,
+        "row": 2,
+        "size_x": 1,
+        "size_y": 2,
+        "html": ""
+    }
+]
