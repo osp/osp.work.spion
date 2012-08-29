@@ -3,8 +3,8 @@
     "html": "<p contenteditable=\"true\"><br></p>\n<p class=\"title\" contenteditable=\"true\">For Your Eyes Only</p>\n", 
     "size_y": 4, 
     "size_x": 4, 
-    "col": 3, 
-    "row": 7
+    "col": 7, 
+    "row": 3
   }, 
   {
     "html": "<p contenteditable=\"true\">&nbsp;Panel 1 ‘Minors and social media: between protection and empowerment’<br>Alice E. Marwick<br>Simone van der Hof<br>Ellen Wauters<br>Chair: Eva Lievens<br>Discussant: Peggy Valcke<br></p>", 
@@ -18,7 +18,7 @@
     "size_y": 2, 
     "size_x": 4, 
     "col": 1, 
-    "row": 11
+    "row": 5
   }, 
   {
     "html": "<p contenteditable=\"true\">&nbsp;15% of Americans have never checked their social networking privacy and security account settings.<br>(National Cyber Security Alliane (NCSA)-MacAfee Online Safety Study, 2011)<br></p>", 
@@ -46,69 +46,69 @@
     "size_y": 2, 
     "size_x": 2, 
     "col": 9, 
-    "row": 8
+    "row": 1
   }, 
   {
     "html": "<p contenteditable=\"true\">Panel 6 ‘Behavioral economics and privacy nudging’<br>Lorrie Faith Cranor<br>Sandra Petronio<br>Adam Joinson<br>Chair: Seda Gürses<br>Discussant: Alessandro Acquisti<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 7, 
-    "row": 11
+    "col": 2, 
+    "row": 9
   }, 
   {
     "html": "<p contenteditable=\"true\">Error 404 Not Found</p>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 9, 
-    "row": 1
+    "col": 1, 
+    "row": 7
   }, 
   {
     "html": "<p contenteditable=\"true\">Error 424 Failed Dependency<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 3, 
-    "row": 5
+    "col": 6, 
+    "row": 7
   }, 
   {
     "html": "<p contenteditable=\"true\">Panel 3 ‘Are there alternatives to the consensual exploitation on social media?’&nbsp;&nbsp;&nbsp; <br>Trebor Scholz<br>Solon Barocas<br>Claudia Diaz<br>Rob Heyman<br>Chair: Jo Pierson<br>Discussant: Ike Picone<br></p>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 7, 
-    "row": 3
+    "row": 9
   }, 
   {
     "html": "<p contenteditable=\"true\">Error 417 Expectation Failed<br></p>", 
     "size_y": 4, 
     "size_x": 2, 
-    "col": 9, 
-    "row": 4
+    "col": 6, 
+    "row": 13
   }, 
   {
     "html": "<p contenteditable=\"true\">Error 406 Not Acceptable<br></p>", 
     "size_y": 1, 
     "size_x": 1, 
-    "col": 9, 
-    "row": 3
+    "col": 3, 
+    "row": 7
   }, 
   {
     "html": "<p contenteditable=\"true\">Panel 2 ‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’<br>James B. Rule<br>Nadezhda Purtova<br>Sören Preibusch<br>Orla Lynskey<br>Chair: Mathias Vermeulen<br>Discussant: Serge Gutwirth<br></p>", 
     "size_y": 4, 
     "size_x": 2, 
-    "col": 1, 
-    "row": 5
+    "col": 4, 
+    "row": 7
   }, 
   {
     "html": "<p contenteditable=\"true\">Error 405 Method Not Allowed<br></p>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 9, 
-    "row": 10
+    "row": 7
   }, 
   {
     "html": "<p contenteditable=\"true\">The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 7, 
-    "row": 7
+    "row": 17
   }
 ]
