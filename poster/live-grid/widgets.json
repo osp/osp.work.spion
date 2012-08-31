@@ -21,7 +21,7 @@
     "row": 6
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\">Logo SPION</p></div>", 
+    "html": "<div class=\"widget-content\"><p contenteditable=\"true\"><img src=\"static/logos/logo-spion-pink.svg\" width=\"174px\">\n</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
@@ -35,7 +35,7 @@
     "row": 5
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\"><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\"> </p></div>", 
+    "html": "<div class=\"widget-content\"><p contenteditable=\"true\"><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\" style=\"\n    width: 174px;\n\"> </p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
