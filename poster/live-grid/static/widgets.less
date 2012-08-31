@@ -1,3 +1,5 @@
+@border-colour: #ccc;
+
 .widget {
     width: 256px;
     min-height: 256px;
@@ -7,15 +9,25 @@
 
 .gridster li, .widget {
     .box-sizing(border-box);
-    padding: 8px;
 //    border: 1px solid #ccc;
     border-radius: 6px;
     background-color: white;
 }
 
-.gridster li {
-    margin: 0;
-    list-style: none;
+.gridster {    
+    li {
+        list-style: none;
+    }
+    .titlebar {
+        height: 16px;
+        border-bottom: 1px solid @border-colour;
+        i {
+            float: right;
+        }        
+    }
+    .widget-content {
+        padding: 8px;
+    }
 }
 
 

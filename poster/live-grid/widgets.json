@@ -1,114 +1,114 @@
 [
   {
-    "html": "<h1 class=\"title\" contenteditable=\"true\">For Your Eyes Only</h1>\n", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h1 class=\"title\" contenteditable=\"true\">For Your Eyes Only</h1>\n</div>", 
     "size_y": 3, 
     "size_x": 4, 
     "col": 3, 
     "row": 1
   }, 
   {
-    "html": "<h2 contenteditable=\"true\">&nbsp;‘Minors and social media: between protection and empowerment’</h2><p contenteditable=\"true\">Error 413 Request Entity Too Large<br></p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">&nbsp;‘Minors and social media: between protection and empowerment’</h2><p contenteditable=\"true\">Error 413 Request Entity Too Large<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 3, 
     "row": 4
   }, 
   {
-    "html": "<h2 contenteditable=\"true\">‘The social shaping of privacy enhancing technology’</h2><p contenteditable=\"true\">Error 406 Not Acceptable<br></p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘The social shaping of privacy enhancing technology’</h2><p contenteditable=\"true\">Error 406 Not Acceptable<br></p></div>", 
     "size_y": 2, 
     "size_x": 4, 
     "col": 3, 
     "row": 6
   }, 
   {
-    "html": "<p contenteditable=\"true\">Logo SPION</p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\">Logo SPION</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
     "row": 1
   }, 
   {
-    "html": "<h2 contenteditable=\"true\">‘Security and privacy protection in Online Social Networks’</h2><p contenteditable=\"true\">Error 424 Failed Dependency<br></p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Security and privacy protection in Online Social Networks’</h2><p contenteditable=\"true\">Error 424 Failed Dependency<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
-    "row": 7
+    "row": 5
   }, 
   {
-    "html": "<p contenteditable=\"true\"><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\"> </p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\"><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\"> </p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
     "row": 3
   }, 
   {
-    "html": "Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.</div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 5, 
     "row": 4
   }, 
   {
-    "html": "<h2 contenteditable=\"true\">‘Behavioral economics and privacy nudging’</h2><p contenteditable=\"true\">Error 405 Method Not Allowed<br></p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Behavioral economics and privacy nudging’</h2><p contenteditable=\"true\">Error 405 Method Not Allowed<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
     "row": 9
   }, 
   {
-    "html": "<p contenteditable=\"true\">Could not parse your Accept-Language HTTP header. We are not sure if you understand English.<br></p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\">Could not parse your Accept-Language HTTP header. We are not sure if you understand English.<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 3, 
     "row": 9
   }, 
   {
-    "html": "Warning 2", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Warning 2</div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 5, 
     "row": 8
   }, 
   {
-    "html": "<h2 contenteditable=\"true\">‘Are there alternatives to the consensual exploitation on social media?’</h2><p contenteditable=\"true\">Error 417 Expectation Failed<br></p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Are there alternatives to the consensual exploitation on social media?’</h2><p contenteditable=\"true\">Error 417 Expectation Failed<br></p></div>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 9, 
     "row": 1
   }, 
   {
-    "html": "<p>Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.</p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.</p></div>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 9, 
     "row": 5
   }, 
   {
-    "html": "Warning!!!", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Warning!!!</div>", 
     "size_y": 1, 
     "size_x": 1, 
     "col": 4, 
     "row": 8
   }, 
   {
-    "html": "<h2 contenteditable=\"true\">‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p></div>", 
     "size_y": 4, 
     "size_x": 2, 
     "col": 7, 
     "row": 1
   }, 
   {
-    "html": "Alessandro Acquisti<br> Eleni Kosta<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen<br>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Alessandro Acquisti<br> Eleni Kosta<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen<br></div>", 
     "size_y": 5, 
     "size_x": 2, 
     "col": 7, 
     "row": 5
   }, 
   {
-    "html": "<p contenteditable=\"true\">The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\">The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
-    "row": 5
+    "row": 7
   }
 ]
