@@ -1,0 +1,31 @@
+– TO DO LIST
+
+INCLUDE GRAPHS
+
+What is the data we use as a basis for the graphs?
+** Do we make up ‘statistics’ for the visits of the poster?
+Do we use/make up spion/emsoc data?
+
+TIGHTEN VISUAL LANGUAGE
+
+Do we add more reference to the visual language of software widgets (close buttons etc., titles?).
+
+REPHRASE ERRORS
+
+Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.
+
+Could not parse your Accept-Language HTTP header. We are not sure if you understand English.
+
+Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.
+
+UPDATE LIST OF SPEAKERS
+
+WHAT IS THE VISUAL IDENTITY OF EMSOC? HOW CAN IT BE INCLUDED?
+
+Emsoc is blue and white, with a two-tone blue sun background. This background can be included in the poster.
+
+WHICH COLOURS MAKE UP SPION?
+
+WHAT IS THE LOGO? HOW TO EFFEMINATE?
+
+
