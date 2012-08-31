@@ -3,22 +3,22 @@
     "html": "<h1 class=\"title\" contenteditable=\"true\">For Your Eyes Only</h1>\n", 
     "size_y": 3, 
     "size_x": 4, 
-    "col": 7, 
-    "row": 3
+    "col": 3, 
+    "row": 1
   }, 
   {
     "html": "<h2 contenteditable=\"true\">&nbsp;‘Minors and social media: between protection and empowerment’</h2><p contenteditable=\"true\">Error 413 Request Entity Too Large<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 5, 
-    "row": 3
+    "col": 3, 
+    "row": 4
   }, 
   {
     "html": "<h2 contenteditable=\"true\">‘The social shaping of privacy enhancing technology’</h2><p contenteditable=\"true\">Error 406 Not Acceptable<br></p>", 
     "size_y": 2, 
     "size_x": 4, 
-    "col": 1, 
-    "row": 3
+    "col": 3, 
+    "row": 6
   }, 
   {
     "html": "<p contenteditable=\"true\">Logo SPION</p>", 
@@ -31,84 +31,84 @@
     "html": "<h2 contenteditable=\"true\">‘Security and privacy protection in Online Social Networks’</h2><p contenteditable=\"true\">Error 424 Failed Dependency<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
+    "col": 1, 
+    "row": 7
+  }, 
+  {
+    "html": "<p contenteditable=\"true\"><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\"> </p>", 
+    "size_y": 2, 
+    "size_x": 2, 
+    "col": 1, 
+    "row": 3
+  }, 
+  {
+    "html": "Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.", 
+    "size_y": 2, 
+    "size_x": 2, 
     "col": 5, 
-    "row": 1
-  }, 
-  {
-    "html": "<p contenteditable=\"true\">\"LOGO EMSOC</p>", 
-    "size_y": 2, 
-    "size_x": 2, 
-    "col": 3, 
-    "row": 1
-  }, 
-  {
-    "html": "Warning: your geospatial location could not be identified.", 
-    "size_y": 2, 
-    "size_x": 2, 
-    "col": 7, 
-    "row": 1
+    "row": 4
   }, 
   {
     "html": "<h2 contenteditable=\"true\">‘Behavioral economics and privacy nudging’</h2><p contenteditable=\"true\">Error 405 Method Not Allowed<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
-    "row": 8
+    "row": 9
   }, 
   {
-    "html": "<p contenteditable=\"true\">Warning</p>", 
+    "html": "<p contenteditable=\"true\">Could not parse your Accept-Language HTTP header. We are not sure if you understand English.<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 1, 
-    "row": 6
+    "col": 3, 
+    "row": 9
   }, 
   {
     "html": "Warning 2", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 5, 
-    "row": 5
+    "row": 8
   }, 
   {
     "html": "<h2 contenteditable=\"true\">‘Are there alternatives to the consensual exploitation on social media?’</h2><p contenteditable=\"true\">Error 417 Expectation Failed<br></p>", 
     "size_y": 4, 
     "size_x": 2, 
-    "col": 7, 
-    "row": 7
+    "col": 9, 
+    "row": 1
   }, 
   {
-    "html": "<p>Warning: your level of eyesight could not be detected.</p>", 
+    "html": "<p>Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.</p>", 
     "size_y": 4, 
     "size_x": 2, 
-    "col": 5, 
-    "row": 7
+    "col": 9, 
+    "row": 5
   }, 
   {
-    "html": "Warning: We are not sure if you speak English.", 
+    "html": "Warning!!!", 
     "size_y": 1, 
     "size_x": 1, 
-    "col": 1, 
-    "row": 5
+    "col": 4, 
+    "row": 8
   }, 
   {
     "html": "<h2 contenteditable=\"true\">‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p>", 
     "size_y": 4, 
     "size_x": 2, 
-    "col": 3, 
-    "row": 7
+    "col": 7, 
+    "row": 1
   }, 
   {
-    "html": "Alessandro Acquisti<br> Solon Barocas<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen<br>", 
+    "html": "Alessandro Acquisti<br> Eleni Kosta<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen<br>", 
     "size_y": 5, 
     "size_x": 2, 
-    "col": 9, 
-    "row": 6
+    "col": 7, 
+    "row": 5
   }, 
   {
     "html": "<p contenteditable=\"true\">The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 3, 
+    "col": 1, 
     "row": 5
   }
 ]
