@@ -60,14 +60,14 @@
     "size_y": 2, 
     "size_x": 2, 
     "col": 3, 
-    "row": 9
+    "row": 8
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Warning 2</div>", 
-    "size_y": 2, 
-    "size_x": 2, 
+    "html": "<div class=\"widget-content\"><img src=\"static/logos/unlike-us.jpg\" width=\"74\"></div>", 
+    "size_y": 1, 
+    "size_x": 1, 
     "col": 5, 
-    "row": 8
+    "row": 9
   }, 
   {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Are there alternatives to the consensual exploitation on social media?’</h2><p contenteditable=\"true\">Error 417 Expectation Failed<br></p></div>", 
@@ -84,11 +84,11 @@
     "row": 5
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Warning!!!</div>", 
+    "html": "<div class=\"widget-content\"><img src=\"static/logos/iwt_logozondertekst_300dpi.jpg\" width=\"74\"></div>", 
     "size_y": 1, 
     "size_x": 1, 
-    "col": 4, 
-    "row": 8
+    "col": 9, 
+    "row": 9
   }, 
   {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p></div>", 
