@@ -1,41 +1,41 @@
 [
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h1 class=\"title\" contenteditable=\"true\">For Your Eyes Only</h1>\n</div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h1 class=\"title\">For Your Eyes Only</h1>\n</div>", 
     "size_y": 2, 
     "size_x": 4, 
     "col": 3, 
     "row": 2
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">&nbsp;‘Minors and social media: between protection and empowerment’</h2><p contenteditable=\"true\">Error 413 Request Entity Too Large<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>&nbsp;‘Minors and social media: between protection and empowerment’</h2><p>Error 413 Request Entity Too Large<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 2, 
     "row": 4
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘The social shaping of privacy enhancing technology’</h2><p contenteditable=\"true\">Error 406 Not Acceptable<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘The social shaping of privacy enhancing technology’</h2><p>Error 406 Not Acceptable<br></p></div>", 
     "size_y": 2, 
     "size_x": 3, 
     "col": 8, 
     "row": 8
   }, 
   {
-    "html": "<div class=\"widget-content\"><p contenteditable=\"true\"><img src=\"static/logos/logo-spion-pink.svg\" width=\"174px\">\n</p></div>", 
+    "html": "<div class=\"widget-content\"><p><img src=\"static/logos/logo-spion-pink.svg\" width=\"174px\">\n</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 4, 
     "row": 8
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Security and privacy protection in Online Social Networks’</h2><p contenteditable=\"true\">Error 424 Failed Dependency<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Security and privacy protection in Online Social Networks’</h2><p>Error 424 Failed Dependency<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 3, 
     "row": 6
   }, 
   {
-    "html": "<div class=\"widget-content\"><p contenteditable=\"true\"><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\" style=\"\n    width: 174px;\n\"> </p></div>", 
+    "html": "<div class=\"widget-content\"><p><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\" style=\"\n    width: 174px;\n\"> </p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
@@ -49,14 +49,14 @@
     "row": 1
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Behavioral economics and privacy nudging’</h2><p contenteditable=\"true\">Error 405 Method Not Allowed<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Behavioral economics and privacy nudging’</h2><p>Error 405 Method Not Allowed<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 9, 
     "row": 6
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\">Could not parse your Accept-Language HTTP header. We are not sure if you understand English.<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Could not parse your Accept-Language HTTP header. We are not sure if you understand English.<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 9, 
@@ -70,7 +70,7 @@
     "row": 1
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Are there alternatives to the consensual exploitation on social media?’</h2><p contenteditable=\"true\">Error 417 Expectation Failed<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Are there alternatives to the consensual exploitation on social media?’</h2><p>Error 417 Expectation Failed<br></p></div>", 
     "size_y": 3, 
     "size_x": 2, 
     "col": 9, 
@@ -91,7 +91,7 @@
     "row": 2
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2 contenteditable=\"true\">‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p></div>", 
     "size_y": 3, 
     "size_x": 2, 
     "col": 1, 
@@ -105,7 +105,7 @@
     "row": 5
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p contenteditable=\"true\">The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p></div>", 
     "size_y": 1, 
     "size_x": 2, 
     "col": 5, 
