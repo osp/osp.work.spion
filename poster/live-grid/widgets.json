@@ -1,6 +1,6 @@
 [
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h1 class=\"title\">For Your Eyes Only</h1>\n</div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h1 class=\"title\">For Your Eyes Only</h1>\n<h2>Privacy, Empowerment and Technology In the context of Social Networks</h2></div>", 
     "size_y": 2, 
     "size_x": 4, 
     "col": 3, 
@@ -42,7 +42,7 @@
     "row": 6
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.</div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
@@ -98,7 +98,7 @@
     "row": 8
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\">Alessandro Acquisti<br> Eleni Kosta<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen<br></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Alessandro Acquisti<br> Eleni Kosta<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen</p></div>", 
     "size_y": 5, 
     "size_x": 2, 
     "col": 6, 
