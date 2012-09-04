@@ -35,7 +35,7 @@
     "row": 6
   }, 
   {
-    "html": "<div class=\"widget-content\"><p><img src=\"static/logos/emsoc_logo.png\" alt=\"LOGO EMSOC\" style=\"\n    width: 174px;\n\"> </p></div>", 
+    "html": "<div class=\"widget-content\"><p><img src=\"static/logos/emsoc.svg\" alt=\"LOGO EMSOC\" style=\"\n    width: 174px;\n\"> </p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
@@ -63,11 +63,18 @@
     "row": 4
   }, 
   {
-    "html": "<div class=\"widget-content\"><img src=\"static/logos/unlike-us.jpg\" width=\"74\"></div>", 
+    "html": "<div class=\"widget-content\"><img src=\"static/logos/unlike-us.svg\" width=\"74\"></div>", 
     "size_y": 1, 
     "size_x": 1, 
     "col": 7, 
     "row": 1
+  }, 
+  {
+    "html": "<div class=\"widget-content\"><img src=\"static/logos/IBBT_logo.svg\" width=\"74\"></div>", 
+    "size_y": 1, 
+    "size_x": 1, 
+    "col": 10, 
+    "row": 10
   }, 
   {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Are there alternatives to the consensual exploitation on social media?’</h2><p>Error 417 Expectation Failed<br></p></div>", 
@@ -84,7 +91,7 @@
     "row": 3
   }, 
   {
-    "html": "<div class=\"widget-content\"><img src=\"static/logos/iwt_logozondertekst_300dpi.jpg\" width=\"74\"></div>", 
+    "html": "<div class=\"widget-content\"><img src=\"static/logos/iwt.svg\" width=\"74\"></div>", 
     "size_y": 1, 
     "size_x": 1, 
     "col": 7, 
