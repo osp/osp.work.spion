@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <title>SPION POSTER</title>
+
+    <link rel="stylesheet/less" type="text/css" href="static/style.less">    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/less.js/1.3.0/less-1.3.0.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="static/jquery.gridster.min.css">
+<style type="text/css"> [data-col="11"] { left:1005px;}  [data-col="10"] { left:905px;}  [data-col="9"] { left:805px;}  [data-col="8"] { left:705px;}  [data-col="7"] { left:605px;}  [data-col="6"] { left:505px;}  [data-col="5"] { left:405px;}  [data-col="4"] { left:305px;}  [data-col="3"] { left:205px;}  [data-col="2"] { left:105px;}  [data-col="1"] { left:5px;}  [data-row="36"] { top:4976px;}  [data-row="35"] { top:4834px;}  [data-row="34"] { top:4692px;}  [data-row="33"] { top:4550px;}  [data-row="32"] { top:4408px;}  [data-row="31"] { top:4266px;}  [data-row="30"] { top:4124px;}  [data-row="29"] { top:3982px;}  [data-row="28"] { top:3840px;}  [data-row="27"] { top:3698px;}  [data-row="26"] { top:3556px;}  [data-row="25"] { top:3414px;}  [data-row="24"] { top:3272px;}  [data-row="23"] { top:3130px;}  [data-row="22"] { top:2988px;}  [data-row="21"] { top:2846px;}  [data-row="20"] { top:2704px;}  [data-row="19"] { top:2562px;}  [data-row="18"] { top:2420px;}  [data-row="17"] { top:2278px;}  [data-row="16"] { top:2136px;}  [data-row="15"] { top:1994px;}  [data-row="14"] { top:1852px;}  [data-row="13"] { top:1710px;}  [data-row="12"] { top:1568px;}  [data-row="11"] { top:1426px;}  [data-row="10"] { top:1284px;}  [data-row="9"] { top:1142px;}  [data-row="8"] { top:1000px;}  [data-row="7"] { top:858px;}  [data-row="6"] { top:716px;}  [data-row="5"] { top:574px;}  [data-row="4"] { top:432px;}  [data-row="3"] { top:290px;}  [data-row="2"] { top:148px;}  [data-row="1"] { top:6px;}  [data-sizey="1"] { height:130px;} [data-sizey="2"] { height:272px;} [data-sizey="3"] { height:414px;} [data-sizey="4"] { height:556px;} [data-sizey="5"] { height:698px;} [data-sizey="6"] { height:840px;} [data-sizey="7"] { height:982px;} [data-sizey="8"] { height:1124px;} [data-sizey="9"] { height:1266px;} [data-sizey="10"] { height:1408px;} [data-sizey="11"] { height:1550px;} [data-sizey="12"] { height:1692px;} [data-sizey="13"] { height:1834px;} [data-sizey="14"] { height:1976px;} [data-sizey="15"] { height:2118px;} [data-sizey="16"] { height:2260px;} [data-sizey="17"] { height:2402px;} [data-sizey="18"] { height:2544px;} [data-sizey="19"] { height:2686px;} [data-sizey="20"] { height:2828px;} [data-sizey="21"] { height:2970px;} [data-sizey="22"] { height:3112px;} [data-sizey="23"] { height:3254px;} [data-sizey="24"] { height:3396px;} [data-sizey="25"] { height:3538px;} [data-sizey="26"] { height:3680px;} [data-sizey="27"] { height:3822px;} [data-sizey="28"] { height:3964px;} [data-sizey="29"] { height:4106px;} [data-sizey="30"] { height:4248px;} [data-sizey="31"] { height:4390px;} [data-sizey="32"] { height:4532px;} [data-sizey="33"] { height:4674px;} [data-sizey="34"] { height:4816px;} [data-sizey="35"] { height:4958px;} [data-sizex="1"] { width:90px;} [data-sizex="2"] { width:190px;} [data-sizex="3"] { width:290px;} [data-sizex="4"] { width:390px;} [data-sizex="5"] { width:490px;} [data-sizex="6"] { width:590px;}</style>
+<style>
+#fond {
+    background: none !important;
+}
+.gridster > ul > li {
+    border: 1px solid #ccc !important;
+}
+.gridster > ul > li.logo {
+    border: none !important;
+}
+</style>
+</head>
+<body>
+
+<div id="fond">
+&nbsp;
+</div>
+
+<div role="main">
+
+    <section class="demo">
+
+        <div class="gridster">
+          <ul>
+              {% for widget in widgets %}
+              <li data-row="{{ widget.row }}" data-col="{{ widget.col }}" data-sizex="{{ widget.size_x }}" data-sizey="{{ widget.size_y }}">{{ widget.html|safe }}</li>
+              {% endfor %}
+          </ul>
+        </div>
+
+    </section>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="static/jquery.gridster.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+var gridster;
+var grid;
+
+var store = function() {
+    // store grid positions
+    grid = gridster.serialize();
+    // add innerHTML
+    for (var i=0; i < grid.length; i++) {
+        grid[i].html = $($('.gridster > ul > li')[i]).html();
+    };
+    // send to server
+    $.ajax({
+        type: 'POST',
+        url: 'store',
+        data: JSON.stringify(grid),
+        contentType: 'application/json;charset=UTF-8',
+        success: function(returndata) {
+          //debug: alert(returndata);
+        }
+    });
+       
+}
+
+$(function(){
+
+gridster = $(".gridster ul").gridster({
+    widget_margins: [5, 6],
+    widget_base_dimensions: [90, 130],
+    min_cols: 6,
+    draggable: {
+        stop: store
+    },
+    avoid_overlapped_widgets: false,
+    autogenerate_stylesheet: true
+}).data('gridster');
+
+// some random dom actions:
+
+$('.gridster > ul > li').has('img').addClass( 'logo' );
+
+});
+</script>
+
+
+
+</body>
+</html>

@@ -7,14 +7,14 @@
     "row": 2
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>&nbsp;‘Minors and social media: between protection and empowerment’</h2><p>Error 413 Request Entity Too Large<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Minors and social media: between protection and empowerment</h2><p>Error 413 Request Entity Too Large<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 2, 
     "row": 4
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘The social shaping of privacy enhancing technology’</h2><p>Error 406 Not Acceptable<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>The social shaping of privacy enhancing technology</h2><p>Error 406 Not Acceptable<br></p></div>", 
     "size_y": 2, 
     "size_x": 3, 
     "col": 8, 
@@ -28,7 +28,7 @@
     "row": 8
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Security and privacy protection in Online Social Networks’</h2><p>Error 424 Failed Dependency<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Security and privacy protection in Online Social Networks</h2><p>Error 424 Failed Dependency<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 3, 
@@ -42,21 +42,21 @@
     "row": 6
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.</p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Directions</h2><p>Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
     "row": 1
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Behavioral economics and privacy nudging’</h2><p>Error 405 Method Not Allowed<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Behavioral economics and privacy nudging</h2><p>Error 405 Method Not Allowed<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 9, 
     "row": 6
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Could not parse your Accept-Language HTTP header. We are not sure if you understand English.<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Language</h2><p>Could not parse your Accept-Language HTTP header. Falling back to English.<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 9, 
@@ -77,14 +77,14 @@
     "row": 10
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Are there alternatives to the consensual exploitation on social media?’</h2><p>Error 417 Expectation Failed<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Alternatives to the consensual exploitation on social media</h2><p>Error 417 Expectation Failed<br></p></div>", 
     "size_y": 3, 
     "size_x": 2, 
     "col": 9, 
     "row": 1
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.</p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Zoom level</h2><p>Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
     "col": 7, 
@@ -98,21 +98,21 @@
     "row": 2
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>‘Living apart together? The propertisation of personal data,the right to privacy and the protection of personal data’</h2><p>Error 404 Not Found</p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>The propertisation of personal data,the right to privacy and the protection of personal data</h2><p>Error 404 Not Found</p></div>", 
     "size_y": 3, 
     "size_x": 2, 
     "col": 1, 
     "row": 8
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>Alessandro Acquisti<br> Eleni Kosta<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen</p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Users</h2><p>Alessandro Acquisti<br> Eleni Kosta<br> Bettina Berendt<br> Dave Clarke<br> Lorrie Faith Cranor<br> Claudia Diaz<br> Shenja van der Graaf<br> Serge Gutwirth<br> Simone van der Hof<br> Adam Joinson<br> Eva Lievens<br> Orla Lynskey<br> Alice E. Marwick<br> Refik Molva<br> Deirdre Mulligan<br> Sandra Petronio<br> Ike Picone<br> Jo Pierson<br> Frank Piessens<br> Sören Preibusch<br> Bart Preneel<br> Nadezhda Purtova<br> James B. Rule<br> Trebor Scholz<br> Peggy Valcke<br> Mathias Vermeulen<br> Ellen Wauters<br> Ralf De Wolf<br> Airi Lampinen</p></div>", 
     "size_y": 5, 
     "size_x": 2, 
     "col": 6, 
     "row": 5
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><p>The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Location</h2><p>The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p></div>", 
     "size_y": 1, 
     "size_x": 2, 
     "col": 5, 
