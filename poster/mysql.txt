@@ -1,897 +1,33 @@
-meta_id	post_id	meta_key	meta_value
-2	5	location	2800866
-1641	867	_edit_last	1
-1643	867	_edit_lock	1333109201:1
-1642	867	location	3128760
-8	7	_edit_last	4
-9	7	location	2800866
-10	7	organisation_name	Q-O2
-11	7	organisation_mission	<p style="text-align: left;">Q-O2 is a structurally subsidized workspace for experimental contemporary music and sound art since 2006 and has its own space in the Brussels canal zone. The workspace developed out of the contemporary music ensemble Q-O2.</p>\n<p style="text-align: left;"></p>\n<p style="text-align: left;">In practice, Q-O2 operates at three levels: it offers working residencies to artists; carries out projects in collaboration with national and international arts organizations; and holds performances and concerts in its own space.</p>\n<p style="text-align: left;"></p>\n<p style="text-align: left;">In musical terms Q-O2 explores mainly three lines of approach: acoustic and electronic improvisation and composed music as well as installations and sound art. Through its conceptual preoccupations Q-O2 finds easily points of access to other disciplines.</p>
-12	7	organisation_url	www.q-o2.be
-13	7	organisation_user	2
-14	7	_edit_lock	1319153516:1
-17	10	_edit_last	1
-18	10	_edit_lock	1319806813:1
-19	1	_edit_lock	1332838661:1
-28	18	_wp_attached_file	2011/09/100_2807.jpg
-29	18	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3296";s:6:"height";s:4:"2472";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:20:"2011/09/100_2807.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"100_2807-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"100_2807-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:21:"100_2807-1024x767.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"767";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:40:"KODAK EASYSHARE M853 ZOOM DIGITAL CAMERA";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1190961726";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.2";s:3:"iso";s:2:"83";s:13:"shutter_speed";s:8:"0.007812";s:5:"title";s:0:"";}}
-32	19	_wp_attached_file	2011/09/buitenzicht.jpg
-33	19	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3296";s:6:"height";s:4:"2472";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:23:"2011/09/buitenzicht.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:23:"buitenzicht-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:23:"buitenzicht-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:24:"buitenzicht-1024x767.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"767";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-37	20	_wp_attached_file	2011/09/100_2261.jpg
-38	20	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"2472";s:6:"height";s:4:"3296";s:14:"hwstring_small";s:22:"height='96' width='72'";s:4:"file";s:20:"2011/09/100_2261.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"100_2261-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"100_2261-225x300.jpg";s:5:"width";s:3:"225";s:6:"height";s:3:"300";}s:5:"large";a:3:{s:4:"file";s:21:"100_2261-767x1024.jpg";s:5:"width";s:3:"767";s:6:"height";s:4:"1024";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:40:"KODAK EASYSHARE M853 ZOOM DIGITAL CAMERA";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1176027651";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.2";s:3:"iso";s:3:"160";s:13:"shutter_speed";s:8:"0.035001";s:5:"title";s:0:"";}}
-40	21	_wp_attached_file	2011/09/SoE-tram-BrusselFINAL.mp3
-41	21	_wp_attachment_metadata	a:0:{}
-45	22	_wp_attached_file	2011/09/Noordstation.mp3
-46	22	_wp_attachment_metadata	a:0:{}
-97	25	_edit_last	4
-211	55	location	2747373
-212	55	artist_name	Justin Bennett
-213	55	artist_bio	The widely ranging work of Justin Bennett is as rooted in the audiovisual and visual arts as it is in music. Central to his thinking and his work is a process-orientated approach and an interest in the elasticity of the concept of ’space’. Bennett produces (reworked) field recordings, drawings, performances, installations, photographs, videos and essays. He brings the characteristic potentials and capacities of each medium into every new work, paying no heed to the divisions between these media. Recently his work has focussed on urban development, technological progress and the relationship between architecture and sound. He gives lectures, hosts workshops, produces soundtracks for experimental filmmakers and is a member of the performance group, BMB con.\nBennett studied Fine Art at Sheffield City Polytechnic, UK, followed courses in Sonology at the Royal Conservatory in the Hague and studied video with Elsa Stansfield at the Jan Van Eyck Academy in Maastricht.   \n\nRecent projects and exhibitions include: \n\n“The Oracle of Zürich” work in public space (2011)\n“Ticket to Amsterdam” (with Renate Zentschnig) Audio tour in Istanbul. (2010)\n“Production Line” solo exhibition, Barbara Seiler Galerie, Zürich. (2010)\n“For the Birds” at Smart Project Space, Amsterdam (2010)\n“CHIPKA” at Netwerk, Aalst (2010)\n“The City Amplified” solo exhibition at the Gemeentemuseum, Den Haag (2009)\nSound design for the film "The Good Life" by Ronny Heiremans and Katleen Vermeir (2009)\n“Zuidas Symphony” an audiowalk for a new business district in Amsterdam (2009) \n“Drawing Typologies”, Stedelijk Museum Amsterdam (2008)\n“The Well” CD and installations for the the 10th Istanbul Biennial (2007) \n"Oracle" a work in public space for "Trans(ient) City", Luxembourg (2007).\n“Shelters” public art commission for Sonic Arts Network, Scarborough, UK (2005)\n
-70	24	_wp_attached_file	2011/09/Aernoudt-Jacobs.mp3
-71	24	_wp_attachment_metadata	a:0:{}
-98	25	location	3196359
-99	25	organisation_name	IRZU
-100	25	organisation_mission	<strong>The Institute for Sonic Arts Research (IRZU)</strong> is a non-governmental organisation. It is based on an interdisciplinary concept and is conducting artistic productions in the field of electro-acoustic music / inter-media performances and installations, as well as audio technology research and educational activities.
-101	25	organisation_url	http://www.irzu.org/
-102	25	organisation_user	1
-103	25	_edit_lock	1317398770:4
-104	26	location	3196359
-105	27	_edit_last	4
-106	27	organisation_name	CRISAP
-107	27	organisation_mission	CRiSAP is a research centre dedicated to the exploration of the rich complexities of sound as an artistic practice. Our main aim is to to extend the development of the emerging disciplinary field of sound arts and to encourage the broadening and deepening of the discursive context in which sound arts is practised.
-108	27	organisation_url	www.crisap.org
-109	27	organisation_user	1
-110	27	_edit_lock	1317399136:4
-111	27	location	2643743
-112	28	location	2643743
-116	30	_edit_last	4
-117	30	location	3128760
-118	30	organisation_name	Sons de Barcelona
-119	30	organisation_mission	<div id="octcont">\n<div><em>Sons de Barcelona</em> és un projecte de creació col·laborativa d’una base de sons de la ciutat. Els usuaris poden participar aportant els seus enregistraments de camp i sons de tot tipus generats a la ciutat. A més de poder escoltar els sons, descarregar-los i aportar-ne de nous, hi trobaràs un espai d'intercanvi d'experiències, opinions, iniciatives, propostes i projectes sonors.</div>\n</div>
-120	30	organisation_url	http://barcelona.freesound.org/
-121	30	organisation_user	1
-122	30	_edit_lock	1318504233:4
-123	31	location	3128760
-124	33	_edit_last	4
-125	33	location	3128760
-126	33	organisation_name	MTG
-127	33	organisation_mission	<p style="text-align: left;" align="justify"><span style="color: #000000;">The <span style="color: #000000;">Music Technology Group (MTG)</span> of the <span style="color: #000000;">Universitat Pompeu Fabra</span> in Barcelona, part of its<span style="color: #000000;"> Department of Information and Communication Technologies</span>, is specialized in sound and music computing. With more than 40 researchers coming from different and complementary disciplines, the MTG carries out research on topics such as audio signal processing, sound and music description, musical interfaces, sound and music communities, and performance modeling. The MTG combines basic engineering strengths in Signal Processing, Machine Learning and Human Computer Interaction with multidisciplinary methodologies coming from other fields.</span></p>\n<p style="text-align: left;" align="justify"><span style="color: #000000;">The MTG wants to contribute to the improvement of the information and communication technologies related to sound and music, carrying out competitive research at the international level and at the same time transferring its results to society. To that goal, the MTG aims at finding a balance between basic and applied research while promoting interdisciplinary approaches that incorporate knowledge from both scientific/technological and humanistic/artistic disciplines.</span></p>\n<p style="text-align: left;" align="justify"><span style="color: #000000;">The MTG was established in 1994 by its current director, Dr. <span style="color: #000000;">Xavier Serra</span>, and since then it has been very active at national and international levels in educational, research and dissemination activities related to music technology.</span></p>
-128	33	organisation_url	http://www.mtg.upf.edu/home
-129	33	organisation_user	1
-130	33	_edit_lock	1317400017:4
-822	113	_edit_lock	1320195827:1
-1168	235	_edit_lock	1330620739:1
-816	202	artist_sound	42
-815	202	artist_image	18
-160	40	location	3128760
-161	40	artist_name	Claudio Curciotti
-162	40	artist_bio	about me Claudio Curciotti had composed experimental electronic music since 2000, publishing some works for international netlabels and participating in festivals in Europe and North Africa under the pseudonym of IQBIT. In his production he explores different type of sounds, from Electroacustic to IDM and Field Recording. His experience as a musician is reflected in the work of recording and selection of environmental sounds, in which emerges a sensibility towards the acoustic textures and intensities. With the latest projects he tries his hand at video editing, concentrating on the rhythmic relationship between sound and still images. He’s also into experimenting with compositional sound work in which electronic frequencies are mixed to field recordings. He’s the creator of Field Abuse, a blog archive focused on the human noise and the loudness of the contemporary world related to religion, ethnic music and traditional cultures. He’s associated artist of PVA Medialab, of Bridport, UK, currently collaborating with them with a multi speaker sound installation about the sounds preceding a revolution, a project realized in Egypt, recording sounds just before the beginning of the 25th January uprising.
-163	40	artist_use	“Field Abuse” is a web archive that collects sounds and images. The blog focuses on the human noise and the loudness of the contemporary world, in relation to religion, ethnic music and traditional cultures.
-164	40	artist_url	www.fieldabuse.com
-165	40	artist_email	info@fieldabuse.com
-166	40	location	3128760
-167	41	location	3128760
-168	42	_wp_attached_file	2011/10/Càrregues dels agents Plaza Catalunya 27 Maig 2011
-169	40	artist_sound	42
-170	43	_wp_attached_file	2011/10/Alex pray terrace logo
-171	43	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1974";s:6:"height";s:4:"3000";s:14:"hwstring_small";s:22:"height='96' width='63'";s:4:"file";s:30:"2011/10/Alex pray terrace logo";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:34:"Alex pray terrace logo-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:34:"Alex pray terrace logo-197x300.jpg";s:5:"width";s:3:"197";s:6:"height";s:3:"300";}s:5:"large";a:3:{s:4:"file";s:35:"Alex pray terrace logo-673x1024.jpg";s:5:"width";s:3:"673";s:6:"height";s:4:"1024";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"4.5";s:6:"credit";s:0:"";s:6:"camera";s:24:"Canon PowerShot SX200 IS";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1290923998";s:9:"copyright";s:0:"";s:12:"focal_length";s:6:"25.575";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:5:"0.002";s:5:"title";s:0:"";}}
-172	40	artist_image	43
-173	40	_edit_lock	1317674630:4
-174	40	_edit_last	4
-175	44	location	2655785
-176	44	artist_name	Jez riley French
-177	44	artist_bio	‘I am fascinated and passionate about the infinite detail and expanding vistas of life around us, its sights and sounds, often overlooked or hidden. My creative output focuses on this never ending, joyous exploration via intuitive composition, conventional & extended field recording techniques, photography & photographic scores. The music / sound I create has evolved from improvisation to what I prefer to term 'intuitive composition' and has increasingly involved elements such as a love of audible silence & stillness & the empathy of compositional lines. These evolved from my need to always remain open to my emotive, intuitive response to situations & environments’ - JrF \n\n\nUsing intuitive composition, field recording, improvisation and photography, Jez riley French has been exploring his enjoyment of detail, simplicity and his emotive response to places and situations for the past 3 decades.\n\nAlongside solo performances and exhibitions he collaborates with other artists, runs the ‘in place’ & 'a quiet position' projects on field recording – a subject on which he also lectures & tutors in workshops, organizes the ‘seeds & bridges’ event series, runs the ‘engraved glass’ label & published a free monthly pdf arts magazine 'tristesse engraved'.\n\nIn recent years Jez has been working extensively on recordings of surfaces and architectural spaces, some results of which make up the ‘....audible silence’ edition and has also been developing the concept of photographic scores.\n
-178	44	artist_use	selected work:\n\n'weaves / audible silence 2' (cd 2011)\n'residences / resonances' (cd 2011)\n'scores for listening' (publication 2011)\n'residences di topolo' (performance, italy 2011)\n'resonances mullae' (installation, korea 2011)\n'residences de lumiere' (installation, uk 2011)\n'four objects' (cd 2011)\n'instamatic 8 - portugal' (cd 2010)\n'sonata for clarinet & nodar' (cd 2010)\n'score for paiva river' (installation 2011)\n'the bright work' (cd 2009)\n'audible silence' (cd 2008)\n
-179	44	artist_url	jezrileyfrench.blogspot.com
-180	44	artist_email	tempjez@hotmail.com
-181	44	location	2655785
-182	45	location	2655785
-183	46	_wp_attached_file	2011/10/ants-eating-apricot.mp3
-184	44	artist_sound	46
-185	47	_wp_attached_file	2011/10/P1080725
-186	47	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1934";s:6:"height";s:4:"2160";s:14:"hwstring_small";s:22:"height='96' width='85'";s:4:"file";s:16:"2011/10/P1080725";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"P1080725-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"P1080725-268x300.jpg";s:5:"width";s:3:"268";s:6:"height";s:3:"300";}s:5:"large";a:3:{s:4:"file";s:21:"P1080725-916x1024.jpg";s:5:"width";s:3:"916";s:6:"height";s:4:"1024";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:7:"DMC-LX1";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1307524145";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.3";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:5:"0.025";s:5:"title";s:0:"";}}
-187	44	artist_image	47
-190	49	_wp_attached_file	2011/10/miniprog-back-3.png
-191	49	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"5251";s:6:"height";s:4:"1247";s:14:"hwstring_small";s:23:"height='30' width='128'";s:4:"file";s:27:"2011/10/miniprog-back-3.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:27:"miniprog-back-3-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:26:"miniprog-back-3-300x71.png";s:5:"width";s:3:"300";s:6:"height";s:2:"71";}s:5:"large";a:3:{s:4:"file";s:28:"miniprog-back-3-1024x243.png";s:5:"width";s:4:"1024";s:6:"height";s:3:"243";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-192	50	_wp_attached_file	2011/10/miniprog-front-3.png
-193	50	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"5241";s:6:"height";s:4:"1237";s:14:"hwstring_small";s:23:"height='30' width='128'";s:4:"file";s:28:"2011/10/miniprog-front-3.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:28:"miniprog-front-3-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:27:"miniprog-front-3-300x70.png";s:5:"width";s:3:"300";s:6:"height";s:2:"70";}s:5:"large";a:3:{s:4:"file";s:29:"miniprog-front-3-1024x241.png";s:5:"width";s:4:"1024";s:6:"height";s:3:"241";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-196	51	location	2634202
-197	51	artist_name	Joe Stevens
-337	88	_edit_last	2
-338	88	_edit_lock	1318987918:4
-1120	637	event_date_end	2011-10-15
-340	92	_wp_attached_file	2011/10/DEF-flag-logoeac-CULTURE_EN.tif
-341	92	_wp_attachment_metadata	a:0:{}
-342	96	_wp_attached_file	2011/10/DEF-flag-logoeac-CULTURE_EN.jpg
-343	96	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1214";s:6:"height";s:3:"509";s:14:"hwstring_small";s:23:"height='53' width='128'";s:4:"file";s:39:"2011/10/DEF-flag-logoeac-CULTURE_EN.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:39:"DEF-flag-logoeac-CULTURE_EN-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:39:"DEF-flag-logoeac-CULTURE_EN-300x125.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"125";}s:5:"large";a:3:{s:4:"file";s:40:"DEF-flag-logoeac-CULTURE_EN-1024x429.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"429";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-488	101	location	2800866
-357	101	_edit_last	2
-359	101	_edit_lock	1319817601:1
-351	99	location	2800866
-199	51	artist_use	My practice is people orientated and explores issues in an engaging and creative way. I feel that each different subject area under investigation demands different approaches to achieve defined representation. My vision is explored through print, photography, moving image and sound. One of my main motivations is to help make sense of the things around us and to help serve as my visual memory. Whether it is exploring personal memories or looking at how we relate to our surroundings or simply looking more closely at the objects and spaces around us. I have added field recordings into my repertoire of community engaged work I undertake. As these types of recordings can be made with relatively cheap equipment. And the places, where noises are recorded, are not excluding socially disadvantaged groups. Far from it: Any worker, anybody on a bus or walking down the street can document noises in a much better way than managers, who lead a life in between the office and the company car. Through field recordings, the listeners can experience the sound of places that they might never be able to visit. That is not only a quality of a field recording but also of photography – both record media can easily comple­ment one another. Their authenticity is not as important as their prospect of recording moments, atmospheres, noises and images and making them accessible, so that people can visualise a place they did not know. The new experiences and discoveries inspire people and make them “see” their world in a different way.
-200	51	artist_url	www.51degreesnorth.net/joe
-201	51	artist_email	joe@51degreesnorth.net
-202	51	location	2634202
-203	52	location	2634202
-204	53	_wp_attached_file	2011/10/sbblc1.mp3
-205	51	artist_sound	53
-206	54	_wp_attached_file	2011/10/Melplash-Agricultural-Show-2011
-207	54	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1024";s:6:"height";s:4:"1024";s:14:"hwstring_small";s:22:"height='96' width='96'";s:4:"file";s:39:"2011/10/Melplash-Agricultural-Show-2011";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:43:"Melplash-Agricultural-Show-2011-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:43:"Melplash-Agricultural-Show-2011-300x300.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-208	51	artist_image	54
-214	55	artist_use	I use field recording as a technique to map places, particularly urban places. I also run workshops and projects involving field recording at the Institute of Sonology, in The Hague. http://www.sonology.org
-215	55	artist_url	http://www.bmbcon.demon.nl/justin/
-216	55	artist_email	jb@bmbcon.demon.nl
-217	55	location	2747373
-218	56	location	2747373
-219	57	_wp_attached_file	2011/10/beirutstory.mp3
-220	55	artist_sound	57
-221	58	_wp_attached_file	2011/10/justin_tree01
-222	58	_wp_attachment_metadata	a:6:{s:5:"width";s:3:"900";s:6:"height";s:3:"602";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:21:"2011/10/justin_tree01";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:25:"justin_tree01-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:25:"justin_tree01-300x200.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-223	55	artist_image	58
-228	60	_wp_attached_file	2011/10/miniprogramme-webback.png
-229	60	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"5251";s:6:"height";s:4:"1255";s:14:"hwstring_small";s:23:"height='30' width='128'";s:4:"file";s:33:"2011/10/miniprogramme-webback.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:33:"miniprogramme-webback-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:32:"miniprogramme-webback-300x71.png";s:5:"width";s:3:"300";s:6:"height";s:2:"71";}s:5:"large";a:3:{s:4:"file";s:34:"miniprogramme-webback-1024x244.png";s:5:"width";s:4:"1024";s:6:"height";s:3:"244";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-230	61	_wp_attached_file	2011/10/miniprogramme-webfront.png
-231	61	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"5242";s:6:"height";s:4:"1234";s:14:"hwstring_small";s:23:"height='30' width='128'";s:4:"file";s:34:"2011/10/miniprogramme-webfront.png";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:34:"miniprogramme-webfront-150x150.png";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:33:"miniprogramme-webfront-300x70.png";s:5:"width";s:3:"300";s:6:"height";s:2:"70";}s:5:"large";a:3:{s:4:"file";s:35:"miniprogramme-webfront-1024x241.png";s:5:"width";s:4:"1024";s:6:"height";s:3:"241";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-1173	235	artist_email	pierremarc07@gmail.com
-1174	643	location	2800866
-1175	1	_edit_last	1
-236	55	_edit_lock	1317815401:1
-250	65	organisation_mission	MoKS - Center for Art and Social Practice, is a non-profit artist-run project space in Estonia situated in the rural community of <a href="http://moks.ee/site/pmwiki.php?n=Residency.Mooste">Mooste</a>. We are located 40km southeast of Tartu and 20km west of the Russian border. With its diverse approach and open atmosphere, MoKS holds a unique position within the Estonian and greater European cultural context. The MoKS "guest studio" was opened in 2001 as an organization dedicated to local and international cooperation in the fields of arts and environmental research in the rural context of post-soviet Estonia. Apart from managing the residency program our activities range from hosting an international arts symposium to educational workshops for artists and the local youth. The MoKS studios are located in the newly renovated space of the manor house of the old Mooste farming estate. With its broad scope and focused environment, MoKS is the only project of its kind in Estonia.
-249	65	organisation_name	MoKS
-247	65	_edit_last	4
-248	65	location	588335
-244	64	location	2800866
-251	65	organisation_url	www.moks.ee
-252	65	organisation_user	1
-253	65	_edit_lock	1317817610:4
-254	66	location	588335
-255	67	_wp_attached_file	2011/10/moks_suvi.jpg
-256	67	_wp_attachment_metadata	a:6:{s:5:"width";s:3:"410";s:6:"height";s:3:"274";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:21:"2011/10/moks_suvi.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:21:"moks_suvi-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:21:"moks_suvi-300x200.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-257	65	organisation_image	67
-271	70	organisation_mission	Communication Space Školská 28 is a multifunctional space for various nonprofit cultural and artistic activities. It is located in the courtyard of the neo-renaissance residential building “U rytířů”, which was built in 1888. The space occupied by Školská 28 consists of an attached building that was constructed later, in 1939, which served as a workshop for galvanizing metal. During 1998-99, this parcel was renovated to its current form by the Linhart Foundation, and was opened to the public in January, 1999. The programming conception of the space arises from the specific characteristics of the location, where it is situated. The space offers the community a variety of public activities connected to social life in the center of Prague. These activities take the form of a wide spectrum of initiatives, projects, and activities, and they also contribute to a revitalization of facilities for the improvement of the local civic conditions of inter generational communication, while working together with other non-commercial initiatives. The exhibition program is dedicated to the presentation of contemporary culture, presenting one of the small spaces on the cultural map of Prague, where one can meet and freely confront young artists from the Czech Republic and abroad, without consideration of the commercial aspect of contemporary gallery workings. Communication Space Školská 28 was managing since 2005 the international project of artists residencies Open Studios Prague originally in Dolní Počernice, later in Prague, which offers living and working space to projects, that require long-term preparation and use of studio space. Until 2005, the space was managed by the Linhart Foundation, later the Linhart Society, o.p.s. In 2006, stewardship was transferred to the civic association DEAI/setkání, which continues the mission of the Linhart Foundation. The project is supported by a grant from the Prague Municipal. The exhibition and parallel programs is realized since 2005 with the kind financial support from the Ministry of Culture of the Czech Republic.
-270	70	organisation_name	Skolska28
-268	70	_edit_last	4
-269	70	location	3067696
-265	69	location	2800866
-272	70	organisation_url	www.skolska28.cz
-273	70	organisation_user	1
-274	70	_edit_lock	1317818587:4
-275	71	location	3067696
-276	72	_edit_last	4
-277	72	location	3038354
-278	72	organisation_name	Locus Sonus
-279	72	organisation_mission	Locus Sonus is a research group specialized in audio art. It is organized as a post graduate lab by the Art Schools of Aix en Provence (ESAA) and Bourges (ENSA) in France. We have a partnership with sociology lab CNRS, LAMES Aix en Provence (which is interested by the way practices relate to new technologies and are creating modifications in artistic production and the way that the audience reacts to these modifications). We currently continue collaborations with the CRESSON, architecture lab CNRS in Grenoble (sonic spaces research centre), the School of the Art Institute of Chicago (SAIC), and other international partners. Locus Sonus is concerned with the innovative and transdisciplinary nature of audio art forms, in the framework of networked sonic spaces, some of which are experimented and evaluated in a lab type context. An important factor is with the collective or multi-user aspects inherent to many emerging audio practices and which necessitate working as a group. The main goals define this research - audio in it's relation to space and networked audio systems. Today our research is grouped under several main headings <strong>Sound and Distance</strong>, <strong>Field Spatialization</strong>, <strong>Networked Sonic Spaces</strong>, <strong>Audio Fluxes</strong>, <strong>Sonification</strong>, and <strong>Internet Auditoriums</strong>. <strong>Locus Sonus Lab 2007/2011 :</strong> Julien Clauss, Stéphane Cousot, Alejandro Duque, Scott Fitzgerald, Jérôme Joy, Anne Laforet, Grégoire Lauvin, Anne Roquigny, Peter Sinclair.
-280	72	organisation_url	www.locusonus.org
-281	72	organisation_user	1
-282	72	_edit_lock	1317818848:4
-283	73	location	3038354
-284	74	_edit_last	4
-285	74	location	2965140
-286	74	organisation_name	National Sculpture Factory
-287	74	organisation_mission	The National Sculpture Factory (NSF) is an organisation which provides and promotes a supportive and enabling environment for the making of art and the realisation of creative projects. We actively support artists and their practice through residencies, lecture programmes, cultural exchanges, masterclasses and professional development workshops.
-288	74	organisation_url	www.nationalsculpturefactory.com
-289	74	organisation_user	1
-290	74	_edit_lock	1317818990:4
-291	75	location	2965140
-292	76	_edit_last	4
-293	76	location	2747373
-294	76	organisation_name	Institute of Sonology
-295	76	organisation_mission	Research centre and conservatory for new music.
-296	76	organisation_url	www.sonology.org
-297	76	organisation_user	1
-298	76	_edit_lock	1317819574:4
-299	77	_edit_last	4
-300	77	location	2634202
-301	77	organisation_name	PVA Medialab
-302	77	organisation_mission	PVA MediaLab is an artist led, not for profit organisation committed to creativity and experimentation in the arts and practice based research. Founded by artists, PVA MediaLab has focussed on developing innovative and engaging new work, supporting practitioners and opening up opportunities for young people to explore their creativity using digital media. We will continue to facilitate artist’s creative professional development, delivering and sustaining our work and planning for a positive future. <strong> </strong>
-303	77	organisation_url	www.pva.org.uk
-304	77	organisation_user	1
-305	77	_edit_lock	1317819855:4
-306	78	_edit_last	4
-307	78	location	2950159
-308	78	organisation_name	Tuned City
-309	78	organisation_url	www.tunedcity.net
-310	78	organisation_user	1
-311	78	_edit_lock	1317819964:4
-312	79	location	2950159
-313	78	organisation_mission	<strong>Tuned City is a platform which proposes an examination of the relations between architecture and sound. </strong> The project draws the traditions of critical discussion about urban space within the architecture and urban planning discourse–as well as its strategies and working methods–into the context of sound art. This expanded discussion reenforces the potential of the spatial and communicative properties of sound as a tool and means of urban practice. At the foundations of this event are artists’ works and theoretical approaches which examine in a critical and sensitive way the given urban and architectural situations alongside their resulting socio-political implications, that re-use existing spaces or that conceive and open new spaces. A dialogue will be built at the intersection of both disciplines which traces out the complex relations and interactions of space-sound, both presenting and testing new strategies, methods, possibilities and potentials of sound work within the artistic and applied context. The first exhibition and conference project <strong>Tuned City – Between sound and space speculation</strong> was taking place from July 01.-05. 2008 in Berlin, almost 100 artists, architects and thinkers gathered together in a variety of locations around the city and discussed a new evaluation of architectural spaces from the perspective of the acoustic. See <a href="http://www.tunedcity.net/?page_id=12">tuned city 2008</a>. Tuned City continues as a platform, exploring other cities and locations with their own cultural and social settings, working theoretically and practically on the question how sound and architecture are related.
-314	81	location	2800866
-315	81	artist_name	Els Viaene
-316	81	artist_bio	Els Viaene (°1979, Belgium) started her work as a sound artist / field recordist in 2001. With a set-up of two small microphones she listens, zooms into and enlarges the aural landscapes surrounding us. The natural rhythms and textures of the sounds hidden in those landscapes form the basis of her work.\n\nWorking on these sound materials for performances, sound compositions or installations she makes the listeners travel in imaginary and organic environments.\n\nThrough the specific use and set-up of sound within a space her installations create new spaces within existing ones, either emphasizing or making dissapear the physical borders of that space. In doing so she often plays with the notions of seeing and hearing, the perception of what we see and hear and how both interfere.
-317	81	artist_use	I use sounds surrounding us cause of their rich textures and organic shapes. Sometimes one sound within a location attracts me to create a new project sometimes it's the memory connected to the recording and location. The sounds hidden in the field inspire me in many different ways.
-318	81	artist_url	www.aurallandscape.net
-319	81	artist_email	els@aurallandscape.net
-320	81	location	2800866
-321	82	location	2800866
-322	83	_wp_attached_file	2011/10/Hori_ElsViaene.mp3
-323	81	artist_sound	83
-324	84	_wp_attached_file	2011/10/els_viaene_72dpi
-325	84	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1000";s:6:"height";s:3:"667";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:24:"2011/10/els_viaene_72dpi";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:28:"els_viaene_72dpi-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:28:"els_viaene_72dpi-300x200.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"200";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"8";s:6:"credit";s:7:"unknown";s:6:"camera";s:22:"Canon EOS 350D DIGITAL";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1220535871";s:9:"copyright";s:0:"";s:12:"focal_length";s:2:"20";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:7:"0.00625";s:5:"title";s:0:"";}}
-326	81	artist_image	84
-327	80	_edit_last	4
-328	80	location	2911007
-329	80	organisation_name	Gruenrekorder
-330	80	organisation_mission	Gruenrekorder understands itself as an organisation with the aim of promoting experimental music and phonography. Phonography considers nature / the environment as an acoustic experience, loaden with musical sounds. It is as a form of art and culture, that Gruenrekorder promotes phonography. We therefore organise events, lectures, publications and exhibitions as well as artistic projects in the fields of phonography and experimental music. Please visit <a href="http://www.gruenrekorder.de/fieldnotes/" target="_blank">Field Notes</a> our bi-lingual magazine and <a href="http://tonangel.org/" target="_blank">Tonangel</a> our workshop or have some time to <a href="http://gruenrekorder.de/playlist/player.htm">listen</a> to our releases.
-331	80	organisation_url	www.gruenrekorder.de
-332	80	organisation_user	1
-333	80	_edit_lock	1317820421:4
-334	85	location	2911007
-335	51	_edit_lock	1317821110:4
-336	51	_edit_last	4
-1118	637	location	2800866
-387	110	location	588409
-388	112	_wp_attached_file	2011/10/Patrick-Farmer-Q-O2-heating-system..m4a
-389	112	_wp_attachment_metadata	a:0:{}
-390	113	location	2643743
-391	113	artist_name	Kevin Logan
-392	113	artist_bio	Kevin Logan is a media/sound artist based in London, his background is in the visual arts\nHe's current practice incorporates sound design, installation, performance and moving image.
-393	113	artist_use	Using field recording as both documents of sound events or audio sketches intended to capture a particular sonic phenomena, and as a source for material to be later used within compositions or as elements in sound design. \n \nThis recording was made as part of a 2009 project documenting the Chao Phraya river in Bangkok, Thailand. Utilising a homemade hydrophone and contact mic to simultaneously record two mono signals.This is 28 second excerpt looped to create a 2 minute sonic snapshot of the Saphan Phut Pier as it is rocked and buffeted by the traffic that navigates the busy waterway.
-394	113	artist_url	www.kevinlogan.co.uk
-395	113	artist_email	k2.logan@yahoo.co.uk
-396	113	location	2643743
-397	114	location	2643743
-398	115	_wp_attached_file	2011/10/saphan-phut-pier-jpg
-399	115	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3222";s:6:"height";s:4:"1945";s:14:"hwstring_small";s:23:"height='77' width='128'";s:4:"file";s:28:"2011/10/saphan-phut-pier-jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:32:"saphan-phut-pier-jpg-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:32:"saphan-phut-pier-jpg-300x181.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"181";}s:5:"large";a:3:{s:4:"file";s:33:"saphan-phut-pier-jpg-1024x618.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"618";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"4.2";s:6:"credit";s:0:"";s:6:"camera";s:8:"RICOH R8";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1250326668";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"8.9";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:16:"0.00653594771242";s:5:"title";s:0:"";}}
-400	113	artist_image	115
-401	116	location	2643743
-402	116	artist_name	Catherine Clover
-403	116	artist_bio	Born and brought up in London, UK, I studied at Wimbledon School of Art/University of East London in Fine Art (Painting). After several years’ practice, I pursued a residency with Gertrude Street Artists Spaces in Melbourne, Australia and work between there and London, UK. \nRecent projects 2011: \nBillboard Art Projects Pontchartrain Expressway East Bound, New Orleans, US; birdbrain Soundfjord London UK & Emerson Galerie, Berlin, Germany; Animals, People A Shared Environment AASG Conference Exhibition, Queensland College of Art, Griffith University, Brisbane AU; sforzando! Electronic Music Studies Network Conference, New York US;  Patricide 03 The Uncanny A collaborative print project, UK. Exquisite Corpse Soundfjord London UK April; \n2010: \nCalling the Birds II Trocadero Art Space Melbourne AU Oct 2010; Pigeon Post Mailbox 141 Melbourne AU June 2010; billing and cooing Billboard@Trocadero Melbourne AU May 2010; Sounds of my Neighbourhood MusikTriennale Koln Germany May 2010; Alternating Current: Sound Art Now Dragonfly Festival Sweden April 2010; coroocoo Anna Leonowens Gallery NSCAD University Halifax NS Canada Feb 2010; 
-404	116	artist_use	My current works use sound, digital imaging and installation. A strong interest in field recordings have led to a focus on contemporary landscape and our changing relationship with nature and, in particular, other animals. The everyday, the quotidian and the common frame this exploration. 
-405	116	artist_url	www.ciclover.com
-406	116	artist_email	info@ciclover.com
-407	116	location	2643743
-408	117	location	2643743
-409	118	location	598098
-410	118	artist_name	Yiorgis Sakellariou
-411	118	artist_bio	Yiorgis Sakellariou is a self-taught musician working in the fields of non-academic computer music. Having a background in classical and folk (Mediterranean) music, he came to develop his personal language during the '00s. Since then, he is active internationally being responsible for solo albums, having composed music for short films and theatrical performances, leading workshops and ceaselessly performing his music around the globe. He is a member of the Athenian Contemporary Music Research Centre (founded by I. Xenakis), of the Hellenic Electroacoustic Music Composers' Association and of the NYC-based Ear to The Earth Organization. Since 2004 he runs the cdr label "Echomusic" - so far being responsible for 18 releases of Greek and international artists.
-412	118	artist_use	Yiorgis Sakellariou's practice is founded on the digital manipulation of environmental recordings. His palette of sounds is all-encompassing; from vibrating rail-tracks to refrigerators' static, and from noisy waterfalls to the humming of insects, all may find their place in his arsenal.
-413	118	artist_url	www.mecha-orga.com
-414	118	artist_email	yiorgisakellariou@yahoo.gr
-415	118	location	598098
-416	119	location	598098
-417	120	_wp_attached_file	2011/10/lykaio-mount-greece.mp3
-418	118	artist_sound	120
-419	121	_wp_attached_file	2011/10/lykaio-mount-jpg
-420	121	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1024";s:6:"height";s:3:"768";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:24:"2011/10/lykaio-mount-jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:28:"lykaio-mount-jpg-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:28:"lykaio-mount-jpg-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"3.7";s:6:"credit";s:0:"";s:6:"camera";s:13:"FinePix Z10fd";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1310023950";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.3";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:16:"0.00416666666667";s:5:"title";s:0:"";}}
-421	118	artist_image	134
-422	122	_wp_attached_file	2011/10/Jez.jpg
-423	122	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3840";s:6:"height";s:4:"2160";s:14:"hwstring_small";s:23:"height='72' width='128'";s:4:"file";s:15:"2011/10/Jez.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:15:"Jez-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:15:"Jez-300x168.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"168";}s:5:"large";a:3:{s:4:"file";s:16:"Jez-1024x576.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"576";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"4";s:6:"credit";s:0:"";s:6:"camera";s:7:"DMC-LX1";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1307425511";s:9:"copyright";s:0:"";s:12:"focal_length";s:4:"14.4";s:3:"iso";s:3:"200";s:13:"shutter_speed";s:9:"0.0015625";s:5:"title";s:0:"";}}
-424	118	_edit_lock	1317980137:4
-830	226	_wp_attachment_metadata	a:6:{s:5:"width";s:3:"800";s:6:"height";s:3:"637";s:14:"hwstring_small";s:23:"height='96' width='120'";s:4:"file";s:25:"2011/10/pp_newhaircut.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:25:"pp_newhaircut-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:25:"pp_newhaircut-300x238.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"238";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:10:"HTC Desire";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1321529463";s:9:"copyright";s:0:"";s:12:"focal_length";s:4:"4.31";s:3:"iso";s:2:"80";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-431	125	_wp_attached_file	2011/10/100_3681.jpg
-432	125	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3296";s:6:"height";s:4:"2472";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:20:"2011/10/100_3681.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"100_3681-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"100_3681-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:21:"100_3681-1024x767.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"767";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:40:"KODAK EASYSHARE M853 ZOOM DIGITAL CAMERA";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1224568354";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.2";s:3:"iso";s:2:"80";s:13:"shutter_speed";s:8:"0.008698";s:5:"title";s:0:"";}}
-434	126	_wp_attached_file	2011/10/100_36811.jpg
-435	126	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3296";s:6:"height";s:4:"2472";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:21:"2011/10/100_36811.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:21:"100_36811-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:21:"100_36811-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:22:"100_36811-1024x767.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"767";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:40:"KODAK EASYSHARE M853 ZOOM DIGITAL CAMERA";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1224568354";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.2";s:3:"iso";s:2:"80";s:13:"shutter_speed";s:8:"0.008698";s:5:"title";s:0:"";}}
-440	127	_wp_attached_file	2011/10/SoE-tram-BrusselFINAL.mp3
-441	127	_wp_attachment_metadata	a:0:{}
-442	128	location	264371
-443	128	artist_name	Nikos Kyriazopoulos
-444	128	artist_bio	Nikos Kyriazopoulos works on environmental recordings in a wide range of interest, from the sound of human invention, urban landscape, machinery and radio waves to the natural landscape and hydrophony.\nAlso designs atavistic soundscapes using filters, microphones and self made electronics. \nExperiential hearing and the bodily felt sense is what characterizes his live performances.\n
-445	128	artist_use	\n
-446	128	artist_url	
-447	128	artist_email	kyriadoom@yahoo.com
-448	128	location	264371
-449	129	location	264371
-450	130	_wp_attached_file	2011/10/south-peloponnese.mp3
-451	128	artist_sound	130
-452	131	_wp_attached_file	2011/10/2-jpg
-453	131	_wp_attachment_metadata	a:6:{s:5:"width";s:3:"674";s:6:"height";s:3:"497";s:14:"hwstring_small";s:23:"height='94' width='128'";s:4:"file";s:13:"2011/10/2-jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:17:"2-jpg-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:17:"2-jpg-300x221.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"221";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:24:"Canon DIGITAL IXUS 80 IS";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1248594461";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.2";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:3:"0.2";s:5:"title";s:0:"";}}
-454	128	artist_image	131
-457	132	_wp_attached_file	2011/10/SoE-tram-BrusselFINAL1.mp3
-458	132	_wp_attachment_metadata	a:0:{}
-459	133	_wp_attached_file	2011/10/Noordstation.mp3
-460	133	_wp_attachment_metadata	a:0:{}
-461	134	_wp_attached_file	2011/10/DSCF0031.jpg
-462	134	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"2946";s:6:"height";s:4:"2094";s:14:"hwstring_small";s:23:"height='90' width='128'";s:4:"file";s:20:"2011/10/DSCF0031.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"DSCF0031-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"DSCF0031-300x213.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"213";}s:5:"large";a:3:{s:4:"file";s:21:"DSCF0031-1024x727.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"727";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"8";s:6:"credit";s:0:"";s:6:"camera";s:13:"FinePix Z10fd";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1316747413";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.3";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:16:"0.00333333333333";s:5:"title";s:0:"";}}
-463	118	_edit_last	4
-467	136	_wp_attached_file	2011/10/IMG_0679.jpg
-468	136	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"4320";s:6:"height";s:4:"3240";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:20:"2011/10/IMG_0679.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"IMG_0679-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"IMG_0679-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:21:"IMG_0679-1024x768.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"768";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:14:"Canon IXUS 130";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1298211710";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"5";s:3:"iso";s:3:"400";s:13:"shutter_speed";s:15:"0.0333333333333";s:5:"title";s:0:"";}}
-471	138	location	2988507
-472	138	artist_name	Pali Meursault
-473	138	artist_bio	Born in 1977, Pali Meursault lives in Paris. His electroacoustic and sound art research takes different shapes: compositions for records, radio works, installations or performances. \nInvolved in many collaborative projects, he is also a member of the art group Ici-Meme (http://www.icimeme.org) since 2003 and works regularly with the video artist Demis Hérenger or the performance project of Bonding Elastic Company/Manon Quérel...\nOn the side of these activities, he is pursuing a theoretical research writing on electroacoustic music, the sonic environment or radio art. \nSince 2002, he runs the label Universinternational (http://ui.universinternational.org).
-474	138	artist_use	Sound recording, microphonie and field-recording are central in his work, which has to do with Musique Concrète as well as field recording and the listening of the soundscape. For 10 years he has been taking his microphones out in urban environments (Midi-Minuit, ACSR/Silence Radio, 2010), industrial places (Promenade, Universinternational, 2004), on alpine glaciers (Without the wolves, Entr'acte, 2011), in the portuguese backcountry  (O Païva, Kaon, 2010) or in the Amazon forest (Mamori Art Lab 2007). 
-475	138	artist_url	http://www.palimeursault.net
-476	138	artist_email	pali@palimeursault.net
-477	138	location	2988507
-478	139	location	2988507
-479	140	_wp_attached_file	2011/10/nodar3.jpg
-480	140	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"2500";s:6:"height";s:4:"1406";s:14:"hwstring_small";s:23:"height='71' width='128'";s:4:"file";s:18:"2011/10/nodar3.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:18:"nodar3-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:18:"nodar3-300x168.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"168";}s:5:"large";a:3:{s:4:"file";s:19:"nodar3-1024x575.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"575";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"8";s:6:"credit";s:0:"";s:6:"camera";s:7:"DMC-LX2";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1212867205";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.3";s:3:"iso";s:3:"100";s:13:"shutter_speed";s:5:"0.005";s:5:"title";s:0:"";}}
-481	138	artist_image	140
-489	141	location	2965140
-490	141	artist_name	Tony Langlois
-491	141	artist_bio	I am an ethnomusicologist, mostly concerned with North African music and society. Currently teaching Media at Mary Immaculate College, Limerick, Ireland. My interest in field recording/soundscape is both analytical (for academic purposes) and synthetic, for creative applications. A range of works, most employing manipulated found sounds, can be found at http://soundcloud.com/tony-langlois
-492	141	artist_use	This is an untreated recording made in a Mexico City park in 2010. The voices of the birds and food vendors remind me (on a sonic level only) of Stephen Feld's work in papua New Guinea. 
-493	141	artist_url	zelloloid.org
-494	141	artist_email	langlois@operamail.com
-495	141	location	2965140
-496	142	location	2965140
-497	143	_wp_attached_file	2011/10/chapultepec.mp3
-498	141	artist_sound	143
-499	144	_wp_attached_file	2011/10/img_0081.jpg
-500	144	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1536";s:6:"height";s:4:"2048";s:14:"hwstring_small";s:22:"height='96' width='72'";s:4:"file";s:20:"2011/10/img_0081.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"img_0081-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"img_0081-225x300.jpg";s:5:"width";s:3:"225";s:6:"height";s:3:"300";}s:5:"large";a:3:{s:4:"file";s:21:"img_0081-768x1024.jpg";s:5:"width";s:3:"768";s:6:"height";s:4:"1024";}}s:10:"image_meta";a:10:{s:8:"aperture";s:9:"976303104";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:0:"";s:9:"copyright";s:0:"";s:12:"focal_length";s:14:"0.473954683485";s:3:"iso";s:4:"1016";s:13:"shutter_speed";s:14:"0.875430305102";s:5:"title";s:0:"";}}
-501	141	artist_image	144
-502	145	location	2965140
-503	145	artist_name	Harry Moore
-504	145	artist_bio	I engage in live performances with self made instruments and produce work using my field recordings and also in conjunction with the instruments I make.\nI am a member of SUNFISH with Tony Langlois. My individual and collaborative work has been included on CD’s curated by Sonic Vigil, Dublin Electronic Arts Festival and Art Trail. \nI explore using sound as a stand alone media, as well as in association with other practices, including  theatre and visual arts.
-505	145	artist_use	Water Azores Crossa is sourced from recordings of walking and water in The Azores and in Crosshaven near Cork. 
-506	145	artist_url	www.harrymoore.net
-507	145	artist_email	harrymooreis@gmail.com
-508	145	location	2965140
-509	146	location	2965140
-510	147	_wp_attached_file	2011/10/waterazorescrossa.mp3
-511	145	artist_sound	147
-512	148	_wp_attached_file	2011/10/harrymoore18.jpg
-513	148	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1286";s:6:"height";s:3:"854";s:14:"hwstring_small";s:23:"height='85' width='128'";s:4:"file";s:24:"2011/10/harrymoore18.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:24:"harrymoore18-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:24:"harrymoore18-300x199.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"199";}s:5:"large";a:3:{s:4:"file";s:25:"harrymoore18-1024x680.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"680";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-514	145	artist_image	148
-515	150	location	264371
-516	150	artist_name	Luc Messinezis
-517	150	artist_bio	Luc Messinezis was born in Athens, Greece in 1977. He studied Chemical Engineering at the University of Patras, Greece yet despite his scientific background, he developed a great interest in sound and experimental compositional strategies. \nAfter relocating in the UK, Luc achieved an MA in Sound Arts at the University of the Arts, London and has developed several projects researching the means throughout which sound can constitute the base for artistic expression. \nPhonography, electroaccoustic/concrete composition, audiovisual works and sound installations are just a few of the ways of experimenting with sound and its potential as a medium of creative practice.\n\nLuc’s conceptual interests mainly focus in triggering feelings, aural awareness and memory by challenging the perception and stimulating the imagination of the audience.
-518	150	artist_use	Luc has been has been using phonography and field recording as the main source of raw materials with which he realizes his artworks. Either as autonomous works or sources for extracting sound objects or matter for composition or use within an installation, Messinezis has presented various pieces and pieces around the globe in countries such as Austria, Greece, UK, Canada and Israel.\n\nNoticeable works include:\n\n"Eavesdropping; Crisis" - Ethnographic Terminalia 2011, Montreal [CA]\n\n"Forest in a Forest" - L & B Gallery, Ein Hod artist's village [IL]\n\n"The sound cabinet of curiosities" - IMT Gallery, London [UK]
-519	150	artist_url	www.sonologik.com
-520	150	artist_email	luc@sonologik.com
-521	150	location	264371
-522	151	location	264371
-523	152	_wp_attached_file	2011/10/marchinmarch.mp3
-524	150	artist_sound	152
-525	153	_wp_attached_file	2011/10/installing2.jpg
-526	153	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1536";s:6:"height";s:4:"2048";s:14:"hwstring_small";s:22:"height='96' width='72'";s:4:"file";s:23:"2011/10/installing2.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:23:"installing2-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:23:"installing2-225x300.jpg";s:5:"width";s:3:"225";s:6:"height";s:3:"300";}s:5:"large";a:3:{s:4:"file";s:24:"installing2-768x1024.jpg";s:5:"width";s:3:"768";s:6:"height";s:4:"1024";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:4:"7230";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1316096971";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-527	150	artist_image	153
-528	154	location	2659994
-529	154	artist_name	Francisco Meirino
-530	154	artist_bio	Born in 1975, Francisco Meirino is active since 1994 (as \\"phroq\\" until 2009) in soundart and live performance.\n\nFrancisco Meirino explores the tension between programmable material and the potential for its failure, his music is a complex and constantly changing electronic soundscape that is fascinating by its physical intensity and detail precision.\n\nHe works mainly with the computer, magnetic fields detectors, piezo transducers, field recorders, and various acoustic devices.\n\nMore than 150 live performances in various venues and festivals in Europe, Japan and North America.\n\nMore than 30 records released on labels such as\nMisanthropic Agenda, Antifrost, Entracte, Groundfault, Banned Productions, Even Stilte, Echomusic etc... and on his own label : Shiver Sounds\n\nHe lives and works in Lausanne, Switzerland.\n
-531	154	artist_use	For his records he is constantly searching new sounds, mainly on-site testimonies & field recordings but he is primarily interested in the idea of recording what is not supposed to be : \ngear failures, the death of a PA systems, electro-static background noises. voltage errors and in how failure can become something more than just annoying.\n \nIn 2011 He has started a field recording blog about unusual (field) recordings.\n\nhttp://franciscomeirino.blogspot.com/\n
-532	154	artist_url	www.franciscomeirino.com
-533	154	artist_email	francisco.meirino@gmail.com
-534	154	location	2659994
-535	155	location	2659994
-536	156	_wp_attached_file	2011/10/grillons__hlico.mp3
-537	154	artist_sound	156
-538	157	_wp_attached_file	2011/10/me.jpg
-539	157	_wp_attachment_metadata	a:6:{s:5:"width";s:3:"730";s:6:"height";s:3:"547";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:14:"2011/10/me.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:14:"me-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:14:"me-300x224.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"224";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"3.3";s:6:"credit";s:0:"";s:6:"camera";s:7:"DMC-TZ7";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1279386572";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"4.1";s:3:"iso";s:2:"80";s:13:"shutter_speed";s:15:"0.0166666666667";s:5:"title";s:0:"";}}
-540	154	artist_image	157
-541	159	_edit_last	4
-542	159	location	2962943
-543	159	organisation_name	ISSTA
-544	159	organisation_mission	The Irish Sound, Science and Technology Association is an organisation that brings together practitioners integrating fields of music, sound, science and technology based in Ireland. It serves musicians, researchers, scientists, engineers and artists by promoting the art, music and research in Ireland, especially in international communities. Currently, ISSTA is a fledgeling organisation with the aim to one day provide the following services:\n<ul>\n\t<li>Bringing together all practitioners who work in the merged fields of music and science or technology for collaboration and development.</li>\n\t<li>Encouraging collaboration in order to grow the sonic arts in Ireland with a focus on new and innovative technologies and research.</li>\n\t<li>Providing a membership directory to serve the purposes above.</li>\n\t<li>Promoting members' activities with a focus on international exposure.</li>\n\t<li>Performing complementary functions to other music, arts and education associations and organisation in Ireland.</li>\n\t<li>Providing grants and scholarships for study in integrated fields of music, science and technology.</li>\n\t<li>Presenting an annual Irish Sound, Science and Technology Convocation (ISSTC), a hybrid conference and festival including paper presentations, poster presentations, demonstrations, concerts, performances, workshops and installations.</li>\n\t<li>Publishing conference proceedings and journals for the presentation of Irish research.</li>\n\t<li>Producing CDs, DVDs or other media for the distribution of Irish sonic arts.</li>\n\t<li>Recognising extraordinary work by Irish and Irish-based practitioners through awards and publications.</li>\n\t<li>Maintaining a web presence that will serve the function above</li>\n</ul>
-545	159	organisation_url	issta.ie
-546	159	organisation_user	1
-547	159	_edit_lock	1323796764:1
-548	160	location	2962943
-549	161	_edit_last	4
-550	161	location	2797656
-551	161	organisation_name	Aifoon
-552	161	organisation_mission	Aifoon is an educational arts organisation that researches silence in an active way.  We organise workshops and trainings for children, youngsters, (aspiring) teachers, art docents, ect.  We offer a number of formats but also organise tailored courses were we actively investigate the artistic and pedagogical opportunities of sound as a poetic medium. Together with Sons de Barcelona and Sound and Music we took the initiative to organise an international exchangeproject The City Rings, where youngsters and kids build there own soundscape of the city and share it with the other countries.\nwww.thecityrings.org
-553	161	organisation_url	www.aifoon.org
-554	161	organisation_user	1
-555	161	_edit_lock	1318249119:4
-556	162	location	2797656
-557	163	_edit_last	4
-558	163	location	2643743
-559	163	organisation_name	Sonic Postcards
-560	163	organisation_mission	What does your environment sound like? We’re used to looking at the world around us, but how much time do we spend listening? What happens when we concentrate on our soundscape as much as our landscape? And what can we learn about other communities and other locations through the medium of sound?\n\nSonic Postcards is a unique and innovative national education programme which explores these issues and encourages participants to “open their ears”. The project enables pupils from across the UK to explore and compare their local sound environments through the composition and exchange - via the internet - of sound postcards with other schools.\n\nThe project focuses on the impact of sound on our lives and demonstrates the possibilities for creativity through the manipulation of sounds with technology. As with an ordinary postcard it offers the opportunity for people to exchange information about their local environments; providing windows into a variety of places, lives and cultures in rural, urban and coastal locations.\n\nSonic Postcards is aimed at young people between the ages of 9-14 in primary, secondary and special schools, PRUs (Pupil Referral Units) and community groups across the country.\n\nThe project links a number of curriculum studies at Key Stages 2 and 3, including music, geography and ICT, as well as English, citizenship, art, history, biology and physics and is pertinent to key government initiatives for e-learning and for the environment. Sonic Postcards follows both good practice and government guidelines for working with young people.\n\nSonic Postcards is run by <a title="http://www.sonicartsnetwork.org/" href="http://www.sonicartsnetwork.org/" target="_blank">Sonic Arts Network</a>, the national organisation which explores the art of sound.
-561	163	organisation_url	sonicpostcards.org
-562	163	organisation_user	1
-563	163	_edit_lock	1323961517:1
-564	164	_edit_last	4
-565	164	location	2640729
-566	164	organisation_name	Compost & Height 
-567	164	organisation_mission	“<em>We consider Compost and Height as a form of composition – which shares its etymological root with compost. The cyclical process inherent in compost, plus the conjunction “and height” leans towards the again shared meaning of composite – to place together. The label is constantly in flux, its shape depending on external conditions, we don’t stipulate content, form, or length. We approach people and that is the extend of our involvement.” (Sarah Hugues and Patrick Farmer)</em>
-568	164	organisation_url	compostandheight.blogspot.com
-569	164	organisation_user	1
-570	164	_edit_lock	1318237734:4
-571	165	location	2640729
-1096	634	organisation_name	ssasdsdas
-855	236	location	2800866
-854	235	location	2800866
-847	203	_edit_lock	1323960688:1
-848	235	location	2800866
-1169	235	artist_name	pierre
-1170	235	artist_bio	foo bar\n\nUpdated
-1171	235	artist_use	bar foo\n\nUpdated
-1172	235	artist_url	oep-h.com
-579	167	location	2867714
-867	197	_edit_lock	1327919913:1
-657	189	location	5128581
-658	189	artist_name	Annea Lockwood
-659	189	artist_bio	Born in New Zealand in 1939 and living in the US since 1973, Annea Lockwood is known for her explorations of the rich world of natural acoustic sounds and environments, in works ranging from sound art and installations, through text-sound and performance art to concert music. Her music has been performed in many venues and festivals including: the Possibility of Action exhibition at MACBA Barcelona, De Ijsbreker, the Other Minds Festival-San Francisco, the Walker Art Center, the American Century: 1950 - 2000 exhibition at the Whitney Museum, the Los Angeles County Museum, Queen Elizabeth Hall, the Westdeutscher Rundfunk, CNMAT Berkeley, the Asia-Pacific Festival, Donaufest 2006 Ulm, the Donau Festival Krems, the 7th Totally Huge New Music Festival Perth, Ear To The Earth Festival - New York and Sonic Acts XIII.\n\nHer sound installation, A Sound Map of the Danube, has been presented in Germany, Austria and the USA. This is a surround 'sound map' of the entire Danube River, incorporating a wide variety of water, animal and underwater insect sounds, rocks from the riverbed and the voices of those whose lives are intimately connected to the river. Other recent projects include Ceci n'est pas un piano, for piano, video and electronics commissioned by Jennifer Hymer; Jitterbug, commissioned by the Merce Cunningham Dance Company, a six channel soundscape with two improvising musicians; and In Our Name, a collaboration with Thomas Buckner based on poems by prisoners in Guantánamo. She was a recipient of the 2007 Henry Cowell Award. Her music has been issued on CD and online on the Lovely Music, Ambitus, EM, XI, Rattle, Lorelt, and Pogus labels. 
-581	168	location	2267057
-582	154	_edit_lock	1318239008:2
-584	170	location	2643071
-585	170	artist_name	Patrick Farmer
-586	170	artist_bio	Patrick Farmer (b.1983) is a musician and sound artist working within improvisation and composition. Commonly referred to as a percussionist, Farmer will often enlist the help of a drum or turntable to act as a resonator for natural materials or filtering field recordings. He has performed throughout Europe and America, including concerts at the ICA, Stockholm National Gallery, and The Radiator Festival. He has recently spent time as artist in residence at Q-O2 in Belgium and MOKS in Estonia, with a forthcoming residency at Soundfjord, London.
-587	170	artist_use	A recording of a heating valve in the Q-O2 workspace.
-588	170	artist_url	www.ideasattachedtoobjects.blogspot.com
-589	170	artist_email	patrickwilliamfarmer@gmail.com
-590	170	location	2643071
-591	171	location	2643071
-592	172	_wp_attached_file	2011/10/q-o2heatingsystem..m4a
-593	170	artist_sound	172
-594	173	_wp_attached_file	2011/10/p1011208.jpg
-595	173	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1600";s:6:"height";s:4:"1200";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:20:"2011/10/p1011208.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:20:"p1011208-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:20:"p1011208-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:21:"p1011208-1024x768.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"768";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-596	170	artist_image	173
-597	170	_edit_lock	1318985874:4
-598	170	_edit_last	4
-603	175	_wp_attached_file	2011/10/buitenzicht.jpg
-604	175	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3296";s:6:"height";s:4:"2472";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:23:"2011/10/buitenzicht.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:23:"buitenzicht-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:23:"buitenzicht-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:24:"buitenzicht-1024x767.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"767";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-606	176	_wp_attached_file	2011/10/100_36812.jpg
-607	176	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3296";s:6:"height";s:4:"2472";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:21:"2011/10/100_36812.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:21:"100_36812-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:21:"100_36812-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:22:"100_36812-1024x767.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"767";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:40:"KODAK EASYSHARE M853 ZOOM DIGITAL CAMERA";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1224568354";s:9:"copyright";s:0:"";s:12:"focal_length";s:3:"6.2";s:3:"iso";s:2:"80";s:13:"shutter_speed";s:8:"0.008698";s:5:"title";s:0:"";}}
-610	177	_wp_attached_file	2011/10/binnenzicht.jpg
-611	177	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"4320";s:6:"height";s:4:"3240";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:23:"2011/10/binnenzicht.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:23:"binnenzicht-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:23:"binnenzicht-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:24:"binnenzicht-1024x768.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"768";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:14:"Canon IXUS 130";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1298211710";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"5";s:3:"iso";s:3:"400";s:13:"shutter_speed";s:15:"0.0333333333333";s:5:"title";s:0:"";}}
-615	180	_wp_attached_file	2011/10/binnenzicht1.jpg
-616	180	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"4320";s:6:"height";s:4:"3240";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:24:"2011/10/binnenzicht1.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:24:"binnenzicht1-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:24:"binnenzicht1-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}s:5:"large";a:3:{s:4:"file";s:25:"binnenzicht1-1024x768.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"768";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:14:"Canon IXUS 130";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1298211710";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"5";s:3:"iso";s:3:"400";s:13:"shutter_speed";s:15:"0.0333333333333";s:5:"title";s:0:"";}}
-620	181	location	146268
-621	181	artist_name	Antonis Antoniou
-622	181	artist_bio	Antonis Antoniou is a composer, sound artist and phonographer born in Nicosia, Cyprus in 1978.  He is currently a PhD candidate in composition at Goldsmiths University of London, focusing his research on sound art practices. He holds an MMus in Composition and a BMus (Hons) in Music both with scholarship awards from Goldsmiths University of London, a BSc (University of Cyprus), a diploma in Jazz studies (Philippos Nakas Conservatory Athens) and the ATCL in guitar (Trinity College London).  \n\nHis recent activity includes his participation in the exhibitions Chypre 2010, L’art au présent (Paris 2010), MADATAC Film Festival (Madrid 2010), Amsterdam Biennale (2009), the founding of the ongoing sonic project “RainZonanceS” (2009), the release of his first solo album: 'Hey Maria look!! I can play the guitar' and numerous compositions for soundtracks in films, documentaries, theatrical plays etc.'\n\n His soundscape composition “Soundscape Nicosia” (2008) has gained international acclaim and was broadcasted by art radio stations around the globe such as ResonanceFM-London, SoundArt radio-Devon, CKUTradio-Montreal, RadioZero-Lisbon etc. \n
-623	181	artist_use	What mainly interests me are the stories that can be told through the soundscapes of everyday life. My 23 minute work 'Soundscape Nicosia' explores the changes on Nicosia's soundscape, reflecting the changes in people's habits, beliefs, culture and general way of living.\nI am also using field recordings as raw material for creating abstract sound works or environments in installations.\nMoreover I am a collector of existing sounds or sounds that are about to vanish, and collector of sounds from my travelling.
-624	181	artist_url	
-625	181	artist_email	pokipobos@gmail.com
-626	181	location	146268
-627	182	location	146268
-628	183	_wp_attached_file	2011/10/pattixaris1.wav
-629	181	artist_sound	183
-630	184	_wp_attached_file	2011/10/stamp.jpg
-631	184	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3346";s:6:"height";s:4:"1205";s:14:"hwstring_small";s:23:"height='46' width='128'";s:4:"file";s:17:"2011/10/stamp.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:17:"stamp-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:17:"stamp-300x108.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"108";}s:5:"large";a:3:{s:4:"file";s:18:"stamp-1024x368.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"368";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-632	181	artist_image	184
-829	226	_wp_attached_file	2011/10/pp_newhaircut.jpg
-660	189	artist_use	Field recording is a solitary activity for me. It is intimate and meditative, my way of\nrecognising/reinforcing my deep connection to the world around me. Although I have incorporated field recordings in many pieces since the 1970s, (for example Tiger Balm, Delta Run, Duende), it is my sound maps of rivers which are most completely grounded in the practice: A Sound Map of the Hudson River (1982), A Sound Map of the Danube (2005), A Sound Map of the Housatonic River (2010). These sound maps are a process of exploration: exploration of a phenomenon - moving water, of the environments it shapes, of people’s connection to rivers, of my own connection to rivers. The experience of field recording as exploration seems common to many of us; I think of the superb work of Steven Feld, Hildegard Westerkamp, David Dunn, Sam Auinger, Yolande Harris. \n\nWhen working on a river I select sites ‘by ear’, searching out unfamiliar water textures, then quieting myself internally so that I can hear deeply into the details of that texture and feel the river’s energy at that particular location. Beyond rather minimal use of equalization and editing I don’t process these recordings; after selecting sites I weave them into a continuous flow, varying their durations, the pacing of the transitions between sites and of spatial movement amongst the speakers. I want to bring these sounds to listeners as directly as possible, so I try to reduce awareness of my composing presence in the work. The installation design is kept simple, the focus firmly on the aural -  there is a wall map, a time display allowing listeners to identify sites, sometimes river rocks.  My intention is not to document a particular river or my own experience of it, but to induce a sense of immersion in its energy flow, and a visceral recognition of its power.
-661	189	artist_url	www.annealockwood.com
-662	189	artist_email	annealock@optonline.net
-663	189	location	5128581
-664	190	location	5128581
-665	191	_wp_attached_file	2011/10/annearecording.jpg
-666	191	_wp_attachment_metadata	a:6:{s:5:"width";s:3:"420";s:6:"height";s:3:"600";s:14:"hwstring_small";s:22:"height='96' width='67'";s:4:"file";s:26:"2011/10/annearecording.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:26:"annearecording-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:26:"annearecording-210x300.jpg";s:5:"width";s:3:"210";s:6:"height";s:3:"300";}}s:10:"image_meta";a:10:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";}}
-667	189	artist_image	191
-689	193	_edit_last	4
-690	193	location	2797656
-691	193	artist_name	Pauwel De Buck
-692	193	artist_email	pauweldebuck@gmail.com
-693	193	artist_bio	Pauwel De Buck is a soundartist living and working in Ghent, Belgium. His soundworks have been presented in installations as well as in performances. He utilizes location recordings of the urban environment to combine them with analogue electronic sounds. The end result is as much time based as it is sculptural and spatial. The work traverse between concrete sound environments and abstract sonic spaces. Pauwel De Buck participated in residencies, performed his work in Belgium, The Netherlands, Germany and the USA. Made installations, soundtracks for various purposes. His sound works are released at the London Based Entr'acte label.
-694	193	artist_use	My fascination for sounds and the use of field recording arose during my studies at the academy of fine arts. This situation was, and still is, very important for my approach to this medium. My ideas, working methods and presentations very closely relate to installation and performance art.   Sound as a plastic means in an artistic context is an intuitive choice for me. Active listening allows me to experience my environment in a more clear and better way. In this I see a reflection of how our society moves and changes. It is the artist’s luxury to observe these changes and reflect on them. The action of capturing, of making a recording, is in this respect not merely registration, but actually the starting point of a creative process.   The combination of technology and imagination makes it possible to structure and analyse the vast amount of sounds that surround us, and can then be processed into new surrealist situations. This process is a single yet constant flux of movement, an experience in which different recordings are played over one another, mixed, transformed and recaptured. Little by little new textures and connections are formed, that are placed in a bigger framework. This frame forms the basis for the final result, taking on different shapes.
-695	193	artist_url	www.pauweldebuck.blogspot.com
-696	193	_edit_lock	1318592940:4
-697	194	_wp_attached_file	2011/10/pauwel.jpg
-698	194	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"3071";s:6:"height";s:4:"2291";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:18:"2011/10/pauwel.jpg";s:5:"sizes";a:3:{s:9:"thumbnail";a:3:{s:4:"file";s:18:"pauwel-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:18:"pauwel-300x223.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"223";}s:5:"large";a:3:{s:4:"file";s:19:"pauwel-1024x763.jpg";s:5:"width";s:4:"1024";s:6:"height";s:3:"763";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"7.1";s:6:"credit";s:0:"";s:6:"camera";s:8:"DSC-W130";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1292796662";s:9:"copyright";s:0:"";s:12:"focal_length";s:4:"5.35";s:3:"iso";s:3:"125";s:13:"shutter_speed";s:7:"0.00625";s:5:"title";s:0:"";}}
-699	193	artist_image	194
-700	195	_edit_last	4
-701	195	location	2996944
-702	195	artist_name	Emmanuel Holterbach
-703	195	artist_email	holterbache@yahoo.fr
-704	195	artist_bio	The sound work of Emmanuel Holterbach aims to reveal the richness of acoustic patterns that emerge spontaneously from the vast ocean of sounds in which we live. Captured frequencies and field recordings, unorthodox ways of playing musical instruments, methods attempting to stop the clock by a careful use of sound and space: what Emmanuel Holterbach does with sound could be likened to the music, yet it is primarily a tool to induce people into a reverie or immerse them into an active contemplation. This leads to the revelation of the poetic forces naturally at work in our everyday soundscape. Emmanuel Holterbach invented some of the instruments, microphones and loudspeakers he uses. Since 1992, his in-situ sound installation work has been presented in Europe, Québec and China; he is now represented by the Roger Tator gallery in Lyon (France). He plays in a number of ensembles: Orbs, eHœCo, Tonton Macoute, or alone in La Chambre Bas-Parlante. Holterbach composes electroacoustic works using sound captures from natural and industrial environments, the rustling of creatures, vibrations of materials and buildings; in addition, he creates works for traditional and exotic acoustic instruments. Since 2004, Holterbach has been organizing the publication of Eliane Radigue's archives; he introduces her electronic music in concerts and is writing her biography. He also contributes to the magazines Mettray, Tausend Augen, and Revue &amp; Corrigée and he is the founder of the Productions Fluorescentes, a label for the production of sound objects.
-705	195	artist_use	In my sound recording work, the anecdotal or documentary aspect is not really what interests me most. I'm not a documentary filmmaker; my work is mostly musical. What interests me is the intense spontaneous musicality of some natural phenomena, whether in animal noises or in the secret sounds made by machines. This musicality features outstanding vanishing lines in the History of Music, migrations of influences that I also like to capture. Incidentally, I should clarify that, basically, my sound recording work reveals as much of the outside environment as of my inner world. Essentially, my compositional work stems from the experience of intently listening to the environment.
-706	195	artist_url	soundcloud.com/emmanuel-holterbach
-707	195	_edit_lock	1318700315:4
-708	196	location	2996944
-709	197	location	264371
-710	197	artist_name	Marinos Koutsomichalis
-711	197	artist_bio	Marinos Koutsomichalis (b. Athens, Greece 1981) sound-artist, composer.\n\nActive internationally in both academic and non academic milieus, MK is being composing and performing exploratory sound (and sometimes visual) art since the mid '00s using a variety of mediums - computers, programming languages, acoustic instruments / ensembles, analogue electronics, loudspeakers, domestic appliances, environmental sounds or photography amongst others. He is mainly interested in how sonic/visual phenomena manifest in the space-time-consciousness complex and how he can create aesthetically intriguing artworks based on such manifestations as mediums in themselves. He has no interested in expressing or representing anything - his art aims rather at fulfilling space and at essentially stimulating one' s state of being instead.
-712	197	artist_use	I use field recordings both as a standalone medium in themselves and as a compositional material.
-713	197	artist_url	www.marinoskoutsomichalis.com
-714	197	artist_email	marinos@marinoskoutsomichalis.com
-715	197	location	264371
-716	198	location	264371
-732	200	location	2657896
-733	200	artist_name	Manfred Werder
-734	200	artist_bio	Composer, performer, curator, lives in situ. Manfred Werder focuses on possibilities of rendering the practices regarding composition and field. His recent scores have featured either found sentences from poetry and philosophy, or found words from whatever sources. His performances, both indoors and outdoors, aim at letting appear the world’s natural abundance. Earlier works include stück 1998, a 4000 page score whose nonrecurring and intermittent performative realization has been ongoing since December 1997.
-735	200	artist_use	THE FIELD\nLe pré, aussi, est une façon d’être. Décidons de nous y laisser aller, aujourd’hui. The field, as well, is a way of being. Let’s decide to drift there, today. (Francis Ponge: La Fabrique du Pré (Paris, le 22 octobre 1 960), 1 971 ) (transl. MW) nature has unconditioned reality (Schelling, 1 799; cit.: Iain Hamilton Grant, Philosophies of Nature after Schelling, 2008, p 21 ) I propose the field not to be a ‘material’. ‘Material’ would be that what a phenomenological assumption once more identifies as isolated objects to be perceived. ‘Silence’ has been one method of breaking this phenomenological assumption: The experienced extensions of the places of performance have definitely provoked the field to be of central concern. We could identify ‘material’ with Kant as the world’s appearance for us. How can we think the extension of a place not exclusively projected/experienced by a limited group of privileged subjects (performers and audience)? The extension of a place where all is permanently drifting in its own right. The intrinsic reality of a situation. All is permanently drifting, thus we might say: There is no outside the performative. I don’t talk of predicates (variables, characteristics, properties) of a world (they describe the world’s appearances for me) but I do of the world’s mere operating. There is no outside the field. It also includes the digital silence in the editing of a ‘recording’ as a possible frame, as far as it unconditions this specific reality, as one conceptual form of the field. Personally I prefer not having the human subject privileged in its relation to the world A spider is integrating parts of my body in its cobweb. The field: Be it unconditioned reality.
-736	200	artist_url	manfred-werder.blogspot.com
-737	200	artist_email	manfred.werder@bluewin.ch
-738	200	location	2657896
-739	201	location	2657896
-740	200	_edit_lock	1323961501:1
-741	200	_edit_last	4
-742	202	_edit_last	1
-743	202	location	2747373
-744	202	artist_name	Anne Wellmer
-745	202	artist_email	annewellmer@gmail.com
-746	202	artist_bio	Anne Wellmer is a composer, performer and media artist based in The Hague. Wellmer uses field recordings, live sound processing and electronically generated sound in her work, which shifts between tape music, improvisation, installation and performance. Feedback, electromagnetic disturbances and barely audible acoustic phenomena make out essential aspects of her work. In 2007 she received an honoray mention in digital musics from the Prix Ars Electronica in Linz.
-747	202	artist_use	“I compose spaces and environments. The players of my pieces improvise freely in a defined framework. I work with computer processes, televisions, feedback, analog synthesizers, audio and video recordings, physical spaces, interferences, barely audible acoustic phenomena and field recordings. Apart from microphones I also  contact mics, coils and antenna’s to explore my environment and to make inaudible signals audible to the human ear. Those of my works which are based on field recordings are studies about places and objects. They are accompanied by little stories. Like entries to a diary and similar to photographs these pieces shape my memory.”
-748	202	artist_url	www.nonlinear.demon.nl
-749	202	_edit_lock	1327919496:1
-750	203	location	2800866
-751	203	artist_name	martiensgohome
-752	203	artist_bio	Martiensgohome is a sound collective who has been fooling around with recordings for more than 15 years. They present the resulting soundscapes every Thursday on Radio Campus Brussels (9:30 pm on 92.1 fm) . Each programme consists of a one-hour-long improvisation, using sounds recorded that week or taken from their extensive field-recording archive. The core of the collective consists today of four musicians, often augmented by guest musicians. martiensgohome is also performing live whenever possible, preferably in special settings, composing site-specific interventions or playing unconventional venues.
-753	203	artist_use	Since its inception in 1996, the Brussels collective martiensgohome has collected, treated and played various forms of field recordings. Starting as a radio show, still broadcasting on Radio Campus Bruxelles (92.1fm) every week, the collective has focused from the start on non-musical sound sources. Noise, machine failure, contact-mike recordings, radio statics and larger scale field recordings, every available sound is examined, tried out, deformed or kept intact, and assembled to take part in an improvised counterfeit soundscape. No hierarchy is established between them, and small sounds, background hum, or glitches, are treated with the same respect as more explicit, more significant or more musical sounds. All those recordings are later abstracted, blurred, distorted, warped beyond recognition, taken sometimes as far as possible from their origins, and set in motion in a sonic fiction, a narrative of mystery and contingency. In this respect, the realistic, representational, quality of the recordings is secondary to their aural properties, to what they can see in them, to what they can make of them. Their radio programmes and concerts consist of different moments, various locations, multiple acoustic spaces and times woven together to produce a hybrid place, governed by a composite chronology. It remains nonetheless a place, an ephemeral and artificial site, but a bearings of sorts, complete with movement, activity, liveliness, sometimes even inhabitants. It is a fantasy, a truth lying somewhere between a lie and a fiction.
-754	203	artist_url	http://mgh.constantvzw.org/mgh-index.htm
-755	203	artist_email	martiensgohome@gmail.com
-756	203	location	2800866
-757	204	location	2800866
-758	205	_wp_attached_file	2011/10/nianfo_zhenyan.mp3
-759	203	artist_sound	205
-760	206	_wp_attached_file	2011/10/149-4926_img.jpg
-761	206	_wp_attachment_metadata	a:6:{s:5:"width";s:4:"1024";s:6:"height";s:3:"768";s:14:"hwstring_small";s:23:"height='96' width='128'";s:4:"file";s:24:"2011/10/149-4926_img.jpg";s:5:"sizes";a:2:{s:9:"thumbnail";a:3:{s:4:"file";s:24:"149-4926_img-150x150.jpg";s:5:"width";s:3:"150";s:6:"height";s:3:"150";}s:6:"medium";a:3:{s:4:"file";s:24:"149-4926_img-300x225.jpg";s:5:"width";s:3:"300";s:6:"height";s:3:"225";}}s:10:"image_meta";a:10:{s:8:"aperture";s:3:"2.8";s:6:"credit";s:0:"";s:6:"camera";s:20:"Canon DIGITAL IXUS v";s:7:"caption";s:0:"";s:17:"created_timestamp";s:10:"1084719990";s:9:"copyright";s:0:"";s:12:"focal_length";s:7:"5.40625";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:8:"0.003125";s:5:"title";s:0:"";}}
-762	203	artist_image	206
-795	214	_wp_attached_file	2011/10/david-dunn-western-harvester-ants.mp3
-796	214	_wp_attachment_metadata	a:0:{}
-806	219	_edit_last	1
-1117	637	_edit_last	1
-807	219	_edit_lock	1324041707:1
-802	217	location	2173741
-1119	637	event_date_start	2011-10-12
-808	222	_wp_attached_file	2011/10/test00.pdf
-809	222	_wp_attachment_metadata	a:0:{}
-814	223	writing_pdf	222
-811	223	_edit_last	1
-813	223	_edit_lock	1324218457:1
-1094	634	_edit_last	1
-1095	634	location	2800866
-861	237	location	2800866
-862	240	_edit_last	1
-863	240	_edit_lock	1324128268:1
-864	242	_edit_last	1
-865	242	_edit_lock	1324127754:1
-866	223	writing_author	Marsupilami
-870	7	_edit_last	1
-871	7	location	2800866
-872	7	organisation_name	Q-O2
-873	7	organisation_mission	<p style="text-align: left;">Q-O2 is a structurally subsidized workspace for experimental contemporary music and sound art since 2006 and has its own space in the Brussels canal zone. The workspace developed out of the contemporary music ensemble Q-O2.</p>\n<p style="text-align: left;"></p>\n<p style="text-align: left;">In practice, Q-O2 operates at three levels: it offers working residencies to artists; carries out projects in collaboration with national and international arts organizations; and holds performances and concerts in its own space.</p>\n<p style="text-align: left;"></p>\n<p style="text-align: left;">In musical terms Q-O2 explores mainly three lines of approach: acoustic and electronic improvisation and composed music as well as installations and sound art. Through its conceptual preoccupations Q-O2 finds easily points of access to other disciplines.</p>
-874	7	organisation_url	www.q-o2.be
-875	7	organisation_user	2
-876	25	_edit_last	1
-877	25	location	3196359
-878	25	organisation_name	IRZU
-879	25	organisation_mission	<strong>The Institute for Sonic Arts Research (IRZU)</strong> is a non-governmental organisation. It is based on an interdisciplinary concept and is conducting artistic productions in the field of electro-acoustic music / inter-media performances and installations, as well as audio technology research and educational activities.
-880	25	organisation_url	http://www.irzu.org/
-881	25	organisation_user	1
-882	27	_edit_last	1
-883	27	organisation_name	CRISAP
-884	27	organisation_mission	CRiSAP is a research centre dedicated to the exploration of the rich complexities of sound as an artistic practice. Our main aim is to to extend the development of the emerging disciplinary field of sound arts and to encourage the broadening and deepening of the discursive context in which sound arts is practised.
-885	27	organisation_url	www.crisap.org
-886	27	organisation_user	1
-887	27	location	2643743
-888	30	_edit_last	1
-889	30	location	3128760
-890	30	organisation_name	Sons de Barcelona
-891	30	organisation_mission	<div id="octcont">\n<div><em>Sons de Barcelona</em> és un projecte de creació col·laborativa d’una base de sons de la ciutat. Els usuaris poden participar aportant els seus enregistraments de camp i sons de tot tipus generats a la ciutat. A més de poder escoltar els sons, descarregar-los i aportar-ne de nous, hi trobaràs un espai d'intercanvi d'experiències, opinions, iniciatives, propostes i projectes sonors.</div>\n</div>
-892	30	organisation_url	http://barcelona.freesound.org/
-893	30	organisation_user	1
-894	33	_edit_last	1
-895	33	location	3128760
-896	33	organisation_name	MTG
-897	33	organisation_mission	<p style="text-align: left;" align="justify"><span style="color: #000000;">The <span style="color: #000000;">Music Technology Group (MTG)</span> of the <span style="color: #000000;">Universitat Pompeu Fabra</span> in Barcelona, part of its<span style="color: #000000;"> Department of Information and Communication Technologies</span>, is specialized in sound and music computing. With more than 40 researchers coming from different and complementary disciplines, the MTG carries out research on topics such as audio signal processing, sound and music description, musical interfaces, sound and music communities, and performance modeling. The MTG combines basic engineering strengths in Signal Processing, Machine Learning and Human Computer Interaction with multidisciplinary methodologies coming from other fields.</span></p>\n<p style="text-align: left;" align="justify"><span style="color: #000000;">The MTG wants to contribute to the improvement of the information and communication technologies related to sound and music, carrying out competitive research at the international level and at the same time transferring its results to society. To that goal, the MTG aims at finding a balance between basic and applied research while promoting interdisciplinary approaches that incorporate knowledge from both scientific/technological and humanistic/artistic disciplines.</span></p>\n<p style="text-align: left;" align="justify"><span style="color: #000000;">The MTG was established in 1994 by its current director, Dr. <span style="color: #000000;">Xavier Serra</span>, and since then it has been very active at national and international levels in educational, research and dissemination activities related to music technology.</span></p>
-898	33	organisation_url	http://www.mtg.upf.edu/home
-899	33	organisation_user	1
-900	65	organisation_mission	MoKS - Center for Art and Social Practice, is a non-profit artist-run project space in Estonia situated in the rural community of <a href="http://moks.ee/site/pmwiki.php?n=Residency.Mooste">Mooste</a>. We are located 40km southeast of Tartu and 20km west of the Russian border. With its diverse approach and open atmosphere, MoKS holds a unique position within the Estonian and greater European cultural context. The MoKS "guest studio" was opened in 2001 as an organization dedicated to local and international cooperation in the fields of arts and environmental research in the rural context of post-soviet Estonia. Apart from managing the residency program our activities range from hosting an international arts symposium to educational workshops for artists and the local youth. The MoKS studios are located in the newly renovated space of the manor house of the old Mooste farming estate. With its broad scope and focused environment, MoKS is the only project of its kind in Estonia.
-901	65	organisation_name	MoKS
-902	65	_edit_last	1
-903	65	location	588335
-904	65	organisation_url	www.moks.ee
-905	65	organisation_user	1
-906	65	organisation_image	67
-907	70	organisation_mission	Communication Space Školská 28 is a multifunctional space for various nonprofit cultural and artistic activities. It is located in the courtyard of the neo-renaissance residential building “U rytířů”, which was built in 1888. The space occupied by Školská 28 consists of an attached building that was constructed later, in 1939, which served as a workshop for galvanizing metal. During 1998-99, this parcel was renovated to its current form by the Linhart Foundation, and was opened to the public in January, 1999. The programming conception of the space arises from the specific characteristics of the location, where it is situated. The space offers the community a variety of public activities connected to social life in the center of Prague. These activities take the form of a wide spectrum of initiatives, projects, and activities, and they also contribute to a revitalization of facilities for the improvement of the local civic conditions of inter generational communication, while working together with other non-commercial initiatives. The exhibition program is dedicated to the presentation of contemporary culture, presenting one of the small spaces on the cultural map of Prague, where one can meet and freely confront young artists from the Czech Republic and abroad, without consideration of the commercial aspect of contemporary gallery workings. Communication Space Školská 28 was managing since 2005 the international project of artists residencies Open Studios Prague originally in Dolní Počernice, later in Prague, which offers living and working space to projects, that require long-term preparation and use of studio space. Until 2005, the space was managed by the Linhart Foundation, later the Linhart Society, o.p.s. In 2006, stewardship was transferred to the civic association DEAI/setkání, which continues the mission of the Linhart Foundation. The project is supported by a grant from the Prague Municipal. The exhibition and parallel programs is realized since 2005 with the kind financial support from the Ministry of Culture of the Czech Republic.
-908	70	organisation_name	Skolska28
-909	70	_edit_last	1
-910	70	location	3067696
-911	70	organisation_url	www.skolska28.cz
-912	70	organisation_user	1
-913	72	_edit_last	1
-914	72	location	3038354
-915	72	organisation_name	Locus Sonus
-916	72	organisation_mission	Locus Sonus is a research group specialized in audio art. It is organized as a post graduate lab by the Art Schools of Aix en Provence (ESAA) and Bourges (ENSA) in France. We have a partnership with sociology lab CNRS, LAMES Aix en Provence (which is interested by the way practices relate to new technologies and are creating modifications in artistic production and the way that the audience reacts to these modifications). We currently continue collaborations with the CRESSON, architecture lab CNRS in Grenoble (sonic spaces research centre), the School of the Art Institute of Chicago (SAIC), and other international partners. Locus Sonus is concerned with the innovative and transdisciplinary nature of audio art forms, in the framework of networked sonic spaces, some of which are experimented and evaluated in a lab type context. An important factor is with the collective or multi-user aspects inherent to many emerging audio practices and which necessitate working as a group. The main goals define this research - audio in it's relation to space and networked audio systems. Today our research is grouped under several main headings <strong>Sound and Distance</strong>, <strong>Field Spatialization</strong>, <strong>Networked Sonic Spaces</strong>, <strong>Audio Fluxes</strong>, <strong>Sonification</strong>, and <strong>Internet Auditoriums</strong>. <strong>Locus Sonus Lab 2007/2011 :</strong> Julien Clauss, Stéphane Cousot, Alejandro Duque, Scott Fitzgerald, Jérôme Joy, Anne Laforet, Grégoire Lauvin, Anne Roquigny, Peter Sinclair.
-917	72	organisation_url	www.locusonus.org
-918	72	organisation_user	1
-919	74	_edit_last	1
-920	74	location	2965140
-921	74	organisation_name	National Sculpture Factory
-922	74	organisation_mission	The National Sculpture Factory (NSF) is an organisation which provides and promotes a supportive and enabling environment for the making of art and the realisation of creative projects. We actively support artists and their practice through residencies, lecture programmes, cultural exchanges, masterclasses and professional development workshops.
-923	74	organisation_url	www.nationalsculpturefactory.com
-924	74	organisation_user	1
-925	76	_edit_last	1
-926	76	location	2747373
-927	76	organisation_name	Institute of Sonology
-928	76	organisation_mission	Research centre and conservatory for new music.
-929	76	organisation_url	www.sonology.org
-930	76	organisation_user	1
-931	77	_edit_last	1
-932	77	location	2634202
-933	77	organisation_name	PVA Medialab
-934	77	organisation_mission	PVA MediaLab is an artist led, not for profit organisation committed to creativity and experimentation in the arts and practice based research. Founded by artists, PVA MediaLab has focussed on developing innovative and engaging new work, supporting practitioners and opening up opportunities for young people to explore their creativity using digital media. We will continue to facilitate artist’s creative professional development, delivering and sustaining our work and planning for a positive future. <strong> </strong>
-935	77	organisation_url	www.pva.org.uk
-936	77	organisation_user	1
-937	78	_edit_last	1
-938	78	location	2950159
-939	78	organisation_name	Tuned City
-940	78	organisation_url	www.tunedcity.net
-941	78	organisation_user	1
-942	78	organisation_mission	<strong>Tuned City is a platform which proposes an examination of the relations between architecture and sound. </strong> The project draws the traditions of critical discussion about urban space within the architecture and urban planning discourse–as well as its strategies and working methods–into the context of sound art. This expanded discussion reenforces the potential of the spatial and communicative properties of sound as a tool and means of urban practice. At the foundations of this event are artists’ works and theoretical approaches which examine in a critical and sensitive way the given urban and architectural situations alongside their resulting socio-political implications, that re-use existing spaces or that conceive and open new spaces. A dialogue will be built at the intersection of both disciplines which traces out the complex relations and interactions of space-sound, both presenting and testing new strategies, methods, possibilities and potentials of sound work within the artistic and applied context. The first exhibition and conference project <strong>Tuned City – Between sound and space speculation</strong> was taking place from July 01.-05. 2008 in Berlin, almost 100 artists, architects and thinkers gathered together in a variety of locations around the city and discussed a new evaluation of architectural spaces from the perspective of the acoustic. See <a href="http://www.tunedcity.net/?page_id=12">tuned city 2008</a>. Tuned City continues as a platform, exploring other cities and locations with their own cultural and social settings, working theoretically and practically on the question how sound and architecture are related.
-943	80	_edit_last	1
-944	80	location	2911007
-945	80	organisation_name	Gruenrekorder
-946	80	organisation_mission	Gruenrekorder understands itself as an organisation with the aim of promoting experimental music and phonography. Phonography considers nature / the environment as an acoustic experience, loaden with musical sounds. It is as a form of art and culture, that Gruenrekorder promotes phonography. We therefore organise events, lectures, publications and exhibitions as well as artistic projects in the fields of phonography and experimental music. Please visit <a href="http://www.gruenrekorder.de/fieldnotes/" target="_blank">Field Notes</a> our bi-lingual magazine and <a href="http://tonangel.org/" target="_blank">Tonangel</a> our workshop or have some time to <a href="http://gruenrekorder.de/playlist/player.htm">listen</a> to our releases.
-947	80	organisation_url	www.gruenrekorder.de
-948	80	organisation_user	1
-949	159	_edit_last	1
-950	159	location	2962943
-951	159	organisation_name	ISSTA
-952	159	organisation_mission	The Irish Sound, Science and Technology Association is an organisation that brings together practitioners integrating fields of music, sound, science and technology based in Ireland. It serves musicians, researchers, scientists, engineers and artists by promoting the art, music and research in Ireland, especially in international communities. Currently, ISSTA is a fledgeling organisation with the aim to one day provide the following services:\n<ul>\n\t<li>Bringing together all practitioners who work in the merged fields of music and science or technology for collaboration and development.</li>\n\t<li>Encouraging collaboration in order to grow the sonic arts in Ireland with a focus on new and innovative technologies and research.</li>\n\t<li>Providing a membership directory to serve the purposes above.</li>\n\t<li>Promoting members' activities with a focus on international exposure.</li>\n\t<li>Performing complementary functions to other music, arts and education associations and organisation in Ireland.</li>\n\t<li>Providing grants and scholarships for study in integrated fields of music, science and technology.</li>\n\t<li>Presenting an annual Irish Sound, Science and Technology Convocation (ISSTC), a hybrid conference and festival including paper presentations, poster presentations, demonstrations, concerts, performances, workshops and installations.</li>\n\t<li>Publishing conference proceedings and journals for the presentation of Irish research.</li>\n\t<li>Producing CDs, DVDs or other media for the distribution of Irish sonic arts.</li>\n\t<li>Recognising extraordinary work by Irish and Irish-based practitioners through awards and publications.</li>\n\t<li>Maintaining a web presence that will serve the function above</li>\n</ul>
-953	159	organisation_url	issta.ie
-954	159	organisation_user	1
-955	161	_edit_last	1
-956	161	location	2797656
-957	161	organisation_name	Aifoon
-958	161	organisation_mission	Aifoon is an educational arts organisation that researches silence in an active way.  We organise workshops and trainings for children, youngsters, (aspiring) teachers, art docents, ect.  We offer a number of formats but also organise tailored courses were we actively investigate the artistic and pedagogical opportunities of sound as a poetic medium. Together with Sons de Barcelona and Sound and Music we took the initiative to organise an international exchangeproject The City Rings, where youngsters and kids build there own soundscape of the city and share it with the other countries.\nwww.thecityrings.org
-959	161	organisation_url	www.aifoon.org
-960	161	organisation_user	1
-961	260	_edit_last	1
-962	260	location	2643743
-963	260	organisation_name	Sound and Music / Sonic Postcards
-964	260	organisation_mission	What does your environment sound like? We’re used to looking at the world around us, but how much time do we spend listening? What happens when we concentrate on our soundscape as much as our landscape? And what can we learn about other communities and other locations through the medium of sound?\n<BR><BR>\nSonic Postcards is a unique and innovative national education programme, led by <a href="http://soundandmusic.org/">Sound and Music</a>, which explores these issues and encourages participants to “open their ears”. The project enables pupils from across the UK to explore and compare their local sound environments through the composition and exchange - via the internet - of sound postcards with other schools. \n<BR><BR>\nThe project focuses on the impact of sound on our lives and demonstrates the possibilities for creativity through the manipulation of sounds with technology. As with an ordinary postcard it offers the opportunity for people to exchange information about their local environments; providing windows into a variety of places, lives and cultures in rural, urban and coastal locations. Sonic Postcards is aimed at young people between the ages of 9-14 in primary, secondary and special schools, PRUs (Pupil Referral Units) and community groups across the country. The project links a number of curriculum studies at Key Stages 2 and 3, including music, geography and ICT, as well as English, citizenship, art, history, biology and physics and is pertinent to key government initiatives for e-learning and for the environment.\n<BR><BR>\nSonic Postcards is run by Sound and Music, the UK’s landmark organisation for the promotion of contemporary music and sound art. SAM brings together artists, producers, promoters and educators to deliver work that encourages people of all ages to engage with music and sound in all its forms, through its live events, learning programme and digital platforms.
-965	260	organisation_url	sonicpostcards.org
-966	260	organisation_user	1
-967	260	_wp_old_slug	sonic-postcards
-968	164	_edit_last	1
-969	164	location	2640729
-970	164	organisation_name	Compost & Height 
-971	164	organisation_mission	“<em>We consider Compost and Height as a form of composition – which shares its etymological root with compost. The cyclical process inherent in compost, plus the conjunction “and height” leans towards the again shared meaning of composite – to place together. The label is constantly in flux, its shape depending on external conditions, we don’t stipulate content, form, or length. We approach people and that is the extend of our involvement.” (Sarah Hugues and Patrick Farmer)</em>
-972	164	organisation_url	compostandheight.blogspot.com
-973	164	organisation_user	1
-974	166	_edit_last	1
-975	166	location	2740637
-976	166	organisation_name	green field recordings 
-977	166	organisation_mission	Green Field Recordings is a portugese netlabel focusing mainly on pure field recordings. All releases are available for free download, under a Creative Commons licence, in the audio section and at archive.org in 320 kbps MP3 format. Please, send us your demo!
-978	166	organisation_url	greenfieldrecordings.yolasite.com
-979	166	organisation_user	1
-980	166	_wp_old_slug	essentia-mundi
-981	630	_edit_last	1
-982	630	location	2797656
-983	630	organisation_name	timelab
-984	630	organisation_mission	<strong>timelab</strong>
-985	630	organisation_url	http://www.timelab.org/
-986	630	organisation_user	1
-987	633	_edit_last	1
-988	633	organisation_name	radio aporee
-989	633	organisation_url	radio.aporee.org
-990	633	organisation_user	1
-991	279	_edit_last	1
-992	279	location	3067696
-993	279	organisation_name	Favourite sounds of Prague
-994	279	organisation_mission	The Favorite Prague Sounds is an open, collaborative, online community dedicated to <strong>fieldrecording</strong>, <strong>urbanism</strong>, <strong>phonography</strong> and <strong>psychogeography</strong> of <strong>Prague</strong>. On this site, you can listen (preferably with headphones) to various sonic locations, recorded by different people in and around Prague. You can as well search in the <strong>database</strong> for specific categories of sounds, sorted by different contributers, or listen what people think about their sonic environment and locate the places on the berlin - global soundmap project <a href="http://aporee.org">aporee.org </a> .\n\n<strong>You don't have to be an artist, a sound specialist, or phonographer, to contribute your recordings for others to enjoy.</strong> <strong>The Creative Commons Attribution</strong> license <a href="http://creativecommons.org/licenses/by-nc/3.0/">CC-BY-NC</a> encourages the sharing and reuse of all sounds on this website if the original author will be mentioned.\n\nThe idea of the project appeared several years ago in <a href="http://favouritesounds.org/"> Favourite London Sounds </a> and since then people continue to collect and discuss the urban soundscapes in different towns around the world. The site is in Czech and English language to make easier the mutual understanding between different languages and communities.
-995	279	organisation_url	panto-graph.net/favouritesounds
-996	279	organisation_user	1
-997	280	_edit_last	1
-998	280	location	3067696
-999	280	organisation_name	MLOK
-1000	280	organisation_mission	Asociace Mlok je nevládní nezisková organizace, která si klade za cíl vytvářet podmínky a poskytovat zázemí jednotlivcům i skupinám, činným v kulturním a neziskovém sektoru v České republice i v zahraničí.\n\nAsociace Mlok působí oblastech výzkumu, vzdělávání a aplikace informačních a komunikačních technologií, podpora souvisejících aktivit a rozvíjení jejich kvality, stimulace inovativních kulturních a vzdělávacích projektů v místním i v mezinárodním měřítku.\n\nČlenové asociace: Miloš Vojtěchovský (předseda), Petr Vrba (místopředseda), Martin Blažíček (pokladník), Jan Bartoš, Dana Recmanová, Veronika Resslová, Alexandr Krestovský, Stanislav Abrahám.
-1001	280	organisation_url	www.mlok.multiplace.sk
-1002	280	organisation_user	1
-1003	413	_edit_last	1
-1004	413	location	2618425
-1005	413	organisation_name	Sounds from Denmark
-1006	413	organisation_mission	<strong>The website Sounds from Denmark want to provide a unique way of exploring Danish audio culture, for those who seek a richer understanding of this small Scandinavian country.</strong>\n\n<strong>Our focus here is on creating and distributing what we call </strong><a href="http://soundsfromdenmark.org/guidelines/"><strong>Sound Pictures</strong></a><strong> (Danish: <em>hørebilleder</em>), captured moments and spaces recorded in Denmark.</strong>\n\n<strong>If you are coming here and want to get some sense of this little country, we want you to listen and reflect on what you hear.\nIf you are living here, we would like you listen, and contribute your own sound pictures of Denmark.</strong>\n\n<strong>\n</strong>\n\n&nbsp;
-1007	413	organisation_url	www.soundsfromdenmark.org
-1008	413	organisation_user	1
-1009	414	_edit_last	1
-1010	414	location	2643743
-1011	414	organisation_name	Musarc
-1012	414	organisation_mission	Musarc is a research and event platform based at the Department of Architecture and Spatial Design, London Metropolitan University, exploring the relationship between architecture and sound. It provides an environment for architects to engage with sound not just as an acoustic phenomenon but as a tool for research and a means to engage with places.\n\nFor composers and artists, Musarc offers an opportunity to develop new work in this context and collaborate with architects and designers to realise their ideas.
-1013	414	organisation_url	www.musarc.org
-1014	414	organisation_user	1
-1015	423	location	2800866
-1016	423	_edit_last	1
-1017	423	organisation_name	OKNO
-1018	423	organisation_mission	OKNO is an artist run organisation for art and media technology. The working of OKNO hinges on two driving principles that are interconnected: collaboration and ecology. We use our collective garden OpenGreen, our workspace and our server as catalysts for creating art works. We are having a continuous program with media art events, exhibitions, expert and social meetings, workshops and performances. Check our calendar on the main page of the <a href="http://www.okno.be">site</a>. \n<BR><BR>\nWe collaborate with several local and international organizations, with similar goals. A system of exchange and cooperation has been maintained, esp. with Central Europe. Over the years, we started to work more on longer-term projects, involving very diverse artists and experts, of all levels of experience, but with a common interest in the experimental and environmental. For that reason we started up a larger project "Time Inventors' Kabinet", concentrating on the notion of Time in our present culture.\n<BR><BR>\nYou can listen here to a soundfile of bees playing with a piezo in the OpenGreen garden: [audio bees_piezo] 
-1019	423	organisation_url	www.okno.be
-1020	423	organisation_user	1
-1021	426	_edit_last	1
-1022	426	organisation_name	KRAAK
-1023	426	organisation_mission	concerts, label, magazine (RUIS), ...
-1024	426	organisation_url	www.kraak.net
-1025	426	organisation_user	1
-1026	426	location	2797656
-1027	427	_edit_last	1
-1028	427	location	2800866
-1029	427	organisation_name	Recyclart
-1030	427	organisation_mission	Recyclart est un centre artistique ayant les particularités suivantes.\nRecyclart a été dès le départ fortement lié au lieu dans lequel l’association est située et fortement ancrée dans un quartier et une ville qui l’entoure. Transformer la rupture urbaine provoquée par la Jonction Nord-Midi en une liaison vivante, assurer un lien fort entre les différents quartiers qui l’entoure est un but que l’association a poursuivi depuis sa naissance. L’association reste aujourd’hui un projet urbain. Elle s’inspire de la ville qui l’entoure et laisse sa porte grande ouverte aux phénomènes urbains (qu’ils soient d’ordre culutrel, sociaux ou économiques).\n\nRecyclart intègre tous les volets du processus artistique en son sein : la création (via notamment la mise à disposition d’espace à des jeunes artistes)  la diffusion  (via une programmation de qualité) et la production (via la réalisation concrète de pièces de design, de décors de théâtre ou d’installations plastiques…).\n\nRecyclart ne pose aucune hiérarchie entre les disciplines et défend un art à la fois ouvert sur l’érudit et le populaire. Recyclart défini l’art comme un outil « politique » qui fait réfléchir sur notre société et aide à la construction d’une véritable cohésion sociale en ville et à la construction d’un pont entre les cultures, les classes sociales et les univers différents. L’accent est donc mis sur le petit, le fragile, et le vulnérable. La part belle de notre programmation porte sur les "sub-cultures" et les nouveaux mouvements culturels urbains qu’il prennent naissance en Europe ou dans d’autres régions du monde.\n\nRecyclart s’intègre dans une dynamique d’économie sociale. L’association répond en cela au discours dominant  du « renouveau des industries culturelles » et de l’importance de la « ville créative » par une vision plus locale et plus solidaire. Recyclart engage en effet dans le cadre d’un programme de transition professionnelle une quinzaine de personnes, composant notamment ses équipes de menuisiers, métallos, gestion d’infrastructure, ou de cuisine, mais aussi son centre d’art. Dans ce cadre, Recyclart défend une vision liée à la remise à l’emploi, plutôt que l’employabilité. Il s’agit en effet de créer les opportunités nécessaires à chacun de réaliser ses propres objectifs professionnels plutôt que de les « formater » à un marché de l’emploi de plus en plus individualiste.\n\nRecyclart est composé d’un centre d’art, d’un Bar resto et de Fabrik, un centre de production artisanal. L’équipe est composée de +/- 35 personnes.
-1031	427	organisation_url	www.recyclart.info
-1032	427	organisation_user	1
-1033	428	_edit_last	1
-1034	428	location	2732265
-1035	428	organisation_name	Binaural
-1036	428	organisation_mission	Binaural is a Portuguese non-profit Cultural Organization founded in 2004 with the aim of promoting the exploration and research in sound / visual and new media arts, focusing on the crossing of media and languages and on the articulation between the artistic production and the surrounding context, particularly through its activities in the rural space of Nodar. Binaural holds creation, production, promotion, research and teaching activities with the objective of establishing itself as a platform for experimentation and sharing of theoretical thought in the fields of technology, media and artistic praxis. Underlying to the activities of the Binaural is the concern with establishing connections between the sound / visual arts and the social environment, by supporting projects and performative events directed to diversified audiences (familiarized or not with the experimental arts) and that deal with its capacity for generating meanings and building identity and memory Binaural’s main objectives are:\n<ul>\n\t<li>To promote a growing public conscience of the experimental sound and visual arts through the promotion of projects that deal with artistic research and creation using new technologies.</li>\n</ul>\n<ul>\n\t<li>To establish a discourse and a reflection focus, not only on the creation of artistic products, but also and fundamentally on the circulation and transmission of collaborative actions that are capable of promoting social interaction and collective intelligence, using Internet and the new available communication technologies (wireless, GPS, net radio, etc.).</li>\n</ul>\n<ul>\n\t<li>To promote a pedagogical approach through projects directed to organizations (such as schools) interested in learning about the nature and history of new media arts and on the organization of decentralized events directed to diversified audiences (familiarized or not with the new media arts)</li>\n</ul>\n<ul>\n\t<li>To promote interactions with similar organizations and entities, Portuguese and foreign, namely European, on the domains of production and organization of events, theorical production and publishing of audio and video materials.</li>\n</ul>\n<ul>\n\t<li>To facilitate the production of works from both consecrated and emergent artists dealing with different media, through the supply of a logistic and instrumental platform.</li>\n</ul>\n<ul>\n\t<li>To establish deep connections between the experimental arts and the social environment, supporting projects and performance events, namely site-specific ones, that are able to generate new meanings, and help the audiences to reflect on space, identity and memory.</li>\n</ul>
-1037	428	organisation_url	www.binauralmedia.org
-1038	428	organisation_user	1
-1039	428	organisation_image	430
-1040	443	_edit_last	1
-1041	443	location	2800866
-1042	443	organisation_name	Transmedia
-1043	443	organisation_mission	<a href="http://transmedians.be/projects_new/about/"><strong>Transmedia</strong> is a<strong> two-year, full-time course in arts, media and design</strong> leading to a <strong>master’s degree in Transmedia</strong>. The program focuses on research as an integrated mix of art practice and critical thought. The multidisciplinary, international environment places your practice at the core of the program and fosters a dialogue with experts about your artistic practice.</a>\n\nTransmedia offers a stimulating environment where your artistic practice comes first: a continuous and independent art practice stimulated by dialogues with practices from other disciplines. Students are invited to engage in an ongoing conversation about their work process through tutorials, group discussions, seminars, workshops and the interchange of ideas and skills with fellow students, internationally recognized teachers and visiting artists.\n\nTransmedia is housed in Brussels, Belgium at the <a href="http://www.sintlukas.be/cms/">Hogeschool Sint-Lukas Brussels</a> near the center. The working language of Transmedia is English.\n\n<strong>\n</strong>\n\n&nbsp;\n\n&nbsp;
-1044	443	organisation_url	www.transmedia.be
-1045	443	organisation_user	1
-1046	449	_edit_last	1
-1047	449	location	2800866
-1048	449	organisation_name	Atelier de Création Sonore Radiophonique
-1049	449	organisation_mission	L’acsr est un lieu de sen­si­bi­li­sa­tion à la créa­tion sonore radiophonique. L’association a été créée en 1996 dans le but de déve­lop­per un espace de réflexion et de résis­tance à la dimi­nu­tion alar­mante de la créa­tion dans les ins­ti­tuts de radio­dif­fu­sion en Belgique francophone. Structure d’accueil aux auteurs, réa­li­sa­teurs, opé­ra­teurs, créa­teurs inté­res­sés par la radio, elle met à dis­po­si­tion de ceux-ci des moyens tech­niques et finan­ciers ainsi qu’un accom­pa­gne­ment artis­tique (une aide à l’écriture du pro­jet, des écoutes de tra­vail aux dif­fé­rentes phases de réa­li­sa­tion), une aide à la pro­duc­tion et à la diffusion. L’acsr reçoit le sou­tien du Service Général de l’Audiovisuel et des Multimédias et de la Direction des Infrastructures cultu­relles de la Communauté fran­çaise de Belgique.
-1050	449	organisation_url	http://www.acsr.be/
-1051	449	organisation_user	1
-1052	450	_edit_last	1
-1053	450	location	2643743
-1054	450	organisation_name	SoundFjord
-1055	450	organisation_mission	Sound<em>Fjord</em> is a gallery, research unit and venue dedicated to the Sonic Arts. The gallery was founded to redress the current lack of exhibiting space exclusively for works of sound art and focuses on the exhibition and documentation of art works, the development of artists within their creative and research practices, and ultimately, the promotion of sound art and its related interests to a wider audience. This creative venture – a partnership between a fine artist and sound designer – is a centre for experimentation and collaboration, with sound being central to all works performed, researched or exhibited: as inspiration, conduit for artistic expression, or simply, the resulting work.
-1056	450	organisation_url	www.soundfjord.org/
-1057	450	organisation_user	1
-1058	467	_edit_last	1
-1059	467	location	3161732
-1060	467	organisation_name	BEK - Bergen Center for Electronic Arts
-1061	467	organisation_mission	BEK, Bergen Center for Electronic Arts, is a non-profit organization situated in Bergen, Norway, functioning as a national resource centre for work within the field of arts and new technology. BEK is involved with artistic and scientific research and development, and projects carried out at BEK tend to be cross-disciplinary, relating to fine arts, sound art, music and stage as well as research and development. BEK also offers an educational program that includes courses, workshops, talks and presentations.\n\n&nbsp;\n\nIn 2011 BEK produced the exhibition Sonic Interaction Design as one of the final outcomes of a four-year European COST action on Sonic Interaction Design. Field recording activities are mainly geared towards surround sound (ambisonics) recordings to be used in artistic projects and research relating to spatial audio.
-1062	467	organisation_url	http://www.bek.no/
-1063	467	organisation_user	1
-1064	471	_edit_last	1
-1065	471	location	3173435
-1066	471	organisation_name	O'
-1067	471	organisation_mission	<em>O’ is a non profit organization that broadly encourages new futures for contemporary art languages, founded in May 2001 by Sara Serighelli and Angelo Colombo with the name of O’artoteca (O’ since 2008). Based in Milano, its activity is developed through a spacious venue along with a professional external studio, L.A.B.-LaboratorioArtiBovisa, for fine art photographs and prints. O’ is an interdisciplinary space that promotes art exhibitions, lectures, performances, experimental  production, concerts and editions. Projects are mainly site specific and originated by connections, living and lasting relations. According to its innovative features, O’ started in the spring of 2006 O’A.I.R., an International Residency Program for artists and theorists, an ideal ‘box’ of experiences, place of dialogue and relationship where space, time and resources are offered in order to support the whole creative process. Since the opening   O’ has established a strong relationship with the Austrian AIR program Hotel Pupik, managing the Italian participations during the two annual appointments in Schrattenberg. Together with the record label/publishing house Die Schachtel (Milan), O’ develops projects and performances of composers/artists in the field of international avant-garde and experimental music.</em>
-1068	471	organisation_url	www.on-o.org
-1069	471	organisation_user	1
-1070	583	_edit_last	1
-1071	583	location	264371
-1072	583	organisation_name	Medea Electronique
-1073	583	organisation_mission	Medea Electronique was formed in Athens Greece in 2006, inspired by a play of words, Medea versus Media.\n\nWe are a cooperate group of individual artists that share a predisposition for innovation in performing arts. Working in fields like sound, video, design, painting, multimedia, robotics, interactive technology and media production, we allow the integration of our distinctive areas of research and practice to define a unique style in the realization of various projects - from multimedia theatrical plays to experimental audio-visual shows and from electroacoustic compositions to human-machine-computer interfaces. Medea organizes annually Koumaria Residency. Currently she is working on the ongoing site specific project SoundscapesLandscapes.
-1074	583	organisation_url	 www.medeaelectronique.com    
-1075	583	organisation_user	1
-1076	584	_edit_last	1
-1077	584	location	2759794
-1078	584	organisation_name	Soundtrackcity
-1079	584	organisation_mission	<strong><em>Soundtrackcity</em> invites you to stroll and rediscover the city with soundwalks made by artists. The walks follow routes through different neighborhoods. Each walk tells a another story about past, present and future of the area, based on stories and experiences of residents. Immerse yourself in a unique audio mix of voices, sounds and music.</strong>
-1080	584	organisation_url	http://www.soundtrackcity.nl/
-1081	584	organisation_user	1
-1082	586	_edit_last	1
-1083	586	location	588335
-1084	586	organisation_name	Framework Radio
-1085	586	organisation_mission	<p style="text-align: left;">framework began broadcasting in june, 2002, and now broad- and podcasts online and on radio stations around the world.</p>\n<p style="text-align: left;">framework is consecrated to field recording and it's use in composition, and began at a time when a new community of sound artists with a special interest in found sound was developing, a community spread across the world and no longer, thanks to the internet, limited to a specific geography.</p>\n<p style="text-align: left;">framework sees itself as an outlet for this ever-growing and developing community, a folk-tool in a new folk movement, a community driven exchange point for creators and listeners alike.</p>\n<p style="text-align: left;">framework's goal is to present not only the extremely diverse sound environments of our world, but also the extremely diverse work that is being produced by the artists who choose to use these environments as their sonic materials.</p>\n<p style="text-align: left;">we hope to ask this question: is 'field-recording' a style, or a genre, or is it in fact as uncontrollable and undefinable an instrument or tool as any, that may be interpreted, manipulated and appropriated by anyone with a microphone and an idea? These works are its definition, and not vice versa.</p>
-1086	586	organisation_url	www.frameworkradio.net
-1087	586	organisation_user	1
-1088	614	_edit_last	1
-1089	614	location	2800866
-1090	614	organisation_name	SilenceRadio
-1091	614	organisation_mission	SilenceRadio se consacre 
-1092	614	organisation_url	www.silenceradio.org/
-1093	614	organisation_user	1
-1097	634	organisation_mission	The art and culture initiative “qujOchÖ – experimentelle Kunst- und Kulturarbeit” was founded in Linz in 2001. qujOchÖ intervenes in processes at the intersections of art, politics, society and science using methods ranging from artistic interventions in public space, series of public lectures and discussions, sound and visual forms of action, to participatory installations. The approach and modus operandi of qujOchÖ is regularly characterised by a transdisciplinarity of science and art, a distinctive intensity, and a critical examination of customary cultural practices.
-1098	634	organisation_url	sdcasdasassa
-1099	634	organisation_user	1
-1100	634	_edit_lock	1332841288:1
-1121	637	event_organization	7
-1122	638	event_organization	163
-1123	638	_edit_last	1
-1124	638	event_date_start	2011-10-01
-1125	638	event_date_end	2012-04-30
-1126	638	location	3128760
-1127	638	event_organization	161
-1128	638	event_organization	30
-1129	639	_edit_last	1
-1130	639	location	3196359
-1131	639	event_date_start	2011-09-30
-1132	639	event_date_end	2011-10-04
-1133	639	event_organization	25
-1134	640	_edit_last	1
-1135	640	location	2643743
-1136	640	event_date_start	2011-10-17
-1137	640	event_date_end	2011-10-17
-1138	640	event_organization	27
-1139	641	location	2800866
-1140	641	_edit_last	1
-1141	641	event_date_start	2011-10-01
-1142	641	event_date_end	2013-04-30
-1143	641	event_organization	7
-1144	642	_edit_last	1
-1145	642	location	588409
-1146	642	event_date_start	2011-07-07
-1147	642	event_date_end	2011-07-10
-1148	642	event_organization	78
-1149	307	event_organization	70
-1150	307	event_date_start	2011-06-22
-1151	307	location	3067696
-1152	307	_edit_last	1
-1153	307	event_date_end	2011-06-22
-1154	309	event_date_end	2013-04-30
-1155	309	_edit_last	1
-1156	309	event_organization	7
-1157	309	event_date_start	2011-10-01
-1158	587	_edit_last	1
-1159	587	location	2747891
-1160	587	event_date_start	2012-01-26
-1161	587	event_date_end	2012-02-04
-1162	587	event_organization	584
-1163	631	_edit_last	1
-1164	631	location	253394
-1165	631	event_date_start	2012-04-06
-1166	631	event_date_end	2012-04-09
-1167	631	event_organization	583
-1639	856	_edit_lock	1333109025:1
-1548	174	location	2988507
-1549	174	_edit_last	1
-1550	192	location	2800866
-1551	192	_edit_last	1
-1552	199	location	2800866
-1553	199	_edit_last	1
-1554	211	location	2800866
-1555	211	_edit_last	1
-1556	212	location	2800866
-1557	212	_edit_last	1
-1558	253	location	2800866
-1559	253	_edit_last	1
-1560	259	location	2800866
-1561	259	_edit_last	1
-1562	272	location	2800866
-1563	272	_edit_last	1
-1564	286	location	2800866
-1565	286	_edit_last	1
-1566	290	location	2800866
-1567	290	_edit_last	1
-1568	294	location	2800866
-1569	294	_edit_last	1
-1570	315	location	2800866
-1571	315	_edit_last	1
-1572	316	location	2800866
-1573	316	_edit_last	1
-1574	323	location	2800866
-1575	323	_edit_last	1
-1576	328	location	2800866
-1577	328	_edit_last	1
-1578	365	location	2800866
-1579	365	_edit_last	1
-1580	371	location	2800866
-1581	371	_edit_last	1
-1582	384	location	2800866
-1583	384	_edit_last	1
-1584	388	location	2800866
-1585	388	_edit_last	1
-1586	398	location	2800866
-1587	398	_edit_last	1
-1588	382	location	2800866
-1589	382	_edit_last	1
-1590	437	location	3128760
-1591	437	_edit_last	1
-1592	444	location	3128760
-1593	444	_edit_last	1
-1594	474	location	3128760
-1595	474	_edit_last	1
-1596	498	location	3128760
-1597	498	_edit_last	1
-1598	518	location	3128760
-1599	518	_edit_last	1
-1600	534	location	3128760
-1601	534	_edit_last	1
-1602	563	location	2643743
-1603	563	_edit_last	1
-1604	573	location	2643743
-1605	573	_edit_last	1
-1606	622	location	2643743
-1607	622	_edit_last	1
-1608	865	location	2643743
-1609	865	_edit_last	1
-1610	653	location	2643743
-1611	653	_edit_last	1
-1612	654	location	2643743
-1613	654	_edit_last	1
-1614	664	location	2643743
-1615	664	_edit_last	1
-1616	668	location	3173435
-1617	668	_edit_last	1
-1618	699	location	3173435
-1619	699	_edit_last	1
-1620	708	location	3173435
-1621	708	_edit_last	1
-1622	717	location	3173435
-1623	717	_edit_last	1
-1624	742	location	3173435
-1625	742	_edit_last	1
-1626	747	location	3173435
-1627	747	_edit_last	1
-1628	765	location	2988507
-1629	765	_edit_last	1
-1630	797	location	2988507
-1631	797	_edit_last	1
-1632	828	location	2988507
-1633	828	_edit_last	1
-1634	856	location	2800866
-1635	856	_edit_last	1
-1636	856	_wp_old_slug	the-act-of-recording-by-eric-lacasa
-1637	862	location	2988507
-1638	862	_edit_last	1
-1645	871	location	2643743
-1646	871	artist_name	An Artist
-1647	871	artist_bio	Ma bio en 3 lignes
-1648	871	artist_use	mon champ
-1649	871	artist_url	www.artist.com
-1650	871	artist_email	me@artist.com
-1651	871	location	2643743
-1652	872	location	2643743
+<pre>+------+----------------------------+
+| id   | name                       |
++------+----------------------------+
+|    1 | Alessandro Acquisti        |
+|    2 | Solon Barocas              |
+|    3 | Bettina Berendt            |
+|    4 | Dave Clarke                |
+|    5 | Lorrie Faith Cranor        |
+|    6 | Claudia Diaz               |
+|    7 | Shenja van der Graaf       |
+|    8 | Serge Gutwirth             |
+|    9 | Simone van der Hof         |
+|   10 | Adam Joinson               |
+|   11 | Eva Lievens                |
+|   12 | Orla Lynskey               |
+|   13 | Alice E. Marwick           |
+|   14 | Refik Molva                |
+|   15 | Deirdre Mulligan           |
+|   16 | Sandra Petronio            |
+|   17 | Ike Picone                 |
+|   18 | Jo Pierson                 |
+|   19 | Frank Piessens             |
+|   20 | Sören Preibusch            |
+|   21 | Bart Preneel               |
+|   22 | Nadezhda Purtova           |
+|   23 | James B. Rule              |
+|   24 | Trebor Scholz              |
+|   25 | Peggy Valcke               |
+|   26 | Mathias Vermeulen          |
+|   27 | Ellen Wauters              |
+|   28 | Ralf De Wolf               |
+|   29 | Airi Lampinen              |
++------+----------------------------+</pre>
