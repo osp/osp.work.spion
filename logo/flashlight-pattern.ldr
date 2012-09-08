@@ -1,0 +1,20 @@
+fill 0 0 0
+move 0 0
+line 1000 0
+line 1000 400
+line 0 400
+close
+end
+
+
+font 280 100 0 Reglo
+
+move 0 0
+
+stroke 255 255 255 0
+move 0 50
+text SPION
+
+move 0 50
+#svg /home/pierre/drawing.svg
+svg-effect /home/pierre/drawing.svg /home/pierre/u.png r L
