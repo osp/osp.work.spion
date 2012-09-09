@@ -1,0 +1,34 @@
+fill 255 255 255
+stroke 255 255 255 0
+move 0 0
+line 1200 0
+line 1200 400
+line 0 400
+close
+end
+
+
+font 280 100 0 Reglo
+
+move 0 0
+
+stroke 0 0 0 0
+#stroke 255 255 255 0
+move 0 70
+text SPION
+
+move 0 50
+svg-effect /home/pierre/drawing-inv.svg /home/pierre/u.png w L
+
+move  0 428.00 
+
+stroke 0 0 0 0
+svg-effect /home/pierre/drawing.svg /home/pierre/u.png W L 
+
+stroke 0 0 255 0
+move  15.00 803.00 
+line 15.00 32.00 
+move  7.00 350.00 
+line  963.00 350.00 
+move 943.00 795.00 
+line 943.00 26.00 
