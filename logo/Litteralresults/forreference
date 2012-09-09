@@ -1,0 +1,14 @@
+font 280 100 0 Reglo
+
+move 0 0
+
+stroke 0 0 0 0
+#stroke 255 255 255 0
+move 0 70
+text SPION
+
+move 60 50
+svg-effect /home/colm/Dropbox/osp/osp.work.spion/logo/drawingtorch-white.svg /home/colm/Dropbox/osp/osp.work.spion/logo/drawingradial.png r L
+
+move 60 500
+svg-effect /home/colm/Dropbox/osp/osp.work.spion/logo/drawingtorch.svg /home/colm/Dropbox/osp/osp.work.spion/logo/drawingradial.png r L
