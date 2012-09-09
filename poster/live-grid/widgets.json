@@ -4,34 +4,34 @@
     "size_y": 2, 
     "size_x": 4, 
     "col": 3, 
-    "row": 2
+    "row": 1
   }, 
   {
     "html": "<div class=\"titlebar panel\"><span class=\"panel-number\">1</span><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Minors and social media: between protection and empowerment</h2><p>Error 413 Request Entity Too Large<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 2, 
-    "row": 4
+    "col": 9, 
+    "row": 6
   }, 
   {
     "html": "<div class=\"titlebar panel\"><span class=\"panel-number\">5</span><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>The social shaping of privacy enhancing technology</h2><p>Error 406 Not Acceptable<br></p></div>", 
     "size_y": 2, 
     "size_x": 3, 
     "col": 8, 
-    "row": 8
+    "row": 4
   }, 
   {
     "html": "<div class=\"widget-content\"><p><img src=\"static/logos/logo-spion-pink.svg\" width=\"174px\">\n</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 4, 
-    "row": 8
+    "col": 8, 
+    "row": 10
   }, 
   {
     "html": "<div class=\"titlebar panel\"><span class=\"panel-number\">4</span><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Security and privacy protection in Online Social Networks</h2><p>Error 424 Failed Dependency<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 3, 
+    "col": 7, 
     "row": 6
   }, 
   {
@@ -39,7 +39,7 @@
     "size_y": 2, 
     "size_x": 2, 
     "col": 1, 
-    "row": 6
+    "row": 3
   }, 
   {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Directions</h2><p>Could not access the geolocation object. We could not reliably determine from where you are looking at us. Please check your permissions.</p></div>", 
@@ -53,20 +53,20 @@
     "size_y": 2, 
     "size_x": 2, 
     "col": 9, 
-    "row": 6
+    "row": 2
   }, 
   {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Language</h2><p>Could not parse your Accept-Language HTTP header. Falling back to English.<br></p></div>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 9, 
-    "row": 4
+    "col": 7, 
+    "row": 1
   }, 
   {
     "html": "<div class=\"widget-content\"><img src=\"static/logos/unlike-us.svg\" width=\"74\"></div>", 
     "size_y": 1, 
     "size_x": 1, 
-    "col": 7, 
+    "col": 9, 
     "row": 1
   }, 
   {
@@ -80,49 +80,49 @@
     "html": "<div class=\"titlebar panel\"><span class=\"panel-number\">3</span><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Alternatives to the consensual exploitation on social media</h2><p>Error 417 Expectation Failed<br></p></div>", 
     "size_y": 3, 
     "size_x": 2, 
-    "col": 9, 
-    "row": 1
+    "col": 6, 
+    "row": 8
   }, 
   {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Zoom level</h2><p>Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
-    "col": 7, 
-    "row": 3
+    "col": 9, 
+    "row": 8
   }, 
   {
     "html": "<div class=\"widget-content\"><img src=\"static/logos/iwt.svg\" width=\"74\"></div>", 
     "size_y": 1, 
     "size_x": 1, 
-    "col": 7, 
-    "row": 2
+    "col": 10, 
+    "row": 1
   }, 
   {
     "html": "<div class=\"titlebar panel\"><span class=\"panel-number\">2</span><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>The propertisation of personal data,the right to privacy and the protection of personal data</h2><p>Error 404 Not Found</p></div>", 
     "size_y": 3, 
     "size_x": 2, 
-    "col": 1, 
-    "row": 8
+    "col": 3, 
+    "row": 3
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><pre>SELECT panel,name FROM speakers;\n+-------+---------------------------+\n| panel | name                      |\n+-------+---------------------------+\n| 1     | Alice E. Marwick (1)      |\n| 1     | Simone van der Hof (2)    |\n| 1     | Ellen Wauters (3)         |\n| 1     | Eva Lievens (3)           |\n| 1     | Peggy Valcke (3)          |\n| 2     | James B. Rule (4)         |\n| 2     | S\u00f6ren Preibusch (6)       |\n| 2     | Orla Lynskey (7)          |\n| 2     | Mathias Vermeulen (8)     |\n| 2     | Serge Gutwirth (9)        |\n| 3     | Trebor Scholz (10)        |\n| 3     | Solon Barocas (1)         |\n| 3     | Claudia Diaz (3)          |\n| 3     | Rob Heyman (11)           |\n| 3     | Jo Pierson (11)           |\n| 3     | Ike Picone (11)           |\n| 4     | Refik Molva (12)          |\n| 4     | Frank Piessens (3)        |\n| 4     | Dave Clarke (3)           |\n| 4     | Claudia Diaz (3)          |\n| 4     | Bart Preneel (3)          |\n| 4     | Seda G\u00fcrses (3)           |\n| 5     | Airi lampinen (13)        |\n| 5     | Bettina Berendt (3)       |\n| 5     | Ralf De Wolf (14)         |\n| 5     | Seda G\u00fcrses (3)           |\n| 5     | Shenja van der Graaf (11) |\n| 5     | Deirdre Mulligan (15)     |\n| 6     | Lorrie Faith Cranor (16)  |\n| 6     | Adam Joinson (17)         |\n| 6     | Seda G\u00fcrses (3)           |\n| 6     | Alessandro Acquisti (16)  |\n+-------+---------------------------+\n</pre></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><pre>SELECT panel,name FROM speakers;\n+-------+---------------------------+\n| panel | name                      |\n+-------+---------------------------+\n| 1     | Alice E. Marwick (1)      |\n| 1     | Simone van der Hof (2)    |\n| 1     | Ellen Wauters (3)         |\n| 1     | Eva Lievens (3)           |\n| 1     | Peggy Valcke (3)          |\n| 2     | James B. Rule (4)         |\n| 2     | Sören Preibusch (6)       |\n| 2     | Orla Lynskey (7)          |\n| 2     | Mathias Vermeulen (8)     |\n| 2     | Serge Gutwirth (9)        |\n| 3     | Trebor Scholz (10)        |\n| 3     | Solon Barocas (1)         |\n| 3     | Claudia Diaz (3)          |\n| 3     | Rob Heyman (11)           |\n| 3     | Jo Pierson (11)           |\n| 3     | Ike Picone (11)           |\n| 4     | Refik Molva (12)          |\n| 4     | Frank Piessens (3)        |\n| 4     | Dave Clarke (3)           |\n| 4     | Claudia Diaz (3)          |\n| 4     | Bart Preneel (3)          |\n| 4     | Seda Gürses (3)           |\n| 5     | Airi lampinen (13)        |\n| 5     | Bettina Berendt (3)       |\n| 5     | Ralf De Wolf (14)         |\n| 5     | Seda Gürses (3)           |\n| 5     | Shenja van der Graaf (11) |\n| 5     | Deirdre Mulligan (15)     |\n| 6     | Lorrie Faith Cranor (16)  |\n| 6     | Adam Joinson (17)         |\n| 6     | Seda Gürses (3)           |\n| 6     | Alessandro Acquisti (16)  |\n+-------+---------------------------+\n</pre></div>", 
     "size_y": 5, 
-    "size_x": 12, 
-    "col": 6, 
-    "row": 5
+    "size_x": 5, 
+    "col": 1, 
+    "row": 6
   }, 
   {
-    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><pre>SELECT id,name FROM organisations;\n+----+-----------------------------------------------+\n| id | name                                          |\n+----+-----------------------------------------------+\n|  1 | New York University                           |\n|  2 | Leiden University                             |\n|  3 | K.U.Leuven                                    |\n|  4 | UC Berkeley School of Law                     |\n|  5 | NULL                                          |\n|  6 | University of Cambridge                       |\n|  7 | London School of Economics                    |\n|  8 | European University Institute                 |\n|  9 | VUB-Research                                  |\n| 10 | Institute for Distributed Creativity          |\n| 11 | Vrije Universiteit Brussel                    |\n| 12 | EURECOM                                       |\n| 13 | Helsinki Institute for Information Technology |\n| 14 | Universiteit Gent                             |\n| 15 | UC Berkeley                                   |\n| 16 | Carnegie Mellon University                    |\n| 17 | University of Bath                            |\n+----+-----------------------------------------------+\n</pre></div>", 
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><pre>SELECT id,name FROM organisations;\n+----+-------------------------------+\n| id | name                          |\n+----+-------------------------------+\n|  1 | New York University           |\n|  2 | Leiden University             |\n|  3 | K.U.Leuven                    |\n|  4 | UC Berkeley School of Law     |\n|  5 | NULL                          |\n|  6 | University of Cambridge       |\n|  7 | London School of Economics    |\n|  8 | European University Institute |\n|  9 | VUB-Research                  |\n| 10 | Institute for Distributed     |\n|    |  Creativity                   |\n| 11 | Vrije Universiteit Brussel    |\n| 12 | EURECOM                       |\n| 13 | Helsinki Institute for        |\n|    |  Information Technology       |\n| 14 | Universiteit Gent             |\n| 15 | UC Berkeley                   |\n| 16 | Carnegie Mellon University    |\n| 17 | University of Bath            |\n+----+-------------------------------+</pre></div>", 
     "size_y": 1, 
-    "size_x": 6	, 
+    "size_x": 4, 
     "col": 5, 
-    "row": 1
+    "row": 3
   }, 
   {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Location</h2><p>The Egg Brussels<br><br>29th &amp; 30th of September 2012<br></p></div>", 
     "size_y": 1, 
     "size_x": 2, 
-    "col": 5, 
-    "row": 1
+    "col": 1, 
+    "row": 5
   }
 ]

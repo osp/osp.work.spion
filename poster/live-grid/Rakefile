@@ -1,0 +1,10 @@
+task :default do
+  filename = 'index.html'
+  text = File.read(filename) 
+  puts = text.sub "style.less", "style.css"
+  puts = puts.sub "stylesheet/less", "stylesheet"
+  File.open(filename, "w") { |file| file << puts }
+  sh "lessc static/style.less static/style.css"
+  sh "scp -r -P 599 . s@schr.fr:/home/s/apps/foryoureyesonly.schr.fr/public"
+end
+
