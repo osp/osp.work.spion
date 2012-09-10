@@ -84,6 +84,13 @@
     "row": 8
   }, 
   {
+    "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Hyperlink</h2><p>http://foryoureyesonly.be/<br/>http://emsoc.be/for-your-eyes-only/</p></div>", 
+    "size_y": 1, 
+    "size_x": 3, 
+    "col": 5, 
+    "row": 10
+  }, 
+  {
     "html": "<div class=\"titlebar\"><i class=\"icon-remove\"></i></div><div class=\"widget-content\"><h2>Zoom level</h2><p>Failed parsing the User-Agent HTTP header. We could not reliably determine if you are wearing glasses.</p></div>", 
     "size_y": 2, 
     "size_x": 2, 
