@@ -31,3 +31,41 @@
 |   28 | Ralf De Wolf               |
 |   29 | Airi Lampinen              |
 +------+----------------------------+</pre>
+
+SELECT panel,name,institution FROM speakers;
++-------+----------------------+-------------+
+| panel | name                 | institution |
++-------+----------------------+-------------+
+| 1     | Alice E. Marwick     | 1           |
+| 1     | Simone van der Hof   | 2           |
+| 1     | Elini Kosta          | 3           |
+| 1     | Ellen Wauters        | 3           |
+| 1     | Eva Lievens          | 3           |
+| 1     | Peggy Valcke         | 3           |
+| 2     | James B. Rule        | 4           |
+| 2     | Sören Preibusch      | 6           |
+| 2     | Orla Lynskey         | 7           |
+| 2     | Mathias Vermeulen    | 8           |
+| 2     | Serge Gutwirth       | 9           |
+| 3     | Trebor Scholz        | 10          |
+| 3     | Solon Barocas        | 1           |
+| 3     | Claudia Diaz         | 3           |
+| 3     | Rob Heyman           | 11          |
+| 3     | Jo Pierson           | 11          |
+| 3     | Ike Picone           | 11          |
+| 4     | Frank Piessens       | 3           |
+| 4     | Dave Clarke          | 3           |
+| 4     | Claudia Diaz         | 3           |
+| 4     | Bart Preneel         | 3           |
+| 4     | Seda Gürses          | 3           |
+| 5     | Airi lampinen        | 13          |
+| 5     | Bettina Berendt      | 3           |
+| 5     | Ralf De Wolf         | 14          |
+| 5     | Seda Gürses          | 3           |
+| 5     | Shenja van der Graaf | 11          |
+| 5     | Deirdre Mulligan     | 15          |
+| 6     | Lorrie Faith Cranor  | 16          |
+| 6     | Adam Joinson         | 17          |
+| 6     | Seda Gürses          | 3           |
+| 6     | Alessandro Acquisti  | 16          |
++-------+----------------------+-------------+
