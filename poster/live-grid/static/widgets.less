@@ -10,7 +10,7 @@
 .gridster li, .widget {
     .box-sizing(border-box);
 //    border: 1px solid #ccc;
-    border-radius: 6px;
+    .border-radius(4px 4px 6px 6px);
     background-color: white;
 }
 
@@ -25,6 +25,7 @@
 
 .sql {
     width: inherit !important;
+    z-index: -111 !important;
 }
 
 .gridster {    
@@ -33,6 +34,7 @@
     }
     .titlebar {
         height: 16px;
+        .border-radius(4px 4px 0 0);
         border-bottom: 1px solid @border-colour;
         i {
             float: right;

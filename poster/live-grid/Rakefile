@@ -5,6 +5,6 @@ task :default do
   puts = puts.sub "stylesheet/less", "stylesheet"
   File.open(filename, "w") { |file| file << puts }
   sh "lessc static/style.less static/style.css"
-  sh "scp -r -P 599 . s@schr.fr:/home/s/apps/foryoureyesonly.schr.fr/public"
+  sh "scp -r . fyeo@www.foryoureyesonly.be:/home/fyeo/public_html"
 end
 
