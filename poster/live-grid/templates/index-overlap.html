@@ -4,7 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title>SPION POSTER</title>
+    <title>For Your Eyes Only: Privacy, Empowerment and Technology In the context of Social Networks.</title>
+
+    <meta property="og:image" content="http://www.foryoureyesonly.be/static/social-preview.png"/>
+    <meta property="og:site_name" content="For Your Eyes Only: Privacy, Empowerment and Technology In the context of Social Networks."/>
+    <meta property="og:description"
+              content="International Conference in Brussels, 29–30 November 2012. Organised by EMSOC and SPION."/>
+    <meta property="fb:admins" content="1488294875"/>
 
     <link rel="stylesheet/less" type="text/css" href="static/style.less">    
     <script src="static/less-1.3.0.min.js"></script>
@@ -40,6 +46,8 @@
 
     </section>
 
+<div id="osp">Design: <a href="http://osp.constantvzw.org/">Open Source Publishing</a></div>
+
     <script src="static/jquery.min.js"></script>
 <script src="static/jquery.gridster.js" type="text/javascript" charset="utf-8"></script>
 
@@ -48,23 +56,27 @@ var gridster;
 var grid;
 
 var store = function() {
-    // store grid positions
-    grid = gridster.serialize();
-    // add innerHTML
-    for (var i=0; i < grid.length; i++) {
-        grid[i].html = $($('.gridster > ul > li')[i]).html();
-    };
-    // send to server
-    $.ajax({
-        type: 'POST',
-        url: 'store',
-        data: JSON.stringify(grid),
-        contentType: 'application/json;charset=UTF-8',
-        success: function(returndata) {
-          //debug: alert(returndata);
-        }
-    });
-       
+    // if we are lcoal, we can develop in the browser:
+    // a small serverside app will save the layout for
+    // us
+    if (document.location.hostname == "127.0.0.1") {
+        // store grid positions
+        grid = gridster.serialize();
+        // add innerHTML
+        for (var i=0; i < grid.length; i++) {
+            grid[i].html = $($('.gridster > ul > li')[i]).html();
+        };
+        // send to server
+        $.ajax({
+            type: 'POST',
+            url: 'store',
+            data: JSON.stringify(grid),
+            contentType: 'application/json;charset=UTF-8',
+            success: function(returndata) {
+              //debug: alert(returndata);
+            }
+        });
+    }
 }
 
 $(function(){
@@ -87,8 +99,6 @@ $('.gridster > ul > li').has('pre').addClass( 'sql' );
 
 });
 </script>
-
-
 
 </body>
 </html>

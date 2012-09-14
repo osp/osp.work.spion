@@ -756,7 +756,8 @@ ul.icons li .icon-large:before {
 }
 @font-face {
   font-family: 'league-stroke';
-  src: url("fonts/league-stroke.ttf");
+  src: url('fonts/leaguegothicstroke-webfont.eot');
+  src: url('fonts/leaguegothicstroke-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/leaguegothicstroke-webfont.woff') format('woff'), url('fonts/leaguegothicstroke-webfont.ttf') format('truetype'), url('fonts/leaguegothicstroke-webfont.svg#league_gothic_strokeregular') format('svg');
 }
 @font-face {
   font-family: 'league-stroke-thin';
@@ -764,11 +765,13 @@ ul.icons li .icon-large:before {
 }
 @font-face {
   font-family: 'Allan';
-  src: url("fonts/Allan-Bold.ttf");
+  src: url('fonts/allan-bold-webfont.eot');
+  src: url('fonts/allan-bold-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/allan-bold-webfont.woff') format('woff'), url('fonts/allan-bold-webfont.ttf') format('truetype'), url('fonts/allan-bold-webfont.svg#allanbold') format('svg');
 }
 @font-face {
   font-family: 'AllanMono';
-  src: url("fonts/AllanMono.ttf");
+  src: url('fonts/allanmono-webfont.eot');
+  src: url('fonts/allanmono-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/allanmono-webfont.woff') format('woff'), url('fonts/allanmono-webfont.ttf') format('truetype'), url('fonts/allanmono-webfont.svg#allan_monobold') format('svg');
 }
 @font-face {
   font-family: 'PropCourierSans';
@@ -787,6 +790,9 @@ ul.icons li .icon-large:before {
 body {
   font-family: 'Allan';
 }
+img a {
+  border: none;
+}
 h1,
 h2 {
   font-family: 'league-stroke';
@@ -798,6 +804,17 @@ h2 {
   font-family: 'League Gothic';
   color: #ff3481;
   text-shadow: 1px 1px black;
+}
+#osp {
+  margin-left: 881px;
+  margin-bottom: 6px;
+  font-size: 10px;
+}
+#osp a {
+  border-bottom: 1px solid #ff3481;
+}
+#osp a:hover {
+  border-bottom: none;
 }
 .colorfont-overlay {
   display: none;
@@ -829,6 +846,9 @@ p {
   font-size: 24px;
   line-height: 24px;
   margin-left: 12px;
+}
+p.hyperlinks {
+  font-size: 22px;
 }
 a,
 a:hover,
