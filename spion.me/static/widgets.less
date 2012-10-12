@@ -1,0 +1,55 @@
+[data-col="11"] { left:1005px;}  [data-col="10"] { left:905px;}  [data-col="9"] { left:805px;}  [data-col="8"] { left:705px;}  [data-col="7"] { left:605px;}  [data-col="6"] { left:505px;}  [data-col="5"] { left:405px;}  [data-col="4"] { left:305px;}  [data-col="3"] { left:205px;}  [data-col="2"] { left:105px;}  [data-col="1"] { left:5px;}  [data-row="36"] { top:4976px;}  [data-row="35"] { top:4834px;}  [data-row="34"] { top:4692px;}  [data-row="33"] { top:4550px;}  [data-row="32"] { top:4408px;}  [data-row="31"] { top:4266px;}  [data-row="30"] { top:4124px;}  [data-row="29"] { top:3982px;}  [data-row="28"] { top:3840px;}  [data-row="27"] { top:3698px;}  [data-row="26"] { top:3556px;}  [data-row="25"] { top:3414px;}  [data-row="24"] { top:3272px;}  [data-row="23"] { top:3130px;}  [data-row="22"] { top:2988px;}  [data-row="21"] { top:2846px;}  [data-row="20"] { top:2704px;}  [data-row="19"] { top:2562px;}  [data-row="18"] { top:2420px;}  [data-row="17"] { top:2278px;}  [data-row="16"] { top:2136px;}  [data-row="15"] { top:1994px;}  [data-row="14"] { top:1852px;}  [data-row="13"] { top:1710px;}  [data-row="12"] { top:1568px;}  [data-row="11"] { top:1426px;}  [data-row="10"] { top:1284px;}  [data-row="9"] { top:1142px;}  [data-row="8"] { top:1000px;}  [data-row="7"] { top:858px;}  [data-row="6"] { top:716px;}  [data-row="5"] { top:574px;}  [data-row="4"] { top:432px;}  [data-row="3"] { top:290px;}  [data-row="2"] { top:148px;}  [data-row="1"] { top:6px;} [data-sizex="1"] { width:90px;} [data-sizex="2"] { width:190px;} [data-sizex="3"] { width:290px;} [data-sizex="4"] { width:390px;} [data-sizex="5"] { width:490px;} [data-sizex="6"] { width:590px;}
+
+@border-colour: #ccc;
+
+.sql {
+    width: inherit !important;
+    z-index: -111 !important;
+}
+
+section {
+    position: absolute;
+    .box-sizing(border-box);
+    border: 1px solid #ccc;
+    .border-radius(4px 4px 6px 6px);
+    background-color: white;
+    li {
+        list-style: none;
+    }
+    .titlebar {
+        height: 16px;
+        .border-radius(4px 4px 0 0);
+        border-bottom: 1px solid @border-colour;
+        i {
+            float: right;
+        }
+    }
+    .panel{
+        background-color: #FF3481;
+        color: white;
+        .panel-number:before{
+            content:"panel ";
+        }
+    }
+    .widget-content {
+        padding: 8px;
+    }
+    li.logo {
+        background: transparent;
+        border: none;
+        .titlebar {
+            height: 0;
+            border: none;
+        }
+    }
+}
+
+.widget-error {
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 256px;
+    min-height: 256px;
+    padding: 20px;
+    background-color: transparant;
+}
+
