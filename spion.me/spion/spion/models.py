@@ -19,5 +19,12 @@ class UserProfile(models.Model):
     user = models.OneToOneField(User)
     bio = models.TextField()
     
+class NewsItem(models.Model):
+    publish_start = models.DateField()
+    publish_end = models.DateField()
+    header = models.CharField(max_length=512)
+    body = models.TextField()
+    
+    
     
 
