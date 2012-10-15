@@ -1,3 +1,10 @@
+# django settings #
+###################
+
+spion.me/spion/settings.py
+spion.me/spion/dev.data
+spion.me/media
+
 # text-editor / ide files #
 ###########################
 *.*~

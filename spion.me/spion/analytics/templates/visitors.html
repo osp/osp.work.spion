@@ -1,0 +1,23 @@
+<ul>
+    {% for visit in visits%}
+    <li>
+
+        {{ visit.serverDatePrettyFirstAction }} {{ visit.serverTimePrettyFirstAction }} ({{ visit.visitDurationPretty }})
+        <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
+        <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
+        <img src="{{ PIWIK_PATH }}{{ visit.browserIcon }}" alt="{{ visit.browserName }}"/><br/>
+
+        from <a href="{{ visit.referrerUrl }}">{{ visit.referrerName }}</a>
+        {% if visit.referrerKeyword %}- «{{ visit.referrerKeyword }}»{% endif %}<br/>
+        
+        {{ visit.resolution }}, plugins: 
+        {% for plugin in visit.pluginsIcons %}
+        <img src="{{ PIWIK_PATH }}{{ plugin.pluginIcon }}" alt="{{ plugin.pluginName }}"/>
+        {% endfor %}<br />
+        
+        {% for action in visit.actionDetails %}
+        <a href="{{ action.url }}" title={{ action.pageTitle }}><img src="{{ PIWIK_PATH }}plugins/Live/templates/images/file{{ forloop.counter }}.png" /></a> {{ action.timeSpentPretty }}
+        {% endfor %}
+    </li>
+    {% endfor %}
+</ul>
