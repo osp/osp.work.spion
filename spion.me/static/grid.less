@@ -1,0 +1,35 @@
+// Experimenting with generating the absolute positioning of the widgets
+// (So the scaling can be easily changed)
+
+// http://blog.thehippo.de/2012/04/programming/do-a-loop-with-less-css/
+
+.grid (@widgetWidth, @widgetHeight, @xMargin, @yMargin) {
+
+    .colX (@index) when (@index > 0) {
+      (~"[data-col=@{index}]") { .col(@index); }
+      .colX(@index - 1);
+    }
+    .colX (0) {}
+
+    .rowX (@index) when (@index > 0) {
+      (~"[data-row=@{index}]") { .row(@index); }
+      .rowX(@index - 1);
+    }
+    .rowX (0) {}
+
+    .col (@columns) {
+      left: (@widgetWidth * @columns) + (@xMargin * (2 * @columns ));
+    }
+
+    .row (@columns) {
+      top: (@widgetWidth * (@columns - 1)) + (@xMargin * (@columns * 2 + 1));
+    }
+
+
+    .colX (@gridColumns);
+    .rowX (@gridColumns);
+
+  }
+
+@gridColumns: 11;
+.grid(90, 130, 5, 6);

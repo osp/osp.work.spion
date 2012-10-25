@@ -7,6 +7,11 @@ from django.db import models
 
 from django.contrib import admin
 
+# class WorkPackage
+#     description
+#     researchers (foreignfield profile)
+
+# admin.site.register(WorkPackage)
 
 class Resource(models.Model):
     name = models.CharField(max_length=512)
@@ -20,12 +25,18 @@ class Publication(models.Model):
     publisher = models.CharField(max_length=512)
     url = models.URLField()
     user = models.ManyToManyField('UserProfile', related_name='publications')
+    # There can be more than 1 user.
+    # Also: some of these authors are not necessarily Users
     
     def __unicode__(self):
         return self.title
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User)
+    # group
+    # department
+    # university
+    # photo
     bio = models.TextField()
     
     #def __getattr__(self, name):
