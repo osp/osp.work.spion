@@ -17,6 +17,8 @@ class Resource(models.Model):
     name = models.CharField(max_length=512)
     path = models.FileField(upload_to='resources/%Y/%m/%d')
     
+    def __unicode__(self):
+        return self.name
 
 class Publication(models.Model):
     title = models.CharField(max_length=512)
