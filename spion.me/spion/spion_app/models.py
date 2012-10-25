@@ -9,23 +9,34 @@ from django.contrib import admin
 
 
 class Resource(models.Model):
+    name = models.CharField(max_length=512)
     path = models.FileField(upload_to='resources/%Y/%m/%d')
     
-admin.site.register(Resource)
 
 class Publication(models.Model):
+    title = models.CharField(max_length=512)
+    summary = models.TextField()
     published = models.IntegerField() # Assumed that year of publication was enough
     publisher = models.CharField(max_length=512)
     url = models.URLField()
-    author = models.ForeignKey('UserProfile')
+    user = models.ManyToManyField('UserProfile', related_name='publications')
     
-admin.site.register(Publication)
+    def __unicode__(self):
+        return self.title
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User)
     bio = models.TextField()
     
-admin.site.register(UserProfile)
+    #def __getattr__(self, name):
+        #return getattr(self.user, name)
+    
+    def __unicode__(self):
+        return self.user.username
+        
+    def str(self):
+        return self.__unicode__()
+    
     
 class NewsItem(models.Model):
     publish_start = models.DateField()
@@ -33,7 +44,11 @@ class NewsItem(models.Model):
     header = models.CharField(max_length=512)
     body = models.TextField()
     
-admin.site.register(NewsItem)
+    def __unicode__(self):
+        return self.header
+    def str(self):
+        return self.__unicode__()
+    
     
     
 

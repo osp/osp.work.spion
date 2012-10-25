@@ -3,9 +3,8 @@ from django.conf.urls.defaults import patterns, include, url
 from django.contrib import admin
 admin.autodiscover()
 
-urlpatterns = patterns('',
-    url(r'^$', 'spion.spion_app.views.index', name='home'),
-    # Uncomment the admin/doc line below to enable admin documentation:
-    # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+urlpatterns = patterns('spion.spion_app.views',
+    url(r'^$', 'index', name='home'),
+    url(r'^profile/(?P<uid>\d+)/$', 'profile'),
     url(r'^admin/', include(admin.site.urls)),
 )
