@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% load md %}
+{% load rand %}
+{% block content %}
+
+<section data-row="1" data-col="1" data-sizex="5" data-sizey="1">
+  <div class="titlebar">
+  {% if user.get_fullname %} {{user.get_fullname}} {% else %} {{user.username}} {% endif %} &lt;{{user.email}}&gt;
+  </div>
+  <div class="widget-content">
+  <p>
+  {% autoescape off %}
+  {{ bio|md }}
+  {% endautoescape %}
+  </p>
+ </div>
+</section>
+
+{% for p in publications %}
+<section data-row="{{2|rand:6}}" data-col="{{3|rand:16}}" data-sizex="3" data-sizey="1">
+<div class="titlebar">
+{{ p.title }}
+</div>
+<div class="widget-content">
+<p>
+{% autoescape off %}
+{{ p.summary|md }}
+{% endautoescape %}
+</p>
+<a href="{{p.url}}" title="{{p.title}}">Get Document</a>
+</div>
+</section>
+{% endfor %}
+
+{% endblock %}
+
