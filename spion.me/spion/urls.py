@@ -5,6 +5,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('spion.spion_app.views',
     url(r'^$', 'index', name='home'),
+    url(r'^publications/$', 'publications'),
+    url(r'^publication/(?P<pid>\d+)$', 'publication'),
     url(r'^profile/(?P<uid>\d+)/$', 'profile'),
     url(r'^admin/', include(admin.site.urls)),
 )

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+<section data-row="3" data-col="5" data-sizex="4" data-sizey="1">
+<div class="titlebar">Publications</div>
+  <div class="widget-content">
+{% for  p in publications %}
+  <p><a href="/publication/{{ p.id }}">{{p.title}}</a> by 
+  {% for u in p.user.all %}
+    <a href="/profile/{{u.id}}">{{u.user.username}}</a> 
+  {% endfor %}
+  </p>
+{% endfor %}
+ </div>
+</section>
+
+
+{% endblock %}
+

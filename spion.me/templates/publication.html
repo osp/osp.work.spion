@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load md %}
+{% block content %}
+
+
+<section data-row="1" data-col="1" data-sizex="6" data-sizey="1">
+<div class="titlebar">
+{{ publication.title }}
+</div>
+<div class="widget-content">
+<p>
+{% autoescape off %}
+{{ publication.summary|md }}
+{% endautoescape %}
+</p>
+<a href="{{publication.url}}" title="{{publication.title}}">Get Document</a>
+</div>
+</section>
+
+{% endblock %}
+
