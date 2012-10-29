@@ -24,7 +24,7 @@ class Publication(models.Model):
     title = models.CharField(max_length=512)
     summary = models.TextField()
     published = models.IntegerField() # Assumed that year of publication was enough
-    pub_type = models.TextField() # a la bibtex... but simple!  + deliverable
+    pub_type = models.TextField() # a la bibtex... but simple!  + deliverable + talks
     publisher = models.CharField(max_length=512) 
     
     url = models.URLField()
@@ -38,6 +38,7 @@ class UserProfile(models.Model):
     group  = models.CharField(max_length=512)
     department  = models.CharField(max_length=512)
     university  = models.CharField(max_length=512)
+    location  = models.CharField(max_length=512)
     picture = models.FileField(upload_to='profpict/%Y/%m/%d')
     bio = models.TextField()
     

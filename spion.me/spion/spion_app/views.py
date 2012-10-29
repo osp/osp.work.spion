@@ -29,7 +29,7 @@ def profiles(request):
     tpl_params['profiles'] = UserProfile.objects.all()
     return render_to_response("profiles.html", tpl_params, context_instance = RequestContext(request))
     
-def profile(request, uid):
+def profile(request, uid):  
     tpl_params = {}
     user_profile = UserProfile.objects.get(pk=uid)
     tpl_params['user'] = user_profile.user
