@@ -15,11 +15,16 @@ class Resource(models.Model):
     def __unicode__(self):
         return self.name
 
+class PublicationType(models.Model):
+    name = models.CharField(max_length=512)
+    def __unicode__(self):
+        return self.name
+        
 class Publication(models.Model):
     title = models.CharField(max_length=512)
     summary = models.TextField()
     published = models.IntegerField() # Assumed that year of publication was enough
-    pub_type = models.TextField() # a la bibtex... but simple!  + deliverable + talks
+    pub_type = models.ForeignKey('PublicationType', related_name='publications') # a la bibtex... but simple!  + deliverable + talks
     publisher = models.CharField(max_length=512) 
     
     url = models.URLField()

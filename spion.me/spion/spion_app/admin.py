@@ -39,6 +39,7 @@ class UserProfileAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Resource)
+admin.site.register(PublicationType)
 admin.site.register(Publication)
 admin.site.register(UserProfile, UserProfileAdmin)
 admin.site.register(NewsItem)
@@ -46,3 +47,4 @@ admin.site.register(Organisation)
 admin.site.register(ResearchGroup)
 admin.site.register(WorkPackage)
 admin.site.register(Partner)
+

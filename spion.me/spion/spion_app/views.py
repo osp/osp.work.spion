@@ -6,7 +6,7 @@ from django.http import HttpResponse, Http404
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
-from spion_app.models import (NewsItem,UserProfile, User, Publication)
+from spion_app.models import (NewsItem, UserProfile, User, Publication, Organisation, ResearchGroup, WorkPackage, Partner)
 
 from datetime import datetime
 
@@ -46,4 +46,30 @@ def publication(request, pid):
     tpl_params = {}
     tpl_params['publication'] = Publication.objects.get(pk=pid)
     return render_to_response("publication.html", tpl_params, context_instance = RequestContext(request))
+    
+    
+def work_packages(request):
+    tpl_params = {}
+    tpl_params['work_packages'] = WorkPackage.objects.all()
+    return render_to_response("work_packages.html", tpl_params, context_instance = RequestContext(request))
+    
+def work_package(request, wid):
+    tpl_params = {}
+    tpl_params['work_package'] = WorkPackage.objects.get(pk=wid)
+    return render_to_response("work_package.html", tpl_params, context_instance = RequestContext(request))
+    
+def partners(request):
+    tpl_params = {}
+    tpl_params['partners'] = Partner.objects.all()
+    return render_to_response("partners.html", tpl_params, context_instance = RequestContext(request))
+    
+def partner(request, pid):
+    tpl_params = {}
+    tpl_params['partner'] = Partner.objects.get(pk=pid)
+    return render_to_response("partner.html", tpl_params, context_instance = RequestContext(request))
+    
+    
+    
+    
+    
     

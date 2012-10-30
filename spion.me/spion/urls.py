@@ -9,5 +9,7 @@ urlpatterns = patterns('spion.spion_app.views',
     url(r'^publication/(?P<pid>\d+)$', 'publication'),
     url(r'^profiles/$', 'profiles'),
     url(r'^profile/(?P<uid>\d+)/$', 'profile'),
+    url(r'^work_packages/$', 'work_packages'),
+    url(r'^work_package/(?P<wid>\d+)/$', 'work_package'),
     url(r'^admin/', include(admin.site.urls)),
 )
