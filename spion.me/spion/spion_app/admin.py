@@ -4,7 +4,7 @@ admin custom
 
 from django.contrib import admin
 from django.forms import ModelForm
-from spion_app.models import (Resource, NewsItem, UserProfile, User, Publication)
+from spion_app.models import *
 
 
 #class PublicationForm(ModelForm):
@@ -19,6 +19,7 @@ class PublicationRelInline(admin.TabularInline):
     model = Publication.user.through
     extra = 0
     
+
 
 class UserProfileAdmin(admin.ModelAdmin):
     model = UserProfile
@@ -41,3 +42,7 @@ admin.site.register(Resource)
 admin.site.register(Publication)
 admin.site.register(UserProfile, UserProfileAdmin)
 admin.site.register(NewsItem)
+admin.site.register(Organisation)
+admin.site.register(ResearchGroup)
+admin.site.register(WorkPackage)
+admin.site.register(Partner)

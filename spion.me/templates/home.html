@@ -4,7 +4,7 @@
 <div class="titlebar">Profiles</div>
   <div class="widget-content">
 {% for  profile in profiles %}
-  <p><a href="/profile/{{ profile.user.id }}">{% if profile.user.get_fullname %} {{profile.user.get_fullname}} {% else %} {{profile.user.username}} {% endif %}</a></p>
+  <p><a href="/profile/{{ profile.id }}">{% if profile.user.get_fullname %} {{profile.user.get_fullname}} {% else %} {{profile.user.username}} {% endif %}</a></p>
 {% endfor %}
  </div>
 </section>

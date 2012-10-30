@@ -7,11 +7,6 @@ from django.db import models
 
 from django.contrib import admin
 
-# class WorkPackage
-#     description
-#     researchers (foreignfield profile)
-
-# admin.site.register(WorkPackage)
 
 class Resource(models.Model):
     name = models.CharField(max_length=512)
@@ -35,12 +30,9 @@ class Publication(models.Model):
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User)
-    group  = models.CharField(max_length=512)
-    department  = models.CharField(max_length=512)
-    university  = models.CharField(max_length=512)
-    location  = models.CharField(max_length=512)
     picture = models.FileField(upload_to='profpict/%Y/%m/%d')
     bio = models.TextField()
+    work_package = models.ForeignKey('WorkPackage', related_name='researchers')
     
     #def __getattr__(self, name):
         #return getattr(self.user, name)
@@ -63,7 +55,34 @@ class NewsItem(models.Model):
         return self.header
     def str(self):
         return self.__unicode__()
+        
+class Organisation(models.Model):
+    name = models.CharField(max_length=512)
+    location = models.CharField(max_length=512)
+    def __unicode__(self):
+        return self.name
     
+class ResearchGroup(models.Model):
+    short_name = models.CharField(max_length=512)
+    long_name = models.TextField()
+    description = models.TextField()
+    def __unicode__(self):
+        return self.short_name
+        
+        
+class WorkPackage(models.Model):
+    title = models.CharField(max_length=512)
+    description = models.TextField()
+    organisation = models.ForeignKey(Organisation)
+    research_group = models.ForeignKey(ResearchGroup)
     
-    
+    def __unicode__(self):
+        return self.title
 
+    
+class Partner(models.Model):
+    title = models.CharField(max_length=512)
+    url = models.URLField()
+
+    def __unicode__(self):
+        return self.title
