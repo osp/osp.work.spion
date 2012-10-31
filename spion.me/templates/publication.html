@@ -5,9 +5,10 @@
 
 <section data-row="1" data-col="1" data-sizex="6" data-sizey="1">
 <div class="titlebar">
-{{ publication.title }}
+{{ publication.type }}, {{ publication.publisher }}, {{ publication.published }}
 </div>
 <div class="widget-content">
+<h2>{{ publication.title }}</h2>
 <p>
 {% autoescape off %}
 {{ publication.summary|md }}

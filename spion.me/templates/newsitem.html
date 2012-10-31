@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load md %}
+
+{% block content %}
+<section data-row="3" data-col="5" data-sizex="4" data-sizey="1">
+<div class="titlebar">{{ newsitem.publish_start }}</div>
+  <div class="widget-content">
+    <h2>{{ newsitem.header }}</h2>
+
+  {% autoescape off %}
+  {{ newsitem.body|md }}
+  {% endautoescape %}
+  
+ </div>
+</section>
+
+
+{% endblock %}
+

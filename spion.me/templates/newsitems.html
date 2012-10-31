@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<section data-row="3" data-col="5" data-sizex="4" data-sizey="1">
+<div class="titlebar">News</div>
+  <div class="widget-content">
+{% for  n in newsitems %}
+  <h2><a href="{% url spion_app.views.newsitem n.id %}">{{n.header}}</a></h2> 
+{% endfor %}
+ </div>
+</section>
+
+
+{% endblock %}
+

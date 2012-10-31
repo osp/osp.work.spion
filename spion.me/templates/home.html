@@ -1,19 +1,28 @@
 {% extends 'base.html' %}
 {% block content %}
 <section data-row="3" data-col="5" data-sizex="4" data-sizey="1">
-<div class="titlebar">Profiles</div>
+<div class="titlebar"><a href="{% url spion_app.views.profiles %}">Profiles</a></div>
   <div class="widget-content">
 {% for  profile in profiles %}
-  <p><a href="/profile/{{ profile.id }}">{% if profile.user.get_fullname %} {{profile.user.get_fullname}} {% else %} {{profile.user.username}} {% endif %}</a></p>
+  <p><a href="{% url spion_app.views.profile profile.id %}">{% if profile.user.get_fullname %} {{profile.user.get_fullname}} {% else %} {{profile.user.username}} {% endif %}</a></p>
 {% endfor %}
  </div>
 </section>
 
 <section data-row="3" data-col="2" data-sizex="3" data-sizey="1">
-<div class="titlebar">News</div>
-{% for  n in news %}
-<h2>{{n.header}}</h2>
+<div class="titlebar"><a href="{% url spion_app.views.newsitems %}">News</a></div>
+{% for n in news %}
+<h2><a href="{% url spion_app.views.newsitem n.id %}">{{n.header}}</a></h2>
 <p>{{n.body}}</p>
+{% endfor %}
+</div>
+</section>
+
+<section data-row="5" data-col="2" data-sizex="3" data-sizey="1">
+<div class="titlebar"><a href="{% url spion_app.views.publications %}">Publications</a></div>
+{% for p in publications %}
+<h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
+<p>{{p.summary }}</p>
 {% endfor %}
 </div>
 </section>

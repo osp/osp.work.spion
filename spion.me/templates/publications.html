@@ -4,9 +4,9 @@
 <div class="titlebar">Publications</div>
   <div class="widget-content">
 {% for  p in publications %}
-  <p><a href="/publication/{{ p.id }}">{{p.title}}</a> by 
+  <p><a href="{% url spion_app.views.publication p.id %}">{{p.title}}</a> by 
   {% for u in p.user.all %}
-    <a href="/profile/{{u.id}}">{{u.user.username}}</a> 
+    <a href="{% url spion_app.views.profile u.id %}">{{u.user.username}}</a> 
   {% endfor %}
   </p>
 {% endfor %}
