@@ -28,13 +28,16 @@
     {% endif%}
 
     {# {% compress js %} #}
-    <script src="static/jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}jquery.min.js"></script>
+    <script src="{{ STATIC_URL }}jquery.masonry.js"></script>
     <script type="text/javascript">
-    $(function() {
+    $(window).load(function() {
     
-    $('.gridster > ul > li').has('img').addClass( 'logo' );
-    $('.gridster > ul > li').has('pre').addClass( 'sql' );
-    
+    $('body').masonry({
+      itemSelector: 'section',
+      columnWidth: 100
+    })
+
     });
     </script>
     {# {% endcompress %} #}
@@ -49,16 +52,20 @@
 {% block header %}
 
 
-  <div class="widget-content header">
-    <a href="{% url spion_app.views.index %}"><img src="/static/logos/SPIONlogoblack.svg" width="363px"></a>
-  </div>
+  <section class="widget-content header" data-sizex="4" data-sizey="1">
+    <a href="{% url spion_app.views.index %}"><img src="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="320px"></a>
+  </section>
 {% endblock %}
 
 {% block content %}
 
 {% endblock %}
 
-<div id="osp">Design: <a href="http://osp.constantvzw.org/">Open Source Publishing</a></div>
+<section id="osp" data-sizex="2"><div class="titlebar">Design</div>
+<div class="widget-content">
+<a href="http://osp.constantvzw.org/">Open Source Publishing</a>
+</div>
+</section>
 
 </body>
 </html>
