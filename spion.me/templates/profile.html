@@ -5,7 +5,7 @@
 
 <section data-row="1" data-col="1" data-sizex="5">
   <div class="titlebar">
-  {% if user.get_fullname %} {{user.get_fullname}} {% else %} {{user.username}} {% endif %} &lt;{{user.email}}&gt;
+  {% if user.get_full_name %} {{user.get_full_name}} {% else %} {{user.username}} {% endif %} {% if user.email %}&lt;{{user.email}}&gt;{% endif %}
   </div>
   <div class="widget-content">
   <p>
