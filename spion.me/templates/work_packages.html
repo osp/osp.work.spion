@@ -3,11 +3,14 @@
 {% block content %}
 
 
-<section data-row="1" data-col="1" data-sizex="6" data-sizey="1">
+<section data-sizex="6">
 <div class="titlebar">
-
+Workpackages
 </div>
 <div class="widget-content">
+{% for w in work_packages %}
+<h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2>
+{% endfor %}
 <p>
 
 </p>

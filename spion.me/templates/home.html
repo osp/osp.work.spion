@@ -32,6 +32,19 @@
 {% include 'visitors.html' %}
 </section>
 
+<section data-sizex="4">
+<div class="titlebar">
+<a href="{% url spion_app.views.work_packages %}">Workpackages</a>
+</div>
+<div class="widget-content">
+{% for w in work_packages %}
+<h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2>
+{% endfor %}
+<p>
+
+</p>
+</div>
+</section>
 
 {% endblock %}
 

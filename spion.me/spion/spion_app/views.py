@@ -22,6 +22,7 @@ def index(request):
     tpl_params['profiles'] = UserProfile.objects.all()
     tpl_params['publications'] = Publication.objects.all()
     tpl_params['visits'] = visits
+    tpl_params['work_packages'] = WorkPackage.objects.all()
     tpl_params['PIWIK_PATH'] = PIWIK_PATH
     return render_to_response("home.html", tpl_params, context_instance = RequestContext(request))
     

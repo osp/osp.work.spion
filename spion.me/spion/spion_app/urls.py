@@ -8,5 +8,6 @@ urlpatterns = patterns('spion.spion_app.views',
     url(r'^profile/(?P<uid>\d+)$', 'profile'),
     url(r'^newsitems/$', 'newsitems'),
     url(r'^newsitem/(?P<nid>\d+)$', 'newsitem'),
-
+    url(r'^workpackages/$', 'work_packages'),
+    url(r'^workpackage/(?P<wid>\d+)$', 'work_package'),
 )
