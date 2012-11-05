@@ -1,27 +1,39 @@
-<ul class="analytics">
     {% for visit in visits%}
+
+<section data-sizex="2">
+    <ul class="analytics">
     <li>
 
-        <p>On {{ visit.serverDatePrettyFirstAction }} at {{ visit.serverTimePrettyFirstAction }} someone from {{ visit.country }} using {{ visit.browserName }} on {{ visit.operatingSystem }} visits the site for {{ visit.visitDurationPretty }}</p>
+        <p>On {{ visit.serverDatePrettyFirstAction }} at {{ visit.serverTimePrettyFirstAction }} someone from {{ visit.country }} using {{ visit.browserName }} on {{ visit.operatingSystem }} visits the site for {{ visit.visitDurationPretty }}.</p>
 
-        <p>Their screen is set to {{ visit.resolution }}.They have installed:{% for plugin in visit.pluginsIcons %}{{ plugin.pluginName }}, {% endfor %}</p>
+        <p>
+            Their screen is set to {{ visit.resolution }}.
+            {% if visit.pluginsIcons %}They have installed:
+              {% for plugin in visit.pluginsIcons %}{{ plugin.pluginName }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
+              {% endfor %}
+            {% endif %}
+        </p>
 
+        {% if visit.referrerName %}
+        <p>
+            They come from <a href="{{ visit.referrerUrl }}">{{ visit.referrerName }}</a>
+            {% if visit.referrerKeyword %}, searching with the keywords «{{ visit.referrerKeyword }}»{% endif %}.
+        </p>
+        {% endif %}
 
-<br/>
-
-        {% if visit.referrerName %}<p>They come from <a href="{{ visit.referrerUrl }}">{{ visit.referrerName }}</a>
-        {% if visit.referrerKeyword %}, searching with the keywords «{{ visit.referrerKeyword }}»{% endif %}.<br/>
-        </p>{% endif %}
-
-        <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
-        <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
-        <img src="{{ PIWIK_PATH }}{{ visit.browserIcon }}" alt="{{ visit.browserName }}"/>
-        {% for plugin in visit.pluginsIcons %}
-        <img src="{{ PIWIK_PATH }}{{ plugin.pluginIcon }}" alt="{{ plugin.pluginName }}"/>
-        {% endfor %}
-        {% for action in visit.actionDetails %}
-        <a href="{{ action.url }}" title={{ action.pageTitle }}><img src="{{ PIWIK_PATH }}plugins/Live/templates/images/file{{ forloop.counter }}.png" /></a> {{ action.timeSpentPretty }}
-        {% endfor %}
+        <p>
+            <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
+            <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
+            <img src="{{ PIWIK_PATH }}{{ visit.browserIcon }}" alt="{{ visit.browserName }}"/>
+            {% for plugin in visit.pluginsIcons %}
+            <img src="{{ PIWIK_PATH }}{{ plugin.pluginIcon }}" alt="{{ plugin.pluginName }}"/>
+            {% endfor %}
+            {% for action in visit.actionDetails %}
+            <a href="{{ action.url }}" title={{ action.pageTitle }}><img src="{{ PIWIK_PATH }}plugins/Live/templates/images/file{% if forloop.counter < 10 %}{{ forloop.counter }}{% else %}9{% endif %}.png" /></a> {{ action.timeSpentPretty }}
+            {% endfor %}
+        </p>
     </li>
-    {% endfor %}
 </ul>
+</section>
+
+    {% endfor %}
