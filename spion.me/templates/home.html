@@ -31,13 +31,13 @@
 {% for w in work_packages %}
 <section data-sizex="4">
 <div class="titlebar meaningful">
-<!-- <a href="{% url spion_app.views.work_packages %}">Work Package</a> -->
-<a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a>
+<a href="{% url spion_app.views.work_packages %}">Work Package</a>
+<!-- <a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
 </div>
 <div class="widget-content">
-<!-- <h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2> -->
+<h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2>
 <p>
-{{ w.description }}
+{{ w.description|truncatewords_html:32 }}
 </p>
 </div>
 </section>
