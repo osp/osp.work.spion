@@ -2,6 +2,9 @@
 import os
 import django.conf.global_settings as DEFAULT_SETTINGS
 
+PIWIK_PATH = 'http://var.schr.fr./piwik/'
+PIWIK_SITE_ID = 4
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -116,6 +119,7 @@ TEMPLATE_DIRS = (
 
 TEMPLATE_CONTEXT_PROCESSORS = DEFAULT_SETTINGS.TEMPLATE_CONTEXT_PROCESSORS + (
     "context_processors.compress_enabled",
+    "spion_app.views.visitor_context"
 )
 
 INSTALLED_APPS = (
