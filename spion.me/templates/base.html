@@ -11,23 +11,17 @@
     <meta property="og:description"
               content="SPION: Privacy and Security in Online Social Networks."/>
     <meta property="fb:admins" content="1488294875"/>
-    {%comment%}
     {% load compress %}
-    {%endcomment%}
     {% if COMPRESS_ENABLED %}
-    {%comment%}
     {% compress css %}
-    {%endcomment%}
     <link rel="stylesheet" type="text/less" media="all" href="{{ STATIC_URL }}style.less">
-    {%comment%}
-        {% endcompress %}
-    {%endcomment%}
+    {% endcompress %}
     {% else %}
     <link rel="stylesheet/less" type="text/css" media="all" href="{{ STATIC_URL }}style.less">
     <script src="{{ STATIC_URL }}less-1.3.0.min.js"></script>
     {% endif%}
 
-    {# {% compress js %} #}
+    {% compress js %}
     <script src="{{ STATIC_URL }}jquery.min.js"></script>
     <script src="{{ STATIC_URL }}jquery.masonry.js"></script>
     <script type="text/javascript">
@@ -40,7 +34,7 @@
 
     });
     </script>
-    {# {% endcompress %} #}
+    {% endcompress %}
 
 </head>
 <body>
