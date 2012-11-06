@@ -35,7 +35,7 @@ class Publication(models.Model):
 
 class UserProfile(models.Model):
     user = models.OneToOneField(User)
-    picture = models.FileField(upload_to='profpict/%Y/%m/%d')
+    picture = models.FileField(upload_to='profpict/%Y/%m/%d', blank=True)
     bio = models.TextField()
     work_package = models.ForeignKey('WorkPackage', related_name='researchers')
     
@@ -87,7 +87,7 @@ class WorkPackage(models.Model):
     
 class Partner(models.Model):
     title = models.CharField(max_length=512)
-    url = models.URLField()
+    url = models.URLField(blank=True)
 
     def __unicode__(self):
         return self.title

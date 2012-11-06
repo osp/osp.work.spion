@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 {% block content %}
-<section data-sizex="2">
+<!--<section data-sizex="2">
 <div class="titlebar"><a href="{% url spion_app.views.profiles %}">Profiles</a></div>
   <div class="widget-content">
 {% for  profile in profiles %}
   <p><a href="{% url spion_app.views.profile profile.id %}">{% if profile.user.get_full_name %} {{profile.user.get_full_name}} {% else %} {{profile.user.username}} {% endif %}</a></p>
 {% endfor %}
  </div>
-</section>
+</section>-->
 
 <section data-sizex="3">
 <div class="titlebar"><a href="{% url spion_app.views.newsitems %}">News</a></div>
@@ -28,19 +28,20 @@
 </div>
 </section>
 
+{% for w in work_packages %}
 <section data-sizex="4">
 <div class="titlebar">
-<a href="{% url spion_app.views.work_packages %}">Workpackages</a>
+<!-- <a href="{% url spion_app.views.work_packages %}">Work Package</a> -->
+<a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a>
 </div>
 <div class="widget-content">
-{% for w in work_packages %}
-<h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2>
-{% endfor %}
+<!-- <h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2> -->
 <p>
-
+{{ w.description }}
 </p>
 </div>
 </section>
+{% endfor %}
 
 
 {% endblock %}
