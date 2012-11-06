@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-<section data-row="3" data-col="5" data-sizex="2">
+<section data-sizex="2">
 <div class="titlebar"><a href="{% url spion_app.views.profiles %}">Profiles</a></div>
   <div class="widget-content">
 {% for  profile in profiles %}
@@ -9,7 +9,7 @@
  </div>
 </section>
 
-<section data-row="3" data-col="2" data-sizex="3">
+<section data-sizex="3">
 <div class="titlebar"><a href="{% url spion_app.views.newsitems %}">News</a></div>
 <div class="widget-content">
 {% for n in news %}
@@ -19,7 +19,7 @@
 </div>
 </section>
 
-<section data-row="5" data-col="2" data-sizex="3">
+<section data-sizex="3">
 <div class="titlebar"><a href="{% url spion_app.views.publications %}">Publications</a></div>
 <div class="widget-content">
 {% for p in publications %}

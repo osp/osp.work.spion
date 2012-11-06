@@ -23,5 +23,20 @@
 {% endfor %}
  </div>
 </section>
+
+{% comment %}
+Note: currently a publication doesn not allow you to select the associated work package.
+If this is needed (&amp; implemented) we could add something like this to the template.
+
+<section data-sizex="3">
+<div class="titlebar"><a href="{% url spion_app.views.publications %}">Publications</a></div>
+<div class="widget-content">
+{% for p in work_package.publications.all %}
+<h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
+{% endfor %}
+</div>
+</section>
+{% endcomment %}
+
 {% endblock %}
 

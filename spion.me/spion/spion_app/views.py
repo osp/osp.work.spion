@@ -47,6 +47,7 @@ def profile(request, uid):
     user_profile = UserProfile.objects.get(pk=uid)
     tpl_params['user'] = user_profile.user
     tpl_params['bio'] = user_profile.bio
+    tpl_params['work_package'] = user_profile.work_package
     tpl_params['publications'] = user_profile.publications.all()
     return render_to_response("profile.html", tpl_params, context_instance = RequestContext(request))
 

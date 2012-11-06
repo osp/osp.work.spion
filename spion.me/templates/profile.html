@@ -3,7 +3,7 @@
 {% load rand %}
 {% block content %}
 
-<section data-row="1" data-col="1" data-sizex="5">
+<section data-sizex="5">
   <div class="titlebar">
   {% if user.get_full_name %} {{user.get_full_name}} {% else %} {{user.username}} {% endif %} {% if user.email %}&lt;{{user.email}}&gt;{% endif %}
   </div>
@@ -17,7 +17,7 @@
 </section>
 
 {% for p in publications %}
-<section data-row="{{2|rand:6}}" data-col="{{3|rand:16}}" data-sizex="3">
+<section data-sizex="3">
 <div class="titlebar">
 {{ p.title }}
 </div>
@@ -31,6 +31,18 @@
 </div>
 </section>
 {% endfor %}
+
+<section data-sizex="4">
+<div class="titlebar">
+Workpackage
+</div>
+<div class="widget-content">
+<h2><a href="{% url spion_app.views.work_package work_package.id %}">{{ work_package.title }}</a></h2>
+<p>
+
+</p>
+</div>
+</section>
 
 {% endblock %}
 
