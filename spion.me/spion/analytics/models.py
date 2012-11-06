@@ -1,4 +1,5 @@
 from spion.settings import PIWIK_PATH, PIWIK_SITE_ID
+from urllib import quote
 from urllib2 import  Request, urlopen, URLError
 import json
 
@@ -10,8 +11,10 @@ class ApiError(Exception):
         return '(%s) => %s'%(self.url,self.what)
 
 class Visitors():
-    def __init__(self):
+    def __init__(self, page_url=None):
         self.url = PIWIK_PATH + '?module=API&method=Live.getLastVisitsDetails&idSite=%s&period=day&date=today&format=JSON&token_auth=anonymous' % PIWIK_SITE_ID
+        if page_url:
+            self.url += "&segment=pageUrl==" + quote(page_url, '')
     
     def get(self):
         req = Request(self.url)

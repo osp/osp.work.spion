@@ -61,11 +61,25 @@
 
 {% endblock %}
 
+{% include 'visitors.html' %}
+
 <section id="osp" data-sizex="2"><div class="titlebar">Design</div>
 <div class="widget-content">
 <a href="http://osp.constantvzw.org/">Open Source Publishing</a>
 </div>
 </section>
 
+<!-- Piwik --> 
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://var.schr.fr/piwik/" : "http://var.schr.fr/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 4);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://var.schr.fr/piwik/piwik.php?idsite=4" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->
 </body>
 </html>

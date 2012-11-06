@@ -13,17 +13,28 @@ from datetime import datetime
 from analytics.models import Visitors
 from spion.settings import PIWIK_PATH
 
-def index(request):
-    v = Visitors()
+def visitor_context(request):
+    """
+    This template processor adds visitor info using the Piwik API.
+    It calls all visits that include the currently requested page.
+    Add this function to TEMPLATE_CONTEXT_PROCESSORS in settings.py as
+    "spion_app.views.visitor_context"
+    
+    TODO: make an exception for the homepage, so that the homepage shows
+    all the visits.
+    """
+    page_url = request.build_absolute_uri()
+    v = Visitors(page_url)
     visits = v.get()
+    return { 'visits' : visits, 'PIWIK_PATH' : PIWIK_PATH }
+
+def index(request):
     tpl_params = {}
     tpl_params['news'] = NewsItem.objects.filter(publish_start__lte=datetime.today(),
                                                 publish_end__gte=datetime.today())
     tpl_params['profiles'] = UserProfile.objects.all()
     tpl_params['publications'] = Publication.objects.all()
-    tpl_params['visits'] = visits
     tpl_params['work_packages'] = WorkPackage.objects.all()
-    tpl_params['PIWIK_PATH'] = PIWIK_PATH
     return render_to_response("home.html", tpl_params, context_instance = RequestContext(request))
     
 def profiles(request):
