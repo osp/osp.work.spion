@@ -52,7 +52,7 @@
 {% block header %}
 
 
-  <section class="widget-content header" data-sizex="4" data-sizey="1">
+  <section class="widget-content header logo" data-sizex="4" data-sizey="1">
     <a href="{% url spion_app.views.index %}"><img src="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="320px"></a>
   </section>
 {% endblock %}
@@ -62,6 +62,7 @@
 {% endblock %}
 
 {% include 'visitors.html' %}
+{% include 'logos.html' %}
 
 <section id="osp" data-sizex="2"><div class="titlebar">Design</div>
 <div class="widget-content">
