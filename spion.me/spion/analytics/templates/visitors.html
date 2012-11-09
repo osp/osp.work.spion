@@ -7,7 +7,7 @@
 
     {% for visit in visits%}
 
-<section class="analytics" data-sizex="2">
+<section class="analytics" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
     <div class="titlebar">
           <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
             <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
