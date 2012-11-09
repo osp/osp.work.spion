@@ -15,30 +15,33 @@
 <div class="widget-content">
 {% for n in news %}
 <h2><a href="{% url spion_app.views.newsitem n.id %}">{{n.header}}</a></h2>
-<p>{{n.body}}</p>
+<p class="large">{{n.body|fs    }}</p>
 {% endfor %}
 </div>
 </section>
 
-<section data-sizex="3">
-<div class="titlebar"><a href="{% url spion_app.views.publications %}">Publications</a></div>
-<div class="widget-content">
-{% for p in publications %}
-<h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
-{% endfor %}
-</div>
-</section>
 
 {% for w in work_packages %}
-<section data-sizex="4">
+<section data-sizex="2">
 <div class="titlebar meaningful">
 <a href="{% url spion_app.views.work_packages %}">Work Package</a>
 <!-- <a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
 </div>
 <div class="widget-content">
 <h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2>
-<p>
+<p class="medium">
 {{ w.description|fs }}
+</p>
+</div>
+</section>
+{% endfor %}
+
+{% for p in publications %}
+<section data-sizex="3">
+<div class="titlebar"><a href="{% url spion_app.views.publications %}">Publication</a></div>
+<div class="widget-content">
+<h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2><p class="medium">
+{{ p.summary|fs }}
 </p>
 </div>
 </section>
