@@ -1,13 +1,22 @@
 <!--
     DEBUG:
     
-    {{ visits }}
+    {{ visits|safe }}
     
     -->
 
     {% for visit in visits%}
 
-<section data-sizex="2">
+<section class="analytics" data-sizex="2">
+    <div class="titlebar">
+          <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
+            <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
+            <img src="{{ PIWIK_PATH }}{{ visit.browserIcon }}" alt="{{ visit.browserName }}"/>
+            <!-- {% for plugin in visit.pluginsIcons %}
+            <img src="{{ PIWIK_PATH }}{{ plugin.pluginIcon }}" alt="{{ plugin.pluginName }}"/>
+            {% endfor %}  -->
+    </div>
+    <div class="widget-content">
     <ul class="analytics">
     <li>
 
@@ -29,18 +38,15 @@
         {% endif %}
 
         <p>
-            <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
-            <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
-            <img src="{{ PIWIK_PATH }}{{ visit.browserIcon }}" alt="{{ visit.browserName }}"/>
-            {% for plugin in visit.pluginsIcons %}
-            <img src="{{ PIWIK_PATH }}{{ plugin.pluginIcon }}" alt="{{ plugin.pluginName }}"/>
-            {% endfor %}
+            They visit 
             {% for action in visit.actionDetails %}
-            <a href="{{ action.url }}" title={{ action.pageTitle }}><img src="{{ PIWIK_PATH }}plugins/Live/templates/images/file{% if forloop.counter < 10 %}{{ forloop.counter }}{% else %}9{% endif %}.png" /></a> {{ action.timeSpentPretty }}
+            <a href="{{ action.url }}" title={{ action.pageTitle }}>{{ action.url }}</a> for {{ action.timeSpentPretty }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
             {% endfor %}
         </p>
+
     </li>
-</ul>
+    </ul>
+    </div>
 </section>
 
     {% endfor %}

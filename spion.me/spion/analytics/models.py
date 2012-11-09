@@ -27,4 +27,10 @@ class Visitors():
                 raise ApiError(url, e.reason)
             elif hasattr(e, 'code'):
                 raise ApiError(url, e.code)
+        
+        for index, visit in enumerate(api_dict):
+            if 'actionDetails' in visit:
+                if len(visit['actionDetails']) > 3:
+                    api_dict[index]['actionDetails'] = api_dict[index]['actionDetails'][0:3]
+        
         return api_dict
