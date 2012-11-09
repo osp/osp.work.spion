@@ -37,7 +37,7 @@
     
     var heights = [130, 272, 414, 556, 698, 840, 982, 1124, 1266, 1408, 1550, 1692]
     
-    $('section').each(function() {
+    $('section').not('.logo').each(function() {
        var old_height = $(this).height();
        for (var i = 0; i < heights.length; i++) {
            if (heights[i] >= old_height) {
