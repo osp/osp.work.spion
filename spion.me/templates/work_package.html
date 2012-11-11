@@ -3,9 +3,9 @@
 {% block content %}
 
 
-<section data-sizex="6">
+<section class="work_package" data-sizex="6">
 <div class="titlebar">
-{{ work_package.research_group.short_name }} {{ work_package.organisation.name }} {{ work_package.organisation.location }}
+{{ work_package.research_group.short_name }}, {{ work_package.organisation.name }}, {{ work_package.organisation.location }}
 </div>
 <div class="widget-content">
 <h1>{{ work_package.title }}</h1>
@@ -19,7 +19,7 @@
 <div class="titlebar"><a href="{% url spion_app.views.profiles %}">Researchers</a></div>
   <div class="widget-content">
 {% for researcher in work_package.researchers.all %}
-  <p><a href="{% url spion_app.views.profile researcher.id %}">{% if researcher.user.get_full_name %} {{researcher.user.get_full_name}} {% else %} {{researcher.user.username}} {% endif %}</a></p>
+  <p class="researcher-link" ><a href="{% url spion_app.views.profile researcher.id %}">{% if researcher.user.get_full_name %} {{researcher.user.get_full_name}} {% else %} {{researcher.user.username}} {% endif %}</a></p>
 {% endfor %}
  </div>
 </section>

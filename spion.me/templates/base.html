@@ -23,6 +23,7 @@
     {% endif%}
     <style>
         #fond {
+/*             background: url('http://spion.schr.fr/static/background_images/F410-k630-64-8.png'); */
             background: url('{{ STATIC_URL }}{{ BACKGROUND_IMAGE }}');
         }
     </style>
@@ -35,7 +36,14 @@
     
     // Snap heights:
     
-    var heights = [130, 272, 414, 556, 698, 840, 982, 1124, 1266, 1408, 1550, 1692]
+//     var heights = [130, 272, 414, 556, 698, 840, 982, 1124, 1266, 1408, 1550, 1692]
+    var heights = new Array();
+    var box_height_step = 32;
+    var box_vertical_gap = 12;
+    for(var i=1; i < 64; i++)
+    {
+        heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
+    }
     
     $('section').not('.logo').each(function() {
        var old_height = $(this).height();
@@ -45,6 +53,20 @@
                break;
            }
        } 
+    });
+    
+    $('.titlebar').each(function(idx, elem){
+        var t = $(elem);
+        var cl = $('<div class="widget-closer">x</div>');
+        t.prepend(cl);
+        cl.on('click', function(evt){
+            var sec = t.parents('section');
+            sec.remove();
+            $('body').masonry({
+                itemSelector: 'section',
+                columnWidth: 100
+            })
+        });
     });
     
     $('body').masonry({
