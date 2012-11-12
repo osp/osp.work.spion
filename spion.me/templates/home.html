@@ -42,7 +42,7 @@
 <div class="widget-content">
 <h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
 <p class="medium">
-{{ p.summary|fs }}
+{{ p.summary|fs|md:"tiny" }}
 </p>
 </div>
 </section>
