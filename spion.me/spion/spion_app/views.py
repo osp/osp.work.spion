@@ -33,7 +33,7 @@ def index(request):
     tpl_params['news'] = NewsItem.objects.filter(publish_start__lte=datetime.today(),
                                                 publish_end__gte=datetime.today())
     tpl_params['profiles'] = UserProfile.objects.all()
-    tpl_params['publications'] = Publication.objects.all()
+    tpl_params['publications'] = Publication.objects.filter(pub_type__name='deliverable')
     tpl_params['work_packages'] = WorkPackage.objects.all()
     return render_to_response("home.html", tpl_params, context_instance = RequestContext(request))
     
@@ -68,7 +68,15 @@ def work_packages(request):
     
 def work_package(request, wid):
     tpl_params = {}
-    tpl_params['work_package'] = WorkPackage.objects.get(pk=wid)
+    wp = WorkPackage.objects.get(pk=wid)
+    tpl_params['work_package'] = wp
+    tpl_params['publications'] = []
+    pub_ids = []
+    for rs in wp.researchers.all():
+        for p in rs.publications.all():
+            if p.id not in pub_ids:
+                pub_ids.append(p.id)
+                tpl_params['publications'].append(p)
     return render_to_response("work_package.html", tpl_params, context_instance = RequestContext(request))
     
 def partners(request):

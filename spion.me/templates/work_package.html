@@ -1,17 +1,36 @@
 {% extends 'base.html' %}
 {% load md %}
+{% load fs %}
 {% block content %}
 
 
 <section class="work_package" data-sizex="6">
 <div class="titlebar">
-{{ work_package.research_group.short_name }}, {{ work_package.organisation.name }}, {{ work_package.organisation.location }}
+Work Package
 </div>
 <div class="widget-content">
-<h1>{{ work_package.title }}</h1>
-<p>
-{{ work_package.description }}
-</p>
+<h1 class="title">{{ work_package.title }}</h1>
+
+{% autoescape off %}
+{{ work_package.description|md }}
+{% endautoescape %}
+
+</div>
+</section>
+
+<section class="research_group" data-sizex="4">
+<div class="titlebar">
+Research Group
+</div>
+<div class="widget-content">
+    <div class="subtitle">
+    <div class="research_group_name">{{ work_package.research_group.short_name }}</div> 
+    <span class="organisation_name">{{ work_package.organisation.name }},</span>
+    <span class="organisation_location">{{ work_package.organisation.location }}</span>
+    </div>
+    {% autoescape off %}
+    {{ work_package.research_group.description|md }}
+    {% endautoescape %}
 </div>
 </section>
 
@@ -24,19 +43,17 @@
  </div>
 </section>
 
-{% comment %}
-Note: currently a publication doesn not allow you to select the associated work package.
-If this is needed (&amp; implemented) we could add something like this to the template.
-
-<section data-sizex="3">
-<div class="titlebar"><a href="{% url spion_app.views.publications %}">Publications</a></div>
+{% for p in publications %}
+<section class="publication" data-sizex="3">
+<div class="titlebar"><a href="{% url spion_app.views.publications %}">Publication</a> - {{ p.pub_type.name }}</div>
 <div class="widget-content">
-{% for p in work_package.publications.all %}
-<h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
-{% endfor %}
+    <h2 class="publication-link"><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
+    <p class="medium">
+    {{ p.summary|fs }}
+    </p>
 </div>
 </section>
-{% endcomment %}
+{% endfor %}
 
 {% endblock %}
 
