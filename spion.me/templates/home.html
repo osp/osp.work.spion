@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% load fs %}
+{% load md %}
 {% block content %}
 <!--<section data-sizex="2">
 <div class="titlebar"><a href="{% url spion_app.views.profiles %}">Profiles</a></div>
@@ -29,9 +30,8 @@
 </div>
 <div class="widget-content">
 <h1><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h1>
-<p class="medium">
-{{ w.description|fs }}
-</p>
+
+{{ w.description|fs|md:"medium" }}
 </div>
 </section>
 {% endfor %}

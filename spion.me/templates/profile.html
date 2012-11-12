@@ -1,45 +1,56 @@
 {% extends 'base.html' %}
 {% load md %}
 {% load rand %}
+{% load fs %}
 {% block content %}
 
-<section data-sizex="5">
+<section class="profile" data-sizex="5">
   <div class="titlebar">
-  {% if user.get_full_name %} {{user.get_full_name}} {% else %} {{user.username}} {% endif %} {% if user.email %}&lt;{{user.email}}&gt;{% endif %}
+  Profile
   </div>
   <div class="widget-content">
+  <h1 class="researcher_name">
+  {% if user.get_full_name %} {{user.get_full_name}} {% else %} {{user.username}} {% endif %} {% if user.email %}&lt;{{user.email}}&gt;{% endif %}
+  </h1>
   <p>
-  {% autoescape off %}
-  {{ bio|md }}
-  {% endautoescape %}
+  {{ bio|md:"large" }}
   </p>
  </div>
 </section>
 
-{% for p in publications %}
-<section data-sizex="3">
+
+<section class="picture" data-sizex="2">
 <div class="titlebar">
-{{ p.title }}
+Picture
 </div>
 <div class="widget-content">
+<img class="user_picture" src="{{MEDIA_URL}}{{profile.picture}}" alt="Picture of {{user.username}}"/>
+</div>
+</section>
+
+{% for p in publications %}
+<section class="publication" data-sizex="3">
+<div class="titlebar">
+Publication - {{p.pub_type.name}}
+</div>
+<div class="widget-content">
+<h2><a href="{% url spion_app.views.publication p.id %}">{{ p.title }}</a></h2>
 <p>
-{% autoescape off %}
-{{ p.summary|md }}
-{% endautoescape %}
+{{ p.summary|fs|md:"tiny" }}
 </p>
-<a href="{{p.url}}" title="{{p.title}}">Get Document</a>
+<!-- <div class="publication_link"><a href="{{p.url}}" title="{{p.title}}">Get Document</a></div> -->
 </div>
 </section>
 {% endfor %}
 
-<section data-sizex="4">
+<section class="work_package" data-sizex="4">
 <div class="titlebar">
 Workpackage
 </div>
 <div class="widget-content">
 <h2><a href="{% url spion_app.views.work_package work_package.id %}">{{ work_package.title }}</a></h2>
-<p>
-
+<p class="medium">
+{{ work_package.description|fs|md:"medium" }}
 </p>
 </div>
 </section>

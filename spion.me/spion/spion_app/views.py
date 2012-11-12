@@ -45,6 +45,7 @@ def profiles(request):
 def profile(request, uid):  
     tpl_params = {}
     user_profile = UserProfile.objects.get(pk=uid)
+    tpl_params['profile'] = user_profile
     tpl_params['user'] = user_profile.user
     tpl_params['bio'] = user_profile.bio
     tpl_params['work_package'] = user_profile.work_package
