@@ -11,9 +11,7 @@ Work Package
 <div class="widget-content">
 <h1 class="title">{{ work_package.title }}</h1>
 
-{% autoescape off %}
-{{ work_package.description|md }}
-{% endautoescape %}
+{{ work_package.description|md:"large" }}
 
 </div>
 </section>
@@ -28,9 +26,7 @@ Research Group
     <span class="organisation_name">{{ work_package.organisation.name }},</span>
     <span class="organisation_location">{{ work_package.organisation.location }}</span>
     </div>
-    {% autoescape off %}
-    {{ work_package.research_group.description|md }}
-    {% endautoescape %}
+    {{ work_package.research_group.description|md:"medium" }}
 </div>
 </section>
 
