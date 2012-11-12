@@ -31,6 +31,7 @@
     {% compress js %}
     <script src="{{ STATIC_URL }}jquery.min.js"></script>
     <script src="{{ STATIC_URL }}jquery.masonry.js"></script>
+    {% endcompress %}
     <script type="text/javascript">
     $(window).load(function() {
     
@@ -38,12 +39,13 @@
     
 //     var heights = [130, 272, 414, 556, 698, 840, 982, 1124, 1266, 1408, 1550, 1692]
     var heights = new Array();
-    var box_height_step = 32;
-    var box_vertical_gap = 12;
+    var box_height_step = 42;
+    var box_vertical_gap = 10;
     for(var i=1; i < 64; i++)
     {
         heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
     }
+    console.log(heights);
     
     $('section').not('.logo').each(function() {
        var old_height = $(this).height();
@@ -76,7 +78,6 @@
 
     });
     </script>
-    {% endcompress %}
 </head>
 <body>
 
