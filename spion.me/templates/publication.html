@@ -3,18 +3,21 @@
 {% block content %}
 
 
-<section data-row="1" data-col="1" data-sizex="6">
+<section class="publication" data-row="1" data-col="1" data-sizex="6">
 <div class="titlebar">
-{{ publication.type }}, {{ publication.publisher }}, {{ publication.published }}
+{{ publication.pub_type.name }} - {{ publication.publisher }}, {{ publication.published }}
 </div>
 <div class="widget-content">
-<h1>{{ publication.title }}</h1>
-<p>
-{% autoescape off %}
-{{ publication.summary|md }}
-{% endautoescape %}
+<h1 class="title">{{ publication.title }}</h1>
+<div class="authors">
+{% for a in authors %}
+<a href="{% url spion_app.views.profile a.id %}">{% if a.user.get_full_name %}{{a.user.get_full_name}}{% else %}{{a.user.username}}{% endif %}</a>{% if not forloop.last%},{% endif %}
+
+{% endfor %}
+</div>
+{{ publication.summary|md:"large" }}
 </p>
-<a href="{{publication.url}}" title="{{publication.title}}">Get Document</a>
+<div class="publication_link"><a href="{{publication.url}}" title="{{publication.title}}">Download Document</a></div>
 </div>
 </section>
 

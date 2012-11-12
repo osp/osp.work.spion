@@ -59,7 +59,9 @@ def publications(request):
 
 def publication(request, pid):
     tpl_params = {}
-    tpl_params['publication'] = Publication.objects.get(pk=pid)
+    pub = Publication.objects.get(pk=pid)
+    tpl_params['publication'] = pub
+    tpl_params['authors'] = pub.user.all()
     return render_to_response("publication.html", tpl_params, context_instance = RequestContext(request))
 
 def work_packages(request):
