@@ -16,7 +16,7 @@
 <div class="widget-content">
 {% for n in news %}
 <h2><a href="{% url spion_app.views.newsitem n.id %}">{{n.header}}</a></h2>
-<p class="large">{{n.body|fs    }}</p>
+{{n.body|fs|md:"large"}}
 {% endfor %}
 </div>
 </section>
