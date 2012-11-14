@@ -91,3 +91,7 @@ class Partner(models.Model):
 
     def __unicode__(self):
         return self.title
+
+        
+class SpionProject(models.Model):
+    description = models.TextField()

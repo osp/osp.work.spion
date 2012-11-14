@@ -6,7 +6,7 @@ from django.http import HttpResponse, Http404
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
-from spion_app.models import (NewsItem, UserProfile, User, Publication, Organisation, ResearchGroup, WorkPackage, Partner)
+from spion_app.models import (NewsItem, UserProfile, User, Publication, Organisation, ResearchGroup, WorkPackage, Partner, SpionProject)
 
 from datetime import datetime
 
@@ -32,6 +32,8 @@ def index(request):
     tpl_params = {}
     tpl_params['news'] = NewsItem.objects.filter(publish_start__lte=datetime.today(),
                                                 publish_end__gte=datetime.today())
+                                                
+    tpl_params['project'] = SpionProject.objects.all()[0]
     tpl_params['profiles'] = UserProfile.objects.all()
     tpl_params['publications'] = Publication.objects.filter(pub_type__name='deliverable')
     tpl_params['work_packages'] = WorkPackage.objects.all()

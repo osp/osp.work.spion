@@ -47,4 +47,5 @@ admin.site.register(Organisation)
 admin.site.register(ResearchGroup)
 admin.site.register(WorkPackage)
 admin.site.register(Partner)
+admin.site.register(SpionProject)
 
