@@ -11,7 +11,7 @@ from spion_app.models import (NewsItem, UserProfile, User, Publication, Organisa
 from datetime import datetime
 
 from analytics.models import Visitors
-from spion.settings import PIWIK_PATH
+from spion.settings import PIWIK_PATH, PIWIK_SITE_ID
 
 def visitor_context(request):
     """
@@ -26,7 +26,7 @@ def visitor_context(request):
     page_url = request.build_absolute_uri()
     v = Visitors(page_url)
     visits = v.get()
-    return { 'visits' : visits, 'PIWIK_PATH' : PIWIK_PATH }
+    return { 'visits' : visits, 'PIWIK_PATH' : PIWIK_PATH, 'PIWIK_SITE_ID' : PIWIK_SITE_ID }
 
 def index(request):
     tpl_params = {}
