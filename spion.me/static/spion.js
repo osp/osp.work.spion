@@ -121,7 +121,7 @@ function piwik_live_cb(datas)
     
     var tpl = '\
     <section class="analytics analytics-self analytics-live" data-sizex="2" data-sort="33">\
-    <div class="titlebar"> Analytics </div>\
+    <div class="titlebar"> Spion.you </div>\
     <div class="widget-content">\
     <ul class="analytics">\
     <li>\

@@ -2,14 +2,11 @@
 {% load md %}
 
 {% block content %}
-<section data-row="3" data-col="5" data-sizex="4">
+<section class="news single" data-row="3" data-col="5" data-sizex="4">
 <div class="titlebar">{{ newsitem.publish_start }}</div>
   <div class="widget-content">
-    <h1>{{ newsitem.header }}</h1>
-
-  {% autoescape off %}
-  {{ newsitem.body|md }}
-  {% endautoescape %}
+    <h2>{{ newsitem.header }}</h2>
+ {{ newsitem.body|md:"large" }}
   
  </div>
 </section>

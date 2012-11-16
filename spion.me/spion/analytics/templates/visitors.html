@@ -6,10 +6,51 @@
     -->
 
     {% for visit in visits%}
-
-    <section class="analytics {%if visit.customVariables.1.customVariableValue1 == session_key %}analytics-self{%endif%}" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
+    {%if visit.customVariables.1.customVariableValue1 == session_key %}
+    <section class="analytics analytics-self" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
     <div class="titlebar">
-    Analytics
+    Spion.you
+    </div>
+    <div class="widget-content">
+    <ul class="analytics">
+    <li>
+    
+    <p>On {{ visit.serverDatePrettyFirstAction }} at {{ visit.serverTimePrettyFirstAction }} you, from {{ visit.country }}, using {{ visit.browserName }} on {{ visit.operatingSystem }} visit the site for {{ visit.visitDurationPretty }}.</p>
+    
+    <p>
+    Your screen is set to {{ visit.resolution }}.
+    {% if visit.pluginsIcons %}You have installed:
+    {% for plugin in visit.pluginsIcons %}{{ plugin.pluginName }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
+    {% endfor %}
+    {% endif %}
+    </p>
+    
+    {% if visit.referrerName %}
+    <p>
+    You come from <a href="{{ visit.referrerUrl }}">{{ visit.referrerName }}</a>
+    {% if visit.referrerKeyword %}, searching with the keywords «{{ visit.referrerKeyword }}»{% endif %}.
+    </p>
+    {% endif %}
+    
+    <p>
+    You visit 
+    {% for action in visit.actionDetails %}
+    <a href="{{ action.url }}" title={{ action.pageTitle }}>{{ action.url }}</a> for {{ action.timeSpentPretty }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
+    {% endfor %}
+    </p>
+    
+    </li>
+    </ul>
+    </div>
+    </section>
+    
+    
+    {%else%}
+    
+    
+    <section class="analytics" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
+    <div class="titlebar">
+    Spion.you
          <!-- <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
             <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
             <img src="{{ PIWIK_PATH }}{{ visit.browserIcon }}" alt="{{ visit.browserName }}"/>-->
@@ -49,6 +90,7 @@
     </ul>
     </div>
 </section>
+{%endif%}
 
     {% endfor %}
     
