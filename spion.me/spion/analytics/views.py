@@ -10,4 +10,4 @@ def visitors(request):
     return render_to_response('visitors.html',
             { 'visits' : visits,
               'PIWIK_PATH' : PIWIK_PATH },
-        context_instance=RequestContext(request))
+            context_instance=RequestContext(request))

@@ -75,9 +75,75 @@ $(window).load(function() {
       
 });
   
-function piwik_live_cb(data)
+function piwik_live_cb(datas)
 {
+    // create a section for current visitor
+    var data = undefined;
+    for(var dx in datas)
+    {
+        if(datas[dx].customVariables['1'].customVariableValue1 === SESSION_KEY)
+        {
+            data = datas[dx];
+            break;
+        }
+    }
+    if(data === undefined)
+        return;
     
+    var refer = '';
+    if(data.referrerName.length > 0)
+    {
+        refer = 'They come from <a href="'+data.referrerUrl +'">'+ data.referrerName +'</a>';
+        if(dat.referrerKeyword.length > 0)
+        {
+            refer += ', searching with the keywords «'+visit.referrerKeyword+'»';
+        }
+    }
+    
+    var actions = 'They visit';
+    var act_dict = new Object();
+    for(var a in data.actionDetails)
+    {
+        var action = data.actionDetails[a];
+        if(act_dict[action.url] === undefined)
+            act_dict[action.url] = {title:action.pageTitle, n:1};
+        else
+        {
+            var n = act_dict[action.url].n;
+            act_dict[action.url] = {title:action.pageTitle, n:n+1};
+        }
+    }
+    for(var act in act_dict)
+    {
+        var action = act_dict[act];
+        actions += ' <a href="'+ act +'" title="'+ action.title +'">'+ act +'</a> '+action.n+' times';
+    }
+    
+    var tpl = '\
+    <section class="analytics analytics-self analytics-live" data-sizex="2" data-sort="33">\
+    <div class="titlebar"> Analytics </div>\
+    <div class="widget-content">\
+    <ul class="analytics">\
+    <li>\
+    <p>On '
+    +data.serverDatePrettyFirstAction+' at '
+    +data.serverTimePrettyFirstAction +' someone from '
+    +data.country +' using '
+    +data.browserName+' on '
+    +data.operatingSystem+' visits the site for '
+    +data.visitDurationPretty+'.</p>\
+    <p>\
+    Their screen is set to '+ data.resolution +'.\
+    </p>\
+    <p>They have installed: '+data.plugins+'</p>\
+    <p>'+refer+'</p>\
+    <p>'+actions+'</p>\
+    </li>\
+    </ul>\
+    </div>\
+    </section>';
+    
+    $('body').append(tpl);
 }
 
 $(document).ready(function()
@@ -93,10 +159,13 @@ $(document).ready(function()
         console.log('Error while loading piwikTracker: '+err);
     }
     
-    $.ajax(PIWIK_URL+'?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
-           {
-               dataType:'jsonp',
-                jsonp: false, 
-                jsonpCallback: "piwik_live_cb"
-        });
+    if($('.analytics-self').length === 0)
+    {
+        $.ajax(PIWIK_URL+'?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
+            {
+                dataType:'jsonp',
+                    jsonp: false, 
+                    jsonpCallback: "piwik_live_cb"
+            });
+    }
 });
