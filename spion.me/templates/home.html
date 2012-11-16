@@ -1,6 +1,11 @@
 {% extends 'base.html' %}
 {% load fs %}
 {% load md %}
+
+{% block nav %}
+{# The role of the nav is taken over by the introduction #}
+{% endblock%}
+
 {% block content %}
 <!--<section data-sizex="2">
 <div class="titlebar"><a href="{% url spion_app.views.profiles %}">Profiles</a></div>
