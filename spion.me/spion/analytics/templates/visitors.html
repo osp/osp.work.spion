@@ -1,13 +1,13 @@
 <!--
     DEBUG:
     
-    {{ visits|safe }}
+    {{ visits.0|safe }}
     
     -->
 
     {% for visit in visits%}
 
-<section class="analytics" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
+    <section class="analytics {%if visit.customVariables.1.customVariableValue1 == session_key %}analytics-self{%endif%}" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
     <div class="titlebar">
     Analytics
          <!-- <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
@@ -51,3 +51,4 @@
 </section>
 
     {% endfor %}
+    

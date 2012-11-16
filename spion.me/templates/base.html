@@ -1,3 +1,5 @@
+{% load rand %}
+{% load compress %}
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,7 +14,7 @@
               content="SPION: Privacy and Security in Online Social Networks."/>
     <meta property="fb:admins" content="1488294875"/>
     <link href='http://fonts.googleapis.com/css?family=Carrois+Gothic' rel='stylesheet' type='text/css'>
-    {% load compress %}
+    
     {% if COMPRESS_ENABLED %}
     {% compress css %}
     <link rel="stylesheet" type="text/less" media="all" href="{{ STATIC_URL }}style.less">
@@ -23,90 +25,21 @@
     {% endif%}
     <style>
         #fond {
-/*             background: url('http://spion.schr.fr/static/background_images/F410-k630-64-8.png'); */
             background: url('{{ STATIC_URL }}{{ BACKGROUND_IMAGE }}');
         }
     </style>
-
+    <script>
+    var PIWIK_URL = '{{ PIWIK_PATH }}';
+    var PIWIK_SITE_ID = {{ PIWIK_SITE_ID }};
+    var SESSION_KEY = '{{session_key}}' ;
+    </script>
     {% compress js %}
     <script src="{{ STATIC_URL }}jquery.min.js"></script>
     <script src="{{ STATIC_URL }}jquery.masonry.js"></script>
+    <script src="{{ PIWIK_PATH }}/piwik.js"> </script>
     {% endcompress %}
-    <script type="text/javascript">
-    $(window).load(function() {
-    
-    // make external links open in new window
-    
-    var isExternal = function(href) {
-    /*
-    isExternal("http://i.liketightpants.net/")
-    true
-    isExternal("/publications/")
-    false
-    isExternal("http://spion.me/publications/")
-    false
-    isExternal("http://localhost:8000/publications/")
-    false
-    isExternal("http://127.0.0.1:8000/publications/")
-    false
-    */
-        if (href.indexOf("http") === -1 || href.indexOf(document.location.host) !== -1 || href.indexOf("localhost") !== -1 || href.indexOf("127.0.0.1") !== -1 ) {
-            return false;
-        }
-        return true;
-    };
-    
-    $("a[href]").each(
-        function() { 
-            if (isExternal($(this).attr('href')) ) { 
-                $(this).attr('target', '_blank')
-            }
-        }
-    )
-    
-    // Snap heights:
-    
-//     var heights = [130, 272, 414, 556, 698, 840, 982, 1124, 1266, 1408, 1550, 1692]
-    var heights = new Array();
-    var box_height_step = 42;
-    var box_vertical_gap = 10;
-    for(var i=1; i < 64; i++)
-    {
-        heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
-    }
-    console.log(heights);
-    
-    $('section').not('.logo').each(function() {
-       var old_height = $(this).height();
-       for (var i = 0; i < heights.length; i++) {
-           if (heights[i] >= old_height) {
-               $(this).height(heights[i]); // console.log(old_height, heights[i]);
-               break;
-           }
-       } 
-    });
-    
-    $('.titlebar').each(function(idx, elem){
-        var t = $(elem);
-        var cl = $('<div class="widget-closer">x</div>');
-        t.prepend(cl);
-        cl.on('click', function(evt){
-            var sec = t.parents('section');
-            sec.remove();
-            $('body').masonry({
-                itemSelector: 'section',
-                columnWidth: 100
-            })
-        });
-    });
-    
-    $('body').masonry({
-      itemSelector: 'section',
-      columnWidth: 100
-    })
-
-    });
-    </script>
+<!--     <script src="{{ STATIC_URL }}spion.js?r={{1|rand:"10000"}}"> </script> -->
+    <script src="{{ STATIC_URL }}spion.js"> </script>
 </head>
 <body>
 
@@ -133,17 +66,5 @@
 {% block credits %}
 {% endblock %}
 
-<!-- Piwik --> 
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "{{ PIWIK_PATH }}".replace('http', 'https') : "{{ PIWIK_PATH }}");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", {{ PIWIK_SITE_ID }});
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="{{ PIWIK_PATH }}piwik.php?idsite={{ PIWIK_SITE_ID }}" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
 </body>
 </html>
