@@ -41,6 +41,7 @@ def index(request):
     
 def profiles(request):
     tpl_params = {}
+    tpl_params['work_packages'] = WorkPackage.objects.all()
     tpl_params['profiles'] = UserProfile.objects.all()
     return render_to_response("profiles.html", tpl_params, context_instance = RequestContext(request))
     

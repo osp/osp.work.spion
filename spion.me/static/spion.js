@@ -93,14 +93,14 @@ function piwik_live_cb(datas)
     var refer = '';
     if(data.referrerName.length > 0)
     {
-        refer = 'They come from <a href="'+data.referrerUrl +'">'+ data.referrerName +'</a>';
+        refer = 'You come from <a href="'+data.referrerUrl +'">'+ data.referrerName +'</a>';
         if(dat.referrerKeyword.length > 0)
         {
             refer += ', searching with the keywords «'+visit.referrerKeyword+'»';
         }
     }
     
-    var actions = 'They visit';
+    var actions = 'You visit';
     var act_dict = new Object();
     for(var a in data.actionDetails)
     {
@@ -127,15 +127,15 @@ function piwik_live_cb(datas)
     <li>\
     <p>On '
     +data.serverDatePrettyFirstAction+' at '
-    +data.serverTimePrettyFirstAction +' someone from '
-    +data.country +' using '
+    +data.serverTimePrettyFirstAction +' you, from '
+    +data.country +', using '
     +data.browserName+' on '
-    +data.operatingSystem+' visits the site for '
+    +data.operatingSystem+', visit the site for '
     +data.visitDurationPretty+'.</p>\
     <p>\
-    Their screen is set to '+ data.resolution +'.\
+    Your screen is set to '+ data.resolution +'.\
     </p>\
-    <p>They have installed: '+data.plugins+'</p>\
+    <p>You have installed: '+data.plugins+'</p>\
     <p>'+refer+'</p>\
     <p>'+actions+'</p>\
     </li>\
@@ -146,7 +146,7 @@ function piwik_live_cb(datas)
     $('body').append(tpl);
 }
 
-$(document).ready(function()
+function self_piwik()
 {
     try {
         var piwikTracker = Piwik.getTracker(PIWIK_URL + "piwik.php", PIWIK_SITE_ID);
@@ -162,10 +162,23 @@ $(document).ready(function()
     if($('.analytics-self').length === 0)
     {
         $.ajax(PIWIK_URL+'?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
-            {
-                dataType:'jsonp',
-                    jsonp: false, 
-                    jsonpCallback: "piwik_live_cb"
-            });
+               {
+                   dataType:'jsonp',
+               jsonp: false, 
+               jsonpCallback: "piwik_live_cb"
+               });
     }
+};
+
+function profiles_image()
+{
+    $('.researcher-name').on('mouseover',function(evt){
+        $('.user_picture').attr('src', user_pictures[$(this).attr('id')]);
+    });
+}
+
+$(document).ready(function()
+{
+    self_piwik();
+    profiles_image();
 });

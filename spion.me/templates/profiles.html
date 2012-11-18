@@ -1,15 +1,49 @@
 {% extends 'base.html' %}
+{% load md %}
+{% load fs %}
 {% block content %}
-<section data-row="3" data-col="5" data-sizex="5" class="profile">
-<div class="titlebar">Profiles</div>
-  <div class="widget-content">
-{% for  p in profiles %}
-  <h1 class="researcher_name">
-  <a href="/profile/{{ p.id }}">{% if p.user.get_full_name %} {{p.user.get_full_name}} {% else %} {{p.user.username}} {% endif %}</a>
-  </h1>
+
+<script>
+var user_pictures = new Object();
+{% for p in profiles %}
+user_pictures['user_{{p.id}}'] = new Image();
+user_pictures['user_{{p.id}}'].src = "{{MEDIA_URL}}{{p.picture}}";
 {% endfor %}
- </div>
+</script>
+
+<section class="picture" data-sizex="2">
+<div class="titlebar">
+Picture
+</div>
+<div class="widget-content">
+<img class="user_picture" src="{{MEDIA_URL}}{{profiles.0.picture}}"/>
+</div>
 </section>
+
+{% for w in work_packages %}
+<section class="profile" data-sizex="3" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
+<div class="titlebar">
+Researchers - <a class="link" href="{% url spion_app.views.work_package w.id %}">{{ w.research_group.short_name }}</a>
+</div>
+<div class="widget-content">
+<!-- <h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2> -->
+<!--<div class="subtitle">
+<div class="research_group_name">{{ w.research_group.short_name }}</div> 
+<span class="organisation_name">{{ w.organisation.name }},</span>
+<span class="organisation_location">{{ w.organisation.location }}</span>
+</div>-->
+{% for researcher in w.researchers.all %}
+<h1 id="user_{{researcher.id}}" class="researcher_name" >
+    <a class="link" href="{% url spion_app.views.profile researcher.id %}">
+        {% if researcher.user.get_full_name %} {{researcher.user.get_full_name}} {% else %} {{researcher.user.username}} {% endif %}
+    </a>
+</h1>
+<!-- {{ researcher.bio|fs|md:"medium" }} -->
+{% endfor %}
+
+</div>
+</section>
+{% endfor %}
 
 
 {% endblock %}
