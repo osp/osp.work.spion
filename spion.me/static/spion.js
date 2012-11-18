@@ -179,8 +179,8 @@ function self_piwik()
 
 function profiles_image()
 {
-    $('.researcher-name').on('mouseover',function(evt){
-        $('.user_picture').attr('src', user_pictures[$(this).attr('id')]);
+    $('.researcher_name').on('mouseover',function(evt){
+        $('.user_picture').attr('src', user_pictures[$(this).attr('id')].src);
     });
 }
 
