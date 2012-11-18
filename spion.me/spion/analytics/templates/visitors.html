@@ -1,3 +1,5 @@
+{% load shylink %}
+
 <!--
     DEBUG:
     
@@ -35,7 +37,7 @@
     <p>
     You visit 
     {% for action in visit.actionDetails %}
-    <a href="{{ action.url }}" title={{ action.pageTitle }}>{{ action.url }}</a> for {{ action.timeSpentPretty }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
+    <a href="{{ action.url }}" title={{ action.pageTitle }}>{{ action.url|shylink|safe }}</a> for {{ action.timeSpentPretty }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
     {% endfor %}
     </p>
     
@@ -82,7 +84,7 @@
         <p>
             They visit 
             {% for action in visit.actionDetails %}
-            <a href="{{ action.url }}" title={{ action.pageTitle }}>{{ action.url }}</a> for {{ action.timeSpentPretty }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
+            <a href="{{ action.url }}" title={{ action.pageTitle }}>{{ action.url|shylink|safe }}</a> for {{ action.timeSpentPretty }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
             {% endfor %}
         </p>
 

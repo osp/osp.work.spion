@@ -123,7 +123,7 @@ function piwik_live_cb(datas)
     for(var act in act_dict)
     {
         var action = act_dict[act];
-        actions += ' <a href="'+ act +'" title="'+ action.title +'">'+ act +'</a> '+action.n+' times';
+        actions += ' <a href="'+ act +'" title="'+ action.title +'">'+ act.replace(/\//g,"/&shy;") +'</a> '+action.n+' times';
     }
     
     var tpl = '\
