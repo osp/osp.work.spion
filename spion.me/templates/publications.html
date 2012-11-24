@@ -6,7 +6,7 @@
 
 {% for p in publications %}
 <section class="publication" data-sizex="3">
-<div class="titlebar"><a href="{% url spion_app.views.publications %}">Deliverable</a></div>
+<div class="titlebar"><a href="{% url spion_app.views.publications %}">p.pub_type.name</a></div>
 <div class="widget-content">
 <h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
 <p class="medium">
