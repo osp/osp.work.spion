@@ -24,9 +24,9 @@ class Visitors():
             api_dict = json.loads(res.read())
         except URLError, e:
             if hasattr(e, 'reason'):
-                raise ApiError(url, e.reason)
+                raise ApiError(self.url, e.reason)
             elif hasattr(e, 'code'):
-                raise ApiError(url, e.code)
+                raise ApiError(self.url, e.code)
         
         for index, visit in enumerate(api_dict):
             if 'actionDetails' in visit:
