@@ -47,37 +47,35 @@
 </div>
 
 {% block header %}
-  <section class="widget-content header" data-sizex="4">
-    <a href="{% url spion_app.views.index %}"><img src="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="320px"></a>
-    <h1 class="tagline">Privacy and Security in Online Social Networks</h1>
-  </section>
+<!--   <section class="widget-content header" data-sizex="4"> -->
+<div id="site-header">
+    <div id="logo-box"><a href="{% url spion_app.views.index %}"><img src="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="120px"></a></div>
+    <h1 class="tagline"><div>Privacy and Security </div><div>in Online Social Networks</div></h1>
+    
+    
+    <div id="site-navigation">
+    <span class="label news"><a href="{% url spion_app.views.newsitems %}">News</a></span>
+    <span class="label publication"><a href="{% url spion_app.views.publications %}">Publications</a></span>
+    <span class="label work_package"><a href="{% url spion_app.views.work_packages %}">Workpackages</a></span>
+    <span class="label researcher"><a href="{% url spion_app.views.profiles %}">Researchers</a></span>
+    </div>
+    
+</div>
+<!--   </section> -->
 {% endblock %}
 
-{% block nav %}
-<section class="nav" data-sizex="2">
-    <div class="titlebar nav">
-        Legend, Navigation
-    </div>
-    <div class="widget-content">
-        <ul>
-            <li><span class="label news"><a href="{% url spion_app.views.newsitems %}">News</a></span></li>
-            <li><span class="label publication"><a href="{% url spion_app.views.publications %}">Publications</a></span></li>
-            <li><span class="label work_package"><a href="{% url spion_app.views.work_packages %}">Workpackages</a></span></li>
-            <li><span class="label researcher"><a href="{% url spion_app.views.profiles %}">Researchers</a></span></li>
-        </ul>
-    </div>
-</section>
-{% endblock %}
-
+<div id="content-wrapper">
 {% block content %}
 
 {% endblock %}
+</div>
 
+<div id="extra-wrapper">
 {% include 'visitors.html' %}
 {% include 'logos.html' %}
-
 {% block credits %}
 {% endblock %}
+</div>
 
 </body>
 </html>

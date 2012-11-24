@@ -34,10 +34,10 @@ $(window).load(function() {
     
     // pop in an analytics box after each workpackage box
     
-    $("section.work_package").each(function() {
-        $(this).after($("section[data-sort=" + (parseInt($(this).attr("data-sort")) + 1) + "]"));
-    });
-    
+//     $("section.work_package").each(function() {
+//         $(this).after($("section[data-sort=" + (parseInt($(this).attr("data-sort")) + 1) + "]"));
+//     });
+//     
     // Snap heights:
     
 //     var heights = [130, 272, 414, 556, 698, 840, 982, 1124, 1266, 1408, 1550, 1692]
@@ -74,7 +74,7 @@ $(window).load(function() {
         });
     });
     
-    $('body').masonry({
+    $('#content-wrapper').masonry({
       itemSelector: 'section',
       columnWidth: 100
     })
