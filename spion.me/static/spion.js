@@ -80,6 +80,10 @@ $(window).load(function() {
     })
 
       
+    $('#extra-wrapper').masonry({
+        itemSelector: 'section',
+        columnWidth: 100
+    })
 });
   
 function piwik_live_cb(datas)
