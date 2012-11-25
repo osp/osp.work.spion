@@ -88,6 +88,7 @@ class WorkPackage(models.Model):
 class Partner(models.Model):
     title = models.CharField(max_length=512)
     url = models.URLField(blank=True)
+    description = models.TextField()
 
     def __unicode__(self):
         return self.title

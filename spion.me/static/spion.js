@@ -196,4 +196,14 @@ $(document).ready(function()
 {
     self_piwik();
     profiles_image();
+    
+    function xxxx()
+    {
+        var f = $('.analytics').last();
+        f.hide();
+        $('#analytics-wrapper').prepend(f);
+        f.toggle('slow');
+        window.setTimeout(xxxx, 60000 , true);
+    }
+    window.setTimeout(xxxx, 60000 , true);
 });

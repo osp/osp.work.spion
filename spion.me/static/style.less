@@ -52,15 +52,45 @@
     
     #site-navigation{
         position:absolute;
-        right:32px;
+        right:238px;
         bottom:0;
     }
 }
 
 #content-wrapper{
-/*     position:absolute; */
-    width:100%;
+    /*     position:absolute; */
+    width:84%;
     margin:86px 0 34px 0;
+}
+
+#analytics-wrapper{
+    position:fixed;
+    padding:6px 2px 0 6px;
+    top:0px;
+    right:0;
+    height:100%;
+    width:200px;
+    background-color:#000;
+    border-left:1px solid #ccc;
+    .analytics-titlebar{
+        font-family: 'RegloBold';
+        color:@spion-pink;
+    }
+    .widget-content {
+        font-family: PropCourierSans;
+    }
+    p{
+        margin-top: 3pt;
+        line-height:10pt;
+        font-size: 8pt;
+        color:#ccc;
+        font-weight:bold;
+    }
+    &.analytics-self{
+        p{
+            font-weight:bold;
+        }
+    }
 }
 
 

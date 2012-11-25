@@ -9,15 +9,12 @@
 
     {% for visit in visits%}
     {%if visit.customVariables.1.customVariableValue1 == session_key %}
-    <section class="analytics analytics-self" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
-    <div class="titlebar">
-    Spion.you
-    </div>
+    <div class="analytics analytics-self">
     <div class="widget-content">
-    <ul class="analytics">
-    <li>
     
-    <p>On {{ visit.serverDatePrettyFirstAction }} at {{ visit.serverTimePrettyFirstAction }} you, from {{ visit.country }}, using {{ visit.browserName }} on {{ visit.operatingSystem }} visit the site for {{ visit.visitDurationPretty }}.</p>
+    <p>
+    <span class="analytics-titlebar"> spion.you &gt; </span>
+    On {{ visit.serverDatePrettyFirstAction }} at {{ visit.serverTimePrettyFirstAction }} you, from {{ visit.country }}, using {{ visit.browserName }} on {{ visit.operatingSystem }} visit the site for {{ visit.visitDurationPretty }}.</p>
     
     <p>
     Your screen is set to {{ visit.resolution }}.
@@ -40,31 +37,19 @@
     <a href="{{ action.url }}" title={{ action.pageTitle }}>{{ action.url|shylink|safe }}</a> for {{ action.timeSpentPretty }}{% if forloop.last %}.{% elif forloop.revcounter0 == 1 %} and {% else %}, {% endif %}
     {% endfor %}
     </p>
-    
-    </li>
-    </ul>
     </div>
-    </section>
+    </div>
     
     
     {%else%}
     
     
-    <section class="analytics" data-sizex="2" data-sort="{{ forloop.counter|add:forloop.counter }}"> {# even numbers #}
-    <div class="titlebar">
-    Spion.you
-         <!-- <img src="{{ PIWIK_PATH }}{{ visit.countryFlag }}" alt="{{ visit.country }}"/>
-            <img src="{{ PIWIK_PATH }}{{ visit.operatingSystemIcon }}" alt="{{ visit.operatingSystem }}"/>
-            <img src="{{ PIWIK_PATH }}{{ visit.browserIcon }}" alt="{{ visit.browserName }}"/>-->
-            <!-- {% for plugin in visit.pluginsIcons %}
-            <img src="{{ PIWIK_PATH }}{{ plugin.pluginIcon }}" alt="{{ plugin.pluginName }}"/>
-            {% endfor %}  -->
-    </div>
+    <div class="analytics"> {# even numbers #}
     <div class="widget-content">
-    <ul class="analytics">
-    <li>
 
-        <p>On {{ visit.serverDatePrettyFirstAction }} at {{ visit.serverTimePrettyFirstAction }} someone from {{ visit.country }} using {{ visit.browserName }} on {{ visit.operatingSystem }} visits the site for {{ visit.visitDurationPretty }}.</p>
+    <p>
+    <span class="analytics-titlebar"> spion.you &gt; </span>
+        On {{ visit.serverDatePrettyFirstAction }} at {{ visit.serverTimePrettyFirstAction }} someone from {{ visit.country }} using {{ visit.browserName }} on {{ visit.operatingSystem }} visits the site for {{ visit.visitDurationPretty }}.</p>
 
         <p>
             Their screen is set to {{ visit.resolution }}.
@@ -88,10 +73,8 @@
             {% endfor %}
         </p>
 
-    </li>
-    </ul>
     </div>
-</section>
+</div>
 {%endif%}
 
     {% endfor %}
