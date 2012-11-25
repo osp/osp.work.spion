@@ -33,7 +33,7 @@
 </section>
 {% endfor %}
 
-
+{% comment %}
 {% for w in work_packages %}
 <section class="work_package" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
 <div class="titlebar meaningful">
@@ -59,7 +59,7 @@
 </div>
 </section>
 {% endfor %}
-
+{% endcomment %}
 
 {% endblock %}
 
