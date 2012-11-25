@@ -25,7 +25,7 @@ def visitor_context(request):
     """
     page_url = request.build_absolute_uri()
     v = Visitors(page_url)
-    visits = v.get()
+    visits = v.get()[-3:]
     return { 'visits' : visits, 'session_key': request.session.session_key, 'PIWIK_PATH' : PIWIK_PATH, 'PIWIK_SITE_ID':PIWIK_SITE_ID }
 
 def index(request):
