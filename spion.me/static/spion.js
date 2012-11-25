@@ -154,7 +154,11 @@ function piwik_live_cb(datas)
     </div>\
     </section>';
     
-    $('body').append(tpl);
+    if ( $("section.analytics").length === 0 ) {
+        $('body').append(tpl);
+    } else {
+        $($("section.analytics")[0]).before(tpl);
+    }
 }
 
 function self_piwik()
