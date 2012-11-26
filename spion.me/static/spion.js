@@ -47,12 +47,9 @@ function piwik_live_cb(datas)
     }
     
     var tpl = '\
-    <section class="analytics analytics-self analytics-live" data-sizex="2" data-sort="33">\
-    <div class="titlebar"> Spion.you </div>\
+    <div class="analytics analytics-self analytics-live" data-sizex="2" data-sort="33">\
     <div class="widget-content">\
-    <ul class="analytics">\
-    <li>\
-    <p>On '
+    <p><span class="analytics-titlebar"> spion.you </span>On '
     +data.serverDatePrettyFirstAction+' at '
     +data.serverTimePrettyFirstAction +' you, from '
     +data.country +', using '
@@ -65,15 +62,13 @@ function piwik_live_cb(datas)
     <p>You have installed: '+data.plugins+'</p>\
     <p>'+refer+'</p>\
     <p>'+actions+'</p>\
-    </li>\
-    </ul>\
     </div>\
-    </section>';
+    </div>';
     
-    if ( $("section.analytics").length === 0 ) {
-        $('body').append(tpl);
+    if ( $('.div.analytics').length === 0 ) {
+        $('#analytics-wrapper').append(tpl);
     } else {
-        $($("section.analytics")[0]).before(tpl);
+        $($('.div.analytics')[0]).before(tpl);
     }
 }
 
