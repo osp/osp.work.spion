@@ -70,13 +70,23 @@
 {% endblock %}
 </div>
 
-<div id="extra-wrapper">
-{% block credits %}
-{% endblock %}
-</div>
+
 
 <div id="analytics-wrapper">
 {% include 'visitors.html' %}
+</div>
+
+<div id="site-footer">
+    <div id="funder-box">
+        <div id="funder-logo">
+            <a href="http://www.iwt.be">
+                <img title="IWT" src="{{ STATIC_URL }}logos_spion/iwt_logo.gif">
+            </a>
+        </div>
+        <div id="funder-description">
+            SPION is a Strategic Basic Research (SBO) project with a social objective, funded by the Flemish Agency for Innovation by Science and Technology (IWT).
+        </div>
+    </div>
 </div>
 
 </body>
