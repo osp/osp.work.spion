@@ -64,6 +64,7 @@ class NewsItem(models.Model):
 class Organisation(models.Model):
     name = models.CharField(max_length=512)
     location = models.CharField(max_length=512)
+    logo = models.FileField(upload_to='logos/%d', null=True)
     def __unicode__(self):
         return self.name
     
