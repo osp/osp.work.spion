@@ -11,4 +11,6 @@ urlpatterns = patterns('spion.spion_app.views',
     url(r'^newsitem/(?P<nid>\d+)$', 'newsitem'),
     url(r'^workpackages/$', 'work_packages'),
     url(r'^workpackage/(?P<wid>\d+)$', 'work_package'),
+    url(r'^partners/$', 'partners'),
+    url(r'^partner/(?P<pid>\d+)$', 'partner'),
 )

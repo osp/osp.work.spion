@@ -2,17 +2,17 @@
 {% load md %}
 {% block content %}
 
-
-<section data-row="1" data-col="1" data-sizex="6">
-<div class="titlebar">
-
-</div>
+{% for p in partners %}
+<section class="advisor"  data-sizex="2">
+<div class="titlebar">Advisor</div>
 <div class="widget-content">
+<h1><a href="{{p.url}}">{{p.title}}</a></h1>
 <p>
-
+{{p.description|md:"tiny"}}
 </p>
 </div>
 </section>
+{% endfor %}
 
 {% endblock %}
 
