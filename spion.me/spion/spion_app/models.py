@@ -95,6 +95,8 @@ class Partner(models.Model):
 
         
 class SpionProject(models.Model):
+    description = models.TextField()
+    long_description = models.TextField()
     title = models.CharField(max_length=512, default="box title")
     description = models.TextField()
     
