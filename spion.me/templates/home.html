@@ -19,7 +19,7 @@
 <section class="pitch" data-sizex="4">
 <div class="titlebar" style="background-color:white">Project Description</div>
 <div class="widget-content" >
-{{project.description|md:"large reglo"}}
+{{project.introduction|md:"large reglo"}}
 </div>
 </section>
 
@@ -32,6 +32,23 @@
 </div>
 </section>
 {% endfor %}
+
+<section class="pitch" data-sizex="2">
+<div class="titlebar" style="background-color:white">Partners</div>
+<div class="widget-content" >
+{{project.partners|md:"medium"}}
+</div>
+</section>
+
+
+<section class="pitch" data-sizex="2">
+<div class="titlebar" style="background-color:white">Workpackages</div>
+<div class="widget-content" >
+{{project.workpackages|md:"medium"}}
+</div>
+</section>
+
+
 
 {% comment %}
 {% for w in work_packages %}
@@ -64,10 +81,10 @@
 {% endblock %}
 
 {% block credits %}
-<section id="osp" data-sizex="2"><div class="titlebar">Design</div>
+<!--<section id="osp" data-sizex="2"><div class="titlebar">Design</div>
 <div class="widget-content">
 <p class="medium"><a href="http://osp.constantvzw.org/">Open Source Publishing</a></p>
 </div>
-</section>
+</section>-->
 {% endblock %}
 
