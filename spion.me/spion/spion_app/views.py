@@ -33,10 +33,14 @@ def index(request):
     tpl_params['news'] = NewsItem.objects.filter(publish_start__lte=datetime.today(),
                                                 publish_end__gte=datetime.today())
                                                 
-    tpl_params['project'] = SpionProject.objects.all()[0]
-    tpl_params['profiles'] = UserProfile.objects.all()
-    tpl_params['publications'] = Publication.objects.filter(pub_type__name='deliverable')
-    tpl_params['work_packages'] = WorkPackage.objects.all()
+    project = SpionProject.objects.all()
+    tpl_params['project'] = {}
+    for p in project:
+        tpl_params['project'][p.title] = p.description
+    
+    #tpl_params['profiles'] = UserProfile.objects.all()
+    #tpl_params['publications'] = Publication.objects.filter(pub_type__name='deliverable')
+    #tpl_params['work_packages'] = WorkPackage.objects.all()
     return render_to_response("home.html", tpl_params, context_instance = RequestContext(request))
     
 def profiles(request):

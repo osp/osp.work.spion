@@ -25,7 +25,7 @@ class Publication(models.Model):
     summary = models.TextField()
     published = models.IntegerField() # Assumed that year of publication was enough
     pub_type = models.ForeignKey('PublicationType', related_name='publications') # a la bibtex... but simple!  + deliverable + talks
-    publisher = models.CharField(max_length=512) 
+    publisher = models.CharField(max_length=512, blank=True) 
     
     url = models.URLField()
     user = models.ManyToManyField('UserProfile', related_name='publications')
@@ -88,6 +88,7 @@ class WorkPackage(models.Model):
 class Partner(models.Model):
     title = models.CharField(max_length=512)
     url = models.URLField(blank=True)
+    description = models.TextField(blank=True)
 
     def __unicode__(self):
         return self.title
@@ -96,4 +97,8 @@ class Partner(models.Model):
 class SpionProject(models.Model):
     description = models.TextField()
     long_description = models.TextField()
-
+    title = models.CharField(max_length=512, default="box title")
+    description = models.TextField()
+    
+    def __unicode__(self):
+        return self.title
