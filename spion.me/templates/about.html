@@ -3,14 +3,19 @@
 {% load fs %}
 {% block content %}
 
-<section data-sizex="6">
-{{long_description.description|md}}
+<section class="about" data-sizex="6">
+<div class="titlebar">
+Project Description
+</div>
+<div class="widget-content">
+{{long_description.description|md:"medium"}}
+</div>
 </section>
 
 {% for o in organisations %}
 <section class="profile" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}">
 <div class="titlebar">
-Organisation</a>
+Organisation
 </div>
 <div class="widget-content">
 <h1>{{ o.name }},</h1>

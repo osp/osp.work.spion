@@ -92,7 +92,7 @@ def work_package(request, wid):
 def about(request):
     tpl_params = {}
     tpl_params['long_description'] = SpionProject.objects.get(title="long_description")
-    tpl_params['project'] = SpionProject.objects.all()[0]
+    #tpl_params['project'] = SpionProject.objects.all()[0]
     tpl_params['organisations'] = Organisation.objects.all()
     tpl_params['work_packages'] = WorkPackage.objects.all()
     tpl_params['partners'] = Partner.objects.all()
