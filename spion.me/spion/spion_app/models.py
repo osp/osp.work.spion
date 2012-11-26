@@ -95,3 +95,5 @@ class Partner(models.Model):
         
 class SpionProject(models.Model):
     description = models.TextField()
+    long_description = models.TextField()
+

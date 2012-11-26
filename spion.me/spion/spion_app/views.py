@@ -85,6 +85,14 @@ def work_package(request, wid):
                 tpl_params['publications'].append(p)
     return render_to_response("work_package.html", tpl_params, context_instance = RequestContext(request))
     
+def about(request):
+    tpl_params = {}
+    tpl_params['project'] = SpionProject.objects.all()[0]
+    tpl_params['organisations'] = Organisation.objects.all()
+    tpl_params['work_packages'] = WorkPackage.objects.all()
+    tpl_params['partners'] = Partner.objects.all()
+    return render_to_response("about.html", tpl_params, context_instance = RequestContext(request))
+  
 def partners(request):
     tpl_params = {}
     tpl_params['partners'] = Partner.objects.all()
