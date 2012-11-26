@@ -4,19 +4,19 @@
 {% block content %}
 
 <section data-sizex="6">
-Here comes the long description. I’m having some trouble with database migrations. Pierre, could you add a textfield long_description to spion_projects? Cf the pad
-
-{{project.long_description|md}}
+{{long_description.description|md}}
 </section>
 
 {% for o in organisations %}
-<section class="profile" data-sizex="3" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}">
+<section class="profile" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}">
 <div class="titlebar">
 Organisation</a>
 </div>
 <div class="widget-content">
 <h1>{{ o.name }},</h1>
 <h1>{{ o.location }}</h1>
+
+<img class="about_logo" src="{{MEDIA_URL}}{{o.logo}}" alt="Logo of {{o.name}}"/>
 
 </div>
 </section>
