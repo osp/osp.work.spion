@@ -4,71 +4,95 @@
   
 function piwik_live_cb(datas)
 {
-    // create a section for current visitor
-    var data = undefined;
+    $('#analytics-wrapper').empty();
+    var isYou = false;
+    console.log(datas);
     for(var dx in datas)
     {
+        var data = datas[dx];
         if(datas[dx].customVariables['1'].customVariableValue1 === SESSION_KEY)
         {
-            data = datas[dx];
-            break;
+            isYou = true;
         }
-    }
-    if(data === undefined)
-        return;
-    
-    var refer = '';
-    if(data.referrerName.length > 0)
-    {
-        refer = 'You come from <a href="'+data.referrerUrl +'">'+ data.referrerName +'</a>';
-        if(dat.referrerKeyword.length > 0)
-        {
-            refer += ', searching with the keywords «'+visit.referrerKeyword+'»';
-        }
-    }
-    
-    var actions = 'You visit';
-    var act_dict = new Object();
-    for(var a in data.actionDetails)
-    {
-        var action = data.actionDetails[a];
-        if(act_dict[action.url] === undefined)
-            act_dict[action.url] = {title:action.pageTitle, n:1};
         else
         {
-            var n = act_dict[action.url].n;
-            act_dict[action.url] = {title:action.pageTitle, n:n+1};
+            isYou = false;
         }
-    }
-    for(var act in act_dict)
-    {
-        var action = act_dict[act];
-        actions += ' <a href="'+ act +'" title="'+ action.title +'">'+ act.replace(/\//g,"/&shy;") +'</a> '+action.n+' times';
-    }
-    
-    var tpl = '\
-    <div class="analytics analytics-self analytics-live" data-sizex="2" data-sort="33">\
-    <div class="widget-content">\
-    <p><span class="analytics-titlebar"> spion.you </span>On '
-    +data.serverDatePrettyFirstAction+' at '
-    +data.serverTimePrettyFirstAction +' you, from '
-    +data.country +', using '
-    +data.browserName+' on '
-    +data.operatingSystem+', visit the site for '
-    +data.visitDurationPretty+'.</p>\
-    <p>\
-    Your screen is set to '+ data.resolution +'.\
-    </p>\
-    <p>You have installed: '+data.plugins+'</p>\
-    <p>'+refer+'</p>\
-    <p>'+actions+'</p>\
-    </div>\
-    </div>';
-    
-    if ( $('.div.analytics').length === 0 ) {
-        $('#analytics-wrapper').append(tpl);
-    } else {
-        $($('.div.analytics')[0]).before(tpl);
+        
+        var refer = '';
+        if(data.referrerName.length > 0)
+        {
+            refer = 'You come from <a href="'+data.referrerUrl +'">'+ data.referrerName +'</a>';
+            if(dat.referrerKeyword.length > 0)
+            {
+                refer += ', searching with the keywords «'+visit.referrerKeyword+'»';
+            }
+        }
+        
+        var actions = 'You visit';
+        var act_dict = new Object();
+        for(var a in data.actionDetails)
+        {
+            var action = data.actionDetails[a];
+            if(act_dict[action.url] === undefined)
+                act_dict[action.url] = {title:action.pageTitle, n:1};
+            else
+            {
+                var n = act_dict[action.url].n;
+                act_dict[action.url] = {title:action.pageTitle, n:n+1};
+            }
+        }
+        for(var act in act_dict)
+        {
+            var action = act_dict[act];
+            actions += ' <a href="'+ act +'" title="'+ action.title +'">'+ act.replace(/\//g,"/&shy;") +'</a> '+action.n+' times';
+        }
+        
+        var tpl = { 
+            you: '\
+                <div class="analytics analytics-self analytics-live" data-sizex="2" data-sort="33">\
+                <div class="widget-content">\
+                <p><span class="analytics-titlebar"> spion.you </span>On '
+                +data.serverDatePrettyFirstAction+' at '
+                +data.serverTimePrettyFirstAction +' you, from '
+                +data.country +', using '
+                +data.browserName+' on '
+                +data.operatingSystem+', visit the site for '
+                +data.visitDurationPretty+'.</p>\
+                <p>\
+                Your screen is set to '+ data.resolution +'.\
+                </p>\
+                <p>You have installed: '+data.plugins+'</p>\
+                <p>'+refer+'</p>\
+                <p>'+actions+'</p>\
+                </div>\
+                </div>',
+            other:'\
+                <div class="analytics analytics-live" data-sizex="2" data-sort="33">\
+                <div class="widget-content">\
+                <p><span class="analytics-titlebar"> spion.you </span>On '
+                +data.serverDatePrettyFirstAction+' at '
+                +data.serverTimePrettyFirstAction +' someone from '
+                +data.country +', using '
+                +data.browserName+' on '
+                +data.operatingSystem+', visits the site for '
+                +data.visitDurationPretty+'.</p>\
+                <p>\
+                Their screen is set to '+ data.resolution +'.\
+                </p>\
+                <p>They have installed: '+data.plugins+'</p>\
+                <p>'+refer+'</p>\
+                <p>'+actions+'</p>\
+                </div>\
+                </div>'
+        }
+        
+        
+        if ( $('.div.analytics').length === 0 ) {
+            $('#analytics-wrapper').append(isYou ? tpl.you : tpl.other);
+        } else {
+            $($('.div.analytics')[0]).before(isYou ? tpl.you : tpl.other);
+        }
     }
 }
 
@@ -85,15 +109,27 @@ function self_piwik()
         console.log('Error while loading piwikTracker: '+err);
     }
     
-    if($('.analytics-self').length === 0)
+//     if($('.analytics-self').length === 0)
+
+    function refresh_piwik()
     {
-        $.ajax(PIWIK_URL+'?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
-               {
-                   dataType:'jsonp',
-               jsonp: false, 
-               jsonpCallback: "piwik_live_cb"
-               });
-    }
+        if($('#analytics-wrapper').is(':visible'))
+        {
+            $.ajax(PIWIK_URL+'?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
+                   {
+                       dataType:'jsonp',
+                   jsonp: false, 
+                   jsonpCallback: "piwik_live_cb"
+                   });
+        }
+    };
+    
+    var piwik_refresh_handle = window.setInterval(function()
+        {
+            refresh_piwik();
+        }, 10000);
+    
+    refresh_piwik();
 };
 
 function profiles_image()
@@ -166,15 +202,15 @@ $(document).ready(function()
     
     
     // fake live update, should be removed when we get true live update
-    function xxxx()
-    {
-        var f = $('.analytics').last();
-        f.hide();
-        $('#analytics-wrapper').prepend(f);
-        f.toggle('slow');
-        window.setTimeout(xxxx, 60000 , true);
-    }
-    window.setTimeout(xxxx, 60000 , true);
+//     function xxxx()
+//     {
+//         var f = $('.analytics').last();
+//         f.hide();
+//         $('#analytics-wrapper').prepend(f);
+//         f.toggle('slow');
+//         window.setTimeout(xxxx, 60000 , true);
+//     }
+//     window.setTimeout(xxxx, 60000 , true);
 });
 
 $(window).load(function() {
