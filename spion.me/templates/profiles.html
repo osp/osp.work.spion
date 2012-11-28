@@ -25,7 +25,7 @@ Picture
 </section>
 
 {% for w in work_packages %}
-<section class="profile" data-sizex="3" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
+<section class="profile" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
 <div class="titlebar">
 Researchers - <a class="link" href="{% url spion_app.views.work_package w.id %}">{{ w.research_group.short_name }}</a>
 </div>
@@ -38,7 +38,7 @@ Researchers - <a class="link" href="{% url spion_app.views.work_package w.id %}"
 </div>-->
 {% for researcher in w.researchers.all %}
 <h1 id="user_{{researcher.id}}" class="researcher_name" >
-    <a class="link" href="{% url spion_app.views.profile researcher.id %}">
+    <a class="link" href="{% url spion_app.views.profile researcher.id %}" title="{{researcher.bio}}">
         {% if researcher.user.get_full_name %} {{researcher.user.get_full_name}} {% else %} {{researcher.user.username}} {% endif %}
     </a>
 </h1>
