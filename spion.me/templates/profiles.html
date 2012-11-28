@@ -7,7 +7,11 @@
 var user_pictures = new Object();
 {% for p in profiles %}
 user_pictures['user_{{p.id}}'] = new Image();
-user_pictures['user_{{p.id}}'].src = "{{MEDIA_URL}}{{p.picture}}";
+    {% if p.picture %}
+        user_pictures['user_{{p.id}}'].src = "{{MEDIA_URL}}{{p.picture}}";
+    {% else %}
+        user_pictures['user_{{p.id}}'].src = "{{STATIC_URL}}1x1-transparent-pixel.png";
+    {% endif %}
 {% endfor %}
 </script>
 
@@ -16,7 +20,7 @@ user_pictures['user_{{p.id}}'].src = "{{MEDIA_URL}}{{p.picture}}";
 Picture
 </div>
 <div class="widget-content">
-<img class="user_picture" src="{{MEDIA_URL}}{{profiles.0.picture}}"/>
+<img class="user_picture" src="{% if profiles.0.picture %}{{MEDIA_URL}}{{profiles.0.picture}}{% else %}{{STATIC_URL}}1x1-transparent-pixel.png{% endif %}"/>
 </div>
 </section>
 
