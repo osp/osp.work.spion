@@ -13,21 +13,6 @@ from datetime import datetime
 from analytics.models import Visitors
 from spion.settings import (PIWIK_PATH,PIWIK_SITE_ID)
 
-def visitor_context(request):
-    """
-    This template processor adds visitor info using the Piwik API.
-    It calls all visits that include the currently requested page.
-    Add this function to TEMPLATE_CONTEXT_PROCESSORS in settings.py as
-    "spion_app.views.visitor_context"
-    
-    TODO: make an exception for the homepage, so that the homepage shows
-    all the visits.
-    """
-    page_url = request.build_absolute_uri()
-    v = Visitors(page_url)
-    visits = v.get()[-3:]
-    return { 'visits' : visits, 'session_key': request.session.session_key, 'PIWIK_PATH' : PIWIK_PATH, 'PIWIK_SITE_ID':PIWIK_SITE_ID }
-
 def index(request):
     tpl_params = {}
     tpl_params['news'] = NewsItem.objects.filter(publish_start__lte=datetime.today(),
@@ -45,6 +30,7 @@ def index(request):
     
 def profiles(request):
     tpl_params = {}
+    tpl_params['title'] = 'Researchers'
     tpl_params['work_packages'] = WorkPackage.objects.all()
     tpl_params['profiles'] = UserProfile.objects.all()
     return render_to_response("profiles.html", tpl_params, context_instance = RequestContext(request))
@@ -57,11 +43,13 @@ def profile(request, uid):
     tpl_params['bio'] = user_profile.bio
     tpl_params['work_package'] = user_profile.work_package
     tpl_params['publications'] = user_profile.publications.all()
+    tpl_params['title'] = tpl_params['user'].get_full_name()
     return render_to_response("profile.html", tpl_params, context_instance = RequestContext(request))
 
 def publications(request):
     tpl_params = {}
     tpl_params['publications'] = Publication.objects.all()
+    tpl_params['title'] = 'Publications'
     return render_to_response("publications.html", tpl_params, context_instance = RequestContext(request))
 
 def publication(request, pid):
@@ -69,11 +57,13 @@ def publication(request, pid):
     pub = Publication.objects.get(pk=pid)
     tpl_params['publication'] = pub
     tpl_params['authors'] = pub.user.all()
+    tpl_params['title'] = pub.title
     return render_to_response("publication.html", tpl_params, context_instance = RequestContext(request))
 
 def work_packages(request):
     tpl_params = {}
     tpl_params['work_packages'] = WorkPackage.objects.all()
+    tpl_params['title'] = 'Workpackages'
     return render_to_response("work_packages.html", tpl_params, context_instance = RequestContext(request))
     
 def work_package(request, wid):
@@ -81,6 +71,7 @@ def work_package(request, wid):
     wp = WorkPackage.objects.get(pk=wid)
     tpl_params['work_package'] = wp
     tpl_params['publications'] = []
+    tpl_params['title'] = wp.title
     pub_ids = []
     for rs in wp.researchers.all():
         for p in rs.publications.all():
@@ -96,26 +87,31 @@ def about(request):
     tpl_params['organisations'] = Organisation.objects.all()
     tpl_params['work_packages'] = WorkPackage.objects.all()
     tpl_params['partners'] = Partner.objects.all()
+    tpl_params['title'] = 'about'
     return render_to_response("about.html", tpl_params, context_instance = RequestContext(request))
   
 def partners(request):
     tpl_params = {}
     tpl_params['partners'] = Partner.objects.all()
+    tpl_params['title'] = 'Advisory Group'
     return render_to_response("partners.html", tpl_params, context_instance = RequestContext(request))
     
 def partner(request, pid):
     tpl_params = {}
     tpl_params['partner'] = Partner.objects.get(pk=pid)
+    tpl_params['title'] = tpl_params['partner'].title
     return render_to_response("partner.html", tpl_params, context_instance = RequestContext(request))
 
 def newsitems(request):
     tpl_params = {}
     tpl_params['newsitems'] = NewsItem.objects.all()
+    tpl_params['title'] = 'News'
     return render_to_response("newsitems.html", tpl_params, context_instance = RequestContext(request))
 
 def newsitem(request, nid):
     tpl_params = {}
     tpl_params['newsitem'] = NewsItem.objects.get(pk=nid)
+    tpl_params['title'] = tpl_params['newsitem'].title
     return render_to_response("newsitem.html", tpl_params, context_instance = RequestContext(request))
 
 
