@@ -3,6 +3,9 @@ from random import choice
 
 def compress_enabled(context):
     return {'COMPRESS_ENABLED': settings.COMPRESS_ENABLED}
+    
+def piwik_settings(context):
+    return {'session_key': context.session.session_key, 'PIWIK_PATH' : settings.PIWIK_PATH, 'PIWIK_SITE_ID': settings.PIWIK_SITE_ID }
 
 def background_images(context):
     background_images = ["F260-k590-64-8.png",
