@@ -67,6 +67,7 @@ class SpionProjectAdmin(admin.ModelAdmin):
 
 admin.site.register(Resource)
 admin.site.register(PublicationType)
+admin.site.register(ExternalAuthor)
 admin.site.register(Publication, PublicationAdmin)
 admin.site.register(UserProfile, UserProfileAdmin)
 admin.site.register(NewsItem, NewsItemAdmin)

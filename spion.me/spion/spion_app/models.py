@@ -19,6 +19,13 @@ class PublicationType(models.Model):
     name = models.CharField(max_length=512)
     def __unicode__(self):
         return self.name
+
+class ExternalAuthor(models.Model):
+    name = models.CharField(max_length=512)
+    url = models.URLField(blank=True)
+    
+    def __unicode__(self):
+        return self.name
         
 class Publication(models.Model):
     title = models.CharField(max_length=512)
@@ -29,6 +36,7 @@ class Publication(models.Model):
     
     url = models.URLField()
     user = models.ManyToManyField('UserProfile', related_name='publications')
+    external_authors = models.ManyToManyField('ExternalAuthor', related_name='publications')
     
     def __unicode__(self):
         return self.title
