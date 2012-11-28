@@ -6,6 +6,7 @@ from django.contrib import admin
 from django.forms import ModelForm
 from spion_app.models import *
 
+from markitup.widgets import AdminMarkItUpWidget
 
 #class PublicationForm(ModelForm):
     #class Meta:
@@ -22,6 +23,8 @@ class PublicationRelInline(admin.TabularInline):
 
 
 class UserProfileAdmin(admin.ModelAdmin):
+    formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
+    
     model = UserProfile
     list_display = ('username', 'first_name', 'last_name', 'email')
     
@@ -37,15 +40,39 @@ class UserProfileAdmin(admin.ModelAdmin):
         return obj.user.email
     
 
+class PublicationAdmin(admin.ModelAdmin):
+    formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
+    model = Publication
+
+class NewsItemAdmin(admin.ModelAdmin):
+    formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
+    model = NewsItem
+
+class ResearchGroupAdmin(admin.ModelAdmin):
+    formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
+    model = ResearchGroup
+
+class WorkPackageAdmin(admin.ModelAdmin):
+    formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
+    model = WorkPackage
+
+class PartnerAdmin(admin.ModelAdmin):
+    formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
+    model = Partner
+
+class SpionProjectAdmin(admin.ModelAdmin):
+    formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
+    model = SpionProject
+
 
 admin.site.register(Resource)
 admin.site.register(PublicationType)
-admin.site.register(Publication)
+admin.site.register(Publication, PublicationAdmin)
 admin.site.register(UserProfile, UserProfileAdmin)
-admin.site.register(NewsItem)
+admin.site.register(NewsItem, NewsItemAdmin)
 admin.site.register(Organisation)
-admin.site.register(ResearchGroup)
-admin.site.register(WorkPackage)
-admin.site.register(Partner)
-admin.site.register(SpionProject)
+admin.site.register(ResearchGroup, ResearchGroupAdmin)
+admin.site.register(WorkPackage, WorkPackageAdmin)
+admin.site.register(Partner, PartnerAdmin)
+admin.site.register(SpionProject, SpionProjectAdmin)
 
