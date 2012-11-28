@@ -7,11 +7,11 @@
 {% for w in work_packages %}
 <section class="work_package" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
 <div class="titlebar meaningful">
-<a href="{% url spion_app.views.work_packages %}">Work Package</a>
-<!-- <a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
+<a href="{% url spion.spion_app.views.work_packages %}">Work Package</a>
+<!-- <a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
 </div>
 <div class="widget-content">
-<h1><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h1>
+<h1><a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a></h1>
 
 {{ w.description|fs|md:"medium" }}
 </div>

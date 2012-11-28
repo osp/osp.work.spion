@@ -8,33 +8,33 @@
 
 {% block content %}
 <!--<section data-sizex="2">
-<div class="titlebar"><a href="{% url spion_app.views.profiles %}">Profiles</a></div>
+<div class="titlebar"><a href="{% url spion.spion_app.views.profiles %}">Profiles</a></div>
   <div class="widget-content">
 {% for  profile in profiles %}
-  <p><a href="{% url spion_app.views.profile profile.id %}">{% if profile.user.get_full_name %} {{profile.user.get_full_name}} {% else %} {{profile.user.username}} {% endif %}</a></p>
+  <p><a href="{% url spion.spion_app.views.profile profile.id %}">{% if profile.user.get_full_name %} {{profile.user.get_full_name}} {% else %} {{profile.user.username}} {% endif %}</a></p>
 {% endfor %}
  </div>
 </section>-->
 
 {% for n in news %}
 <section class="news" data-sizex="3">
-<div class="titlebar"><a href="{% url spion_app.views.newsitems %}">News</a></div>
+<div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">News</a></div>
 <div class="widget-content">
-<h2><a href="{% url spion_app.views.newsitem n.id %}">{{n.header}}</a></h2>
+<h2><a href="{% url spion.spion_app.views.newsitem n.id %}">{{n.header}}</a></h2>
 {{n.body|fs|md:"large"}}
 </div>
 </section>
 {% endfor %}
 
 <section class="pitch" data-sizex="4">
-<div class="titlebar" style="background-color:white"><a href="{% url spion_app.views.about %}">Project Description</a></div>
+<div class="titlebar" style="background-color:white"><a href="{% url spion.spion_app.views.about %}">Project Description</a></div>
 <div class="widget-content" >
 {{project.introduction|md:"large reglo"}}
 </div>
 </section>
 
 <section class="pitch research_group" data-sizex="2">
-<div class="titlebar"><a href="{% url spion_app.views.about %}">Partners</a></div>
+<div class="titlebar"><a href="{% url spion.spion_app.views.about %}">Partners</a></div>
 <div class="widget-content" >
 {{project.partners|md:"medium"}}
 </div>
@@ -42,7 +42,7 @@
 
 
 <section class="pitch work_package" data-sizex="3">
-<div class="titlebar"><a href="{% url spion_app.views.work_packages %}">Workpackages</a></div>
+<div class="titlebar"><a href="{% url spion.spion_app.views.work_packages %}">Workpackages</a></div>
 <div class="widget-content" >
 {{project.workpackages|md:"medium"}}
 </div>
@@ -54,11 +54,11 @@
 {% for w in work_packages %}
 <section class="work_package" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
 <div class="titlebar meaningful">
-<a href="{% url spion_app.views.work_packages %}">Work Package</a>
-<!-- <a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
+<a href="{% url spion.spion_app.views.work_packages %}">Work Package</a>
+<!-- <a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
 </div>
 <div class="widget-content">
-<h1><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h1>
+<h1><a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a></h1>
 
 {{ w.description|fs|md:"medium" }}
 </div>
@@ -67,9 +67,9 @@
 
 {% for p in publications %}
 <section class="publication" data-sizex="3">
-<div class="titlebar"><a href="{% url spion_app.views.publications %}">Deliverable</a></div>
+<div class="titlebar"><a href="{% url spion.spion_app.views.publications %}">Deliverable</a></div>
 <div class="widget-content">
-<h2><a href="{% url spion_app.views.publication p.id %}">{{p.title }}</a></h2>
+<h2><a href="{% url spion.spion_app.views.publication p.id %}">{{p.title }}</a></h2>
 <p class="medium">
 {{ p.summary|fs|md:"tiny" }}
 </p>

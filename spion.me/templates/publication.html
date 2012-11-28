@@ -11,7 +11,7 @@
 <h1 class="title">{{ publication.title }}</h1>
 <div class="authors">
 {% for a in authors %}
-<a href="{% url spion_app.views.profile a.id %}">{% if a.user.get_full_name %}{{a.user.get_full_name}}{% else %}{{a.user.username}}{% endif %}</a>{% if not forloop.last%},{% endif %}
+<a href="{% url spion.spion_app.views.profile a.id %}">{% if a.user.get_full_name %}{{a.user.get_full_name}}{% else %}{{a.user.username}}{% endif %}</a>{% if not forloop.last%},{% endif %}
 
 {% endfor %}
 </div>

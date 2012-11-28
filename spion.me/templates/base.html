@@ -49,27 +49,27 @@
 {% block header %}
 <!--   <section class="widget-content header" data-sizex="4"> -->
 <div id="site-header">
-    <div id="logo-box"><a href="{% url spion_app.views.index %}"><img src="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="120px"></a></div>
+    <div id="logo-box"><a href="{% url spion.spion_app.views.index %}"><img src="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="120px"></a></div>
     <h1 class="tagline"><div>Privacy and Security </div><div>in Online Social Networks</div></h1>
     
     
     <div id="site-navigation">
-<!--     <span class="label news"><a href="{% url spion_app.views.newsitems %}">News</a></span> -->
+<!--     <span class="label news"><a href="{% url spion.spion_app.views.newsitems %}">News</a></span> -->
 
         <span class="label about">
-            <a href="{% url spion_app.views.about %}">About</a>
+            <a href="{% url spion.spion_app.views.about %}">About</a>
         </span>
         <span class="label publication">
-            <a href="{% url spion_app.views.publications %}">Publications</a>
+            <a href="{% url spion.spion_app.views.publications %}">Publications</a>
         </span>
         <span class="label work_package">
-            <a href="{% url spion_app.views.work_packages %}">Workpackages</a>
+            <a href="{% url spion.spion_app.views.work_packages %}">Workpackages</a>
         </span>
         <span class="label researcher">
-            <a href="{% url spion_app.views.profiles %}">Researchers</a>
+            <a href="{% url spion.spion_app.views.profiles %}">Researchers</a>
         </span>
         <span class="label advisor">
-            <a href="{% url spion_app.views.partners %}">Advisory Group</a>
+            <a href="{% url spion.spion_app.views.partners %}">Advisory Group</a>
         </span>
     </div>
     
