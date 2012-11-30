@@ -34,7 +34,7 @@ Research Group
 <div class="titlebar"><a href="{% url spion.spion_app.views.profiles %}">Researchers</a></div>
   <div class="widget-content">
 {% for researcher in work_package.researchers.all %}
-  <p class="researcher-link" ><a href="{% url spion.spion_app.views.profile researcher.id %}">{% if researcher.user.get_full_name %} {{researcher.user.get_full_name}} {% else %} {{researcher.user.username}} {% endif %}</a></p>
+  <p class="researcher-link" ><a href="{% url spion.spion_app.views.profile researcher.slug %}">{% if researcher.user.get_full_name %} {{researcher.user.get_full_name}} {% else %} {{researcher.user.username}} {% endif %}</a></p>
 {% endfor %}
  </div>
 </section>
@@ -43,7 +43,7 @@ Research Group
 <section class="publication" data-sizex="3">
 <div class="titlebar"><a href="{% url spion.spion_app.views.publications %}">Publication</a> - {{ p.pub_type.name }}</div>
 <div class="widget-content">
-    <h2 class="publication-link"><a href="{% url spion.spion_app.views.publication p.id %}">{{p.title }}</a></h2>
+    <h2 class="publication-link"><a href="{% url spion.spion_app.views.publication p.slug %}">{{p.title }}</a></h2>
     <p class="medium">
     {{ p.summary|fs }}
     </p>

@@ -35,9 +35,9 @@ def profiles(request):
     tpl_params['profiles'] = UserProfile.objects.all()
     return render_to_response("profiles.html", tpl_params, context_instance = RequestContext(request))
     
-def profile(request, uid):  
+def profile(request, uslug):  
     tpl_params = {}
-    user_profile = UserProfile.objects.get(pk=uid)
+    user_profile = UserProfile.objects.get(slug=uslug)
     tpl_params['profile'] = user_profile
     tpl_params['user'] = user_profile.user
     tpl_params['bio'] = user_profile.bio
@@ -52,9 +52,9 @@ def publications(request):
     tpl_params['title'] = 'Publications'
     return render_to_response("publications.html", tpl_params, context_instance = RequestContext(request))
 
-def publication(request, pid):
+def publication(request, pslug):
     tpl_params = {}
-    pub = Publication.objects.get(pk=pid)
+    pub = Publication.objects.get(slug=pslug)
     tpl_params['publication'] = pub
     tpl_params['authors'] = pub.user.all()
     tpl_params['title'] = pub.title
@@ -66,9 +66,9 @@ def work_packages(request):
     tpl_params['title'] = 'Workpackages'
     return render_to_response("work_packages.html", tpl_params, context_instance = RequestContext(request))
     
-def work_package(request, wid):
+def work_package(request, wslug):
     tpl_params = {}
-    wp = WorkPackage.objects.get(pk=wid)
+    wp = WorkPackage.objects.get(slug=wslug)
     tpl_params['work_package'] = wp
     tpl_params['publications'] = []
     tpl_params['title'] = wp.title
@@ -108,10 +108,10 @@ def newsitems(request):
     tpl_params['title'] = 'News'
     return render_to_response("newsitems.html", tpl_params, context_instance = RequestContext(request))
 
-def newsitem(request, nid):
+def newsitem(request, nslug):
     tpl_params = {}
-    tpl_params['newsitem'] = NewsItem.objects.get(pk=nid)
-    tpl_params['title'] = tpl_params['newsitem'].title
+    tpl_params['newsitem'] = NewsItem.objects.get(slug=nslug)
+    tpl_params['title'] = tpl_params['newsitem'].header
     return render_to_response("newsitem.html", tpl_params, context_instance = RequestContext(request))
 
 

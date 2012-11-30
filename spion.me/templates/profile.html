@@ -34,7 +34,7 @@ Picture
 Publication - {{p.pub_type.name}}
 </div>
 <div class="widget-content">
-<h2><a href="{% url spion.spion_app.views.publication p.id %}">{{ p.title }}</a></h2>
+<h2><a href="{% url spion.spion_app.views.publication p.slug %}">{{ p.title }}</a></h2>
 <p>
 {{ p.summary|fs|md:"tiny" }}
 </p>
@@ -48,7 +48,7 @@ Publication - {{p.pub_type.name}}
 Workpackage
 </div>
 <div class="widget-content">
-<h2><a href="{% url spion.spion_app.views.work_package work_package.id %}">{{ work_package.title }}</a></h2>
+<h2><a href="{% url spion.spion_app.views.work_package work_package.slug %}">{{ work_package.title }}</a></h2>
 <p class="medium">
 {{ work_package.description|fs|md:"medium" }}
 </p>

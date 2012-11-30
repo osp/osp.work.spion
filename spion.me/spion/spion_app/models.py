@@ -112,10 +112,17 @@ class ResearchGroup(models.Model):
         
         
 class WorkPackage(models.Model):
+    slug = models.SlugField(max_length=255, editable=False)
+    
     title = models.CharField(max_length=512)
     description = models.TextField()
     organisation = models.ForeignKey(Organisation)
     research_group = models.ForeignKey(ResearchGroup)
+    
+    def save(self, force_insert=False, force_update=False, *args, **kwargs):
+        # Automatically generate the slug from the title on save
+        self.slug = slugify(self.title)
+        super(WorkPackage, self).save(force_insert, force_update) 
     
     def __unicode__(self):
         return self.title

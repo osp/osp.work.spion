@@ -20,7 +20,7 @@
 <section class="news" data-sizex="3">
 <div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">News</a></div>
 <div class="widget-content">
-<h2><a href="{% url spion.spion_app.views.newsitem n.id %}">{{n.header}}</a></h2>
+<h2><a href="{% url spion.spion_app.views.newsitem n.slug %}">{{n.header}}</a></h2>
 {{n.body|fs|md:"large"}}
 </div>
 </section>
@@ -58,7 +58,7 @@
 <!-- <a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
 </div>
 <div class="widget-content">
-<h1><a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a></h1>
+<h1><a href="{% url spion.spion_app.views.work_package w.slug %}">{{ w.title }}</a></h1>
 
 {{ w.description|fs|md:"medium" }}
 </div>
@@ -69,7 +69,7 @@
 <section class="publication" data-sizex="3">
 <div class="titlebar"><a href="{% url spion.spion_app.views.publications %}">Deliverable</a></div>
 <div class="widget-content">
-<h2><a href="{% url spion.spion_app.views.publication p.id %}">{{p.title }}</a></h2>
+<h2><a href="{% url spion.spion_app.views.publication p.slug %}">{{p.title }}</a></h2>
 <p class="medium">
 {{ p.summary|fs|md:"tiny" }}
 </p>

@@ -11,7 +11,7 @@
 <!-- <a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a> -->
 </div>
 <div class="widget-content">
-<h1><a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a></h1>
+<h1><a href="{% url spion.spion_app.views.work_package w.slug %}">{{ w.title }}</a></h1>
 
 {{ w.description|fs|md:"medium" }}
 </div>
