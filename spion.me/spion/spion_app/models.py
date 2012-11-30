@@ -56,6 +56,10 @@ class UserProfile(models.Model):
     def str(self):
         return self.__unicode__()
     
+    class Meta:
+        ordering = ('user__last_name',)
+
+    
 
 # checked
 class NewsItem(models.Model):
