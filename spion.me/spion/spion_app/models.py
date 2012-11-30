@@ -3,6 +3,8 @@ spion.models
 """
 
 from django.contrib.auth.models import User
+from django.template.defaultfilters import slugify
+
 from django.db import models
 
 from django.contrib import admin
@@ -28,6 +30,8 @@ class ExternalAuthor(models.Model):
         return self.name
         
 class Publication(models.Model):
+    slug = models.SlugField(max_length=255, editable=False)
+    
     title = models.CharField(max_length=512)
     summary = models.TextField()
     published = models.IntegerField() # Assumed that year of publication was enough
@@ -38,10 +42,17 @@ class Publication(models.Model):
     user = models.ManyToManyField('UserProfile', related_name='publications')
     external_authors = models.ManyToManyField('ExternalAuthor', related_name='publications')
     
+    def save(self, force_insert=False, force_update=False, *args, **kwargs):
+        # Automatically generate the slug from the title on save
+        self.slug = slugify(self.title)
+        super(Publication, self).save(force_insert, force_update) 
+    
     def __unicode__(self):
         return self.title
 
 class UserProfile(models.Model):
+    slug = models.SlugField(max_length=255, editable=False)
+    
     user = models.OneToOneField(User)
     picture = models.FileField(upload_to='profpict/%Y/%m/%d', blank=True)
     bio = models.TextField()
@@ -49,6 +60,11 @@ class UserProfile(models.Model):
     
     #def __getattr__(self, name):
         #return getattr(self.user, name)
+    
+    def save(self, force_insert=False, force_update=False, *args, **kwargs):
+        # Automatically generate the slug from the title on save
+        self.slug = slugify(self.user.get_full_name())
+        super(UserProfile, self).save(force_insert, force_update) 
     
     def __unicode__(self):
         return self.user.username
@@ -63,10 +79,17 @@ class UserProfile(models.Model):
 
 # checked
 class NewsItem(models.Model):
+    slug = models.SlugField(max_length=255, editable=False)
+    
     publish_start = models.DateField()
     publish_end = models.DateField()
     header = models.CharField(max_length=512)
     body = models.TextField()
+
+    def save(self, force_insert=False, force_update=False, *args, **kwargs):
+        # Automatically generate the slug from the title on save
+        self.slug = slugify(self.header)
+        super(NewsItem, self).save(force_insert, force_update) 
     
     def __unicode__(self):
         return self.header
