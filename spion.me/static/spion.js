@@ -115,7 +115,7 @@ function self_piwik()
     {
         if($('#analytics-wrapper').is(':visible'))
         {
-            $.ajax(PIWIK_URL+'?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
+            $.ajax(PIWIK_URL+'index.php?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
                    {
                        dataType:'jsonp',
                    jsonp: false, 
