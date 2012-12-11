@@ -30,12 +30,6 @@ Picture
 Researchers - <a class="link" href="{% url spion.spion_app.views.work_package w.slug %}">{{ w.research_group.short_name }}</a>
 </div>
 <div class="widget-content">
-<!-- <h2><a href="{% url spion_app.views.work_package w.id %}">{{ w.title }}</a></h2> -->
-<!--<div class="subtitle">
-<div class="research_group_name">{{ w.research_group.short_name }}</div> 
-<span class="organisation_name">{{ w.organisation.name }},</span>
-<span class="organisation_location">{{ w.organisation.location }}</span>
-</div>-->
 {% for researcher in w.researchers.all %}
 <h1 id="user_{{researcher.id}}" class="researcher_name" >
     <a class="link" href="{% url spion.spion_app.views.profile researcher.slug %}" title="{{researcher.bio}}">
