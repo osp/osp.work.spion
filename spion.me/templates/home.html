@@ -18,7 +18,7 @@
 
 {% for n in news %}
 <section class="news" data-sizex="3">
-<div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">News</a></div>
+<div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">Announcement</a></div>
 <div class="widget-content">
 <h2><a href="{% url spion.spion_app.views.newsitem n.slug %}">{{n.header}}</a></h2>
 {{n.body|fs|md:"large"}}
