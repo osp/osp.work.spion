@@ -54,7 +54,7 @@ function piwik_live_cb(datas)
                 <div class="widget-content">\
                 <p><span class="analytics-titlebar"> spion.you </span>On '
                 +data.serverDatePrettyFirstAction+' at '
-                +data.serverTimePrettyFirstAction +' you, from '
+                +data.serverTimePrettyFirstAction +' <span class="you">you</span>, from '
                 +data.country +', using '
                 +data.browserName+' on '
                 +data.operatingSystem+', visit the site for '
@@ -70,7 +70,7 @@ function piwik_live_cb(datas)
             other:'\
                 <div class="analytics analytics-live" data-sizex="2" data-sort="33">\
                 <div class="widget-content">\
-                <p><span class="analytics-titlebar"> spion.you </span>On '
+                <p><span class="analytics-titlebar"> spion.them </span>On '
                 +data.serverDatePrettyFirstAction+' at '
                 +data.serverTimePrettyFirstAction +' someone from '
                 +data.country +', using '
