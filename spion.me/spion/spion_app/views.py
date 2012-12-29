@@ -46,10 +46,11 @@ def profile(request, uslug):
     tpl_params['title'] = tpl_params['user'].get_full_name()
     return render_to_response("profile.html", tpl_params, context_instance = RequestContext(request))
 
-def publications(request):
+def publications(request, orderby='pub_type'):
     tpl_params = {}
-    tpl_params['publications'] = Publication.objects.all()
+    tpl_params['publications'] = Publication.objects.all().order_by(orderby)
     tpl_params['title'] = 'Publications'
+    tpl_params['order_by'] = orderby
     return render_to_response("publications.html", tpl_params, context_instance = RequestContext(request))
 
 def publication(request, pslug):
