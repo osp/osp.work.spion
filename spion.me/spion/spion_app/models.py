@@ -141,5 +141,8 @@ class SpionProject(models.Model):
     title = models.CharField(max_length=512, default="box title")
     description = models.TextField()
     
+    class Meta:
+      verbose_name = "Various Website Text"
+    
     def __unicode__(self):
         return self.title
