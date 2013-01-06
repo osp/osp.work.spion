@@ -7,12 +7,13 @@ from django.forms import ModelForm
 from spion_app.models import *
 
 from markitup.widgets import AdminMarkItUpWidget
+from orderable.admin import OrderableAdmin
 
 #class PublicationForm(ModelForm):
     #class Meta:
         #model = Publication
     #def __init__(self, *args, **kwargs):
-        #super(PublicationForm, self).__init__(*args, **kwargs)
+        #super(PublicationForms, self).__init__(*args, **kwargs)
         #if 'instance' in kwargs:
             #self.fields['user'] = kwargs['instance'].id
 
@@ -20,7 +21,11 @@ class PublicationRelInline(admin.TabularInline):
     model = Publication.user.through
     extra = 0
     
-
+class PublicationTypeAdmin(OrderableAdmin):
+    model = PublicationType
+    class Media:
+        js = ('http://code.jquery.com/jquery-1.8.3.js',
+              'http://code.jquery.com/ui/1.9.2/jquery-ui.js',)
 
 class UserProfileAdmin(admin.ModelAdmin):
     formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
@@ -66,7 +71,7 @@ class SpionProjectAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Resource)
-admin.site.register(PublicationType)
+admin.site.register(PublicationType, PublicationTypeAdmin)
 admin.site.register(ExternalAuthor)
 admin.site.register(Publication, PublicationAdmin)
 admin.site.register(UserProfile, UserProfileAdmin)

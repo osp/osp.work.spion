@@ -8,7 +8,7 @@ from django.template.defaultfilters import slugify
 from django.db import models
 
 from django.contrib import admin
-
+from orderable.models import Orderable
 
 class Resource(models.Model):
     name = models.CharField(max_length=512)
@@ -17,7 +17,7 @@ class Resource(models.Model):
     def __unicode__(self):
         return self.name
 
-class PublicationType(models.Model):
+class PublicationType(Orderable):
     name = models.CharField(max_length=512)
     def __unicode__(self):
         return self.name
