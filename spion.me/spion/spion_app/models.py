@@ -40,7 +40,7 @@ class Publication(models.Model):
     
     url = models.URLField()
     user = models.ManyToManyField('UserProfile', related_name='publications')
-    external_authors = models.ManyToManyField('ExternalAuthor', related_name='publications')
+    external_authors = models.ManyToManyField('ExternalAuthor', related_name='publications', blank=True)
     
     def save(self, force_insert=False, force_update=False, *args, **kwargs):
         # Automatically generate the slug from the title on save
