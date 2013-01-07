@@ -7,6 +7,32 @@
 
 {% block content %}
 
+<script>
+$(document).ready(function(){
+//     var css_pub_color = $('.publication .titlebar').css('backgroundColor');
+var css_pub_color = [ 255, 131, 0];
+    var pub_color = new less.tree.Color(css_pub_color);
+    var decr = 5;
+    var color = pub_color;
+    
+    function color_to_str(color)
+    {
+        return 'rgb('+Math.floor(color.rgb[0])+','+Math.floor(color.rgb[1])+','+ Math.floor(color.rgb[2]) +')';
+    }
+    {% for o in ordered %}
+    {% if o.p %}
+    $('section.{{o.type|slugify}} .titlebar').css({
+        backgroundColor:color_to_str(color)
+    });
+    color = less.tree.functions.lighten(pub_color, new less.tree.Value(decr));
+    decr += decr;
+    
+    console.log('section.{{o.type|slugify}} .titlebar => '+color_to_str(color));
+    {% endif %}
+    {% endfor %}
+});
+</script>
+
 <div id="pub_menu" class="to_mason">
 <div id="pub_menu_label">Filter by type</div>
 {% for o in ordered %}
@@ -15,6 +41,8 @@
 {% endif %}
 {% endfor %}
 </div>
+
+
 
 {% for o in ordered %}
     {% for p in o.p %}

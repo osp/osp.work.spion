@@ -6,7 +6,7 @@ function piwik_live_cb(datas)
 {
     $('#analytics-wrapper').empty();
     var isYou = false;
-    console.log(datas);
+//     console.log(datas);
     for(var dx in datas)
     {
         var data = datas[dx];
