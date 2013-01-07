@@ -49,13 +49,13 @@
 {% block header %}
 <!--   <section class="widget-content header" data-sizex="4"> -->
 <div id="site-header">
+        <a href="{% url spion.spion_app.views.index %}" style="display:block;">
     <div id="logo-box">
-        <a href="{% url spion.spion_app.views.index %}">
             <object type="image/svg+xml" data="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="120px" height="46px">
                 <img src="{{ STATIC_URL }}logos/SPIONlogoblack.png" width="120px" height="46px">
             </object>
-        </a>
     </div>
+        </a>
     <h1 class="tagline"><div>Security and Privacy </div><div>in Online Social Networks</div></h1>
     
     

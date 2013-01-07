@@ -17,23 +17,23 @@
 </section>-->
 
 {% for n in news %}
-<section class="news" data-sizex="3">
+<section class="to_mason news" data-sizex="3">
 <div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">Announcement</a></div>
 <div class="widget-content">
 <h2><a href="{% url spion.spion_app.views.newsitem n.slug %}">{{n.header}}</a></h2>
-{{n.body|fs|md:"large"}}
+{{n.body|md:"large"}}
 </div>
 </section>
 {% endfor %}
 
-<section class="pitch" data-sizex="4">
+<section class="to_mason pitch" data-sizex="4">
 <div class="titlebar" style="background-color:white"><a href="{% url spion.spion_app.views.about %}">Project Description</a></div>
 <div class="widget-content" >
 {{project.introduction|md:"large reglo"}}
 </div>
 </section>
 
-<section class="pitch research_group" data-sizex="2">
+<section class="to_mason pitch research_group" data-sizex="2">
 <div class="titlebar"><a href="{% url spion.spion_app.views.about %}">Partners</a></div>
 <div class="widget-content" >
 {{project.partners|md:"medium"}}
@@ -41,7 +41,7 @@
 </section>
 
 
-<section class="pitch work_package" data-sizex="3">
+<section class="to_mason pitch work_package" data-sizex="3">
 <div class="titlebar"><a href="{% url spion.spion_app.views.work_packages %}">Workpackages</a></div>
 <div class="widget-content" >
 {{project.workpackages|md:"medium"}}
@@ -52,7 +52,7 @@
 
 {% comment %}
 {% for w in work_packages %}
-<section class="work_package" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
+<section class="to_mason work_package" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
 <div class="titlebar meaningful">
 <a href="{% url spion.spion_app.views.work_packages %}">Work Package</a>
 <!-- <a href="{% url spion.spion_app.views.work_package w.id %}">{{ w.title }}</a> -->

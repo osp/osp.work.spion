@@ -4,7 +4,7 @@
 {% block content %}
 
 
-<section class="work_package" data-sizex="6">
+<section class="to_mason work_package" data-sizex="6">
 <div class="titlebar">
 Work Package
 </div>
@@ -16,7 +16,7 @@ Work Package
 </div>
 </section>
 
-<section class="research_group" data-sizex="4">
+<section class="to_mason research_group" data-sizex="4">
 <div class="titlebar">
 Research Group
 </div>
@@ -30,7 +30,7 @@ Research Group
 </div>
 </section>
 
-<section data-sizex="2">
+<section class="to_mason" data-sizex="2">
 <div class="titlebar"><a href="{% url spion.spion_app.views.profiles %}">Researchers</a></div>
   <div class="widget-content">
 {% for researcher in work_package.researchers.all %}
@@ -40,7 +40,7 @@ Research Group
 </section>
 
 {% for p in publications %}
-<section class="publication" data-sizex="3">
+<section class="to_mason publication" data-sizex="3">
 <div class="titlebar"><a href="{% url spion.spion_app.views.publications %}">Publication</a> - {{ p.pub_type.name }}</div>
 <div class="widget-content">
     <h2 class="publication-link"><a href="{% url spion.spion_app.views.publication p.slug %}">{{p.title }}</a></h2>

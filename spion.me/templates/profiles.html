@@ -15,7 +15,7 @@ user_pictures['user_{{p.id}}'] = new Image();
 {% endfor %}
 </script>
 
-<section class="picture" data-sizex="2">
+<section class="to_mason picture" data-sizex="2">
 <div class="titlebar">
 Picture
 </div>
@@ -25,7 +25,7 @@ Picture
 </section>
 
 {% for w in work_packages %}
-<section class="profile" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
+<section class="to_mason profile" data-sizex="2" data-sort="{{ forloop.counter0|add:forloop.counter0|add:1 }}"> {# odd numbers #}
 <div class="titlebar">
 Researchers - <a class="link" href="{% url spion.spion_app.views.work_package w.slug %}">{{ w.research_group.short_name }}</a>
 </div>

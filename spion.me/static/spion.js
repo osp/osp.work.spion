@@ -150,13 +150,11 @@ function fit_content()
     var bm = 2 * parseInt(b.css('marginLeft'));
     var width = w.width() - (term.outerWidth() + bm);
     ctnt.css('width', width + 'px');
-    
     $('#content-wrapper').masonry({
-        itemSelector: 'section',
-//         isFitWidth: true,
+        itemSelector: '.to_mason',
         columnWidth: 100
     });
-    console.log('W: '+ width+ ' => '+ctnt.css('width'));
+//     console.log('W: '+ width+ ' => '+ctnt.css('width'));
 }
 
 // make external links open in new window
@@ -191,6 +189,27 @@ function extern_links()
     
 }
 
+function toggle_pub_type(evt)
+{
+    var that = $(this);
+    var type_id = that.attr('id').slice('filter_'.length);
+    var smr = $('section.'+type_id);
+    if(smr.is(':visible'))
+    {
+        smr.removeClass('to_mason');
+        smr.hide();
+        that.text('\u2610');
+    }
+    else
+    {
+        smr.addClass('to_mason');
+        smr.show();
+        that.text('\u2612');
+    }
+    $('#content-wrapper').masonry( 'destroy' );
+    fit_content();
+}
+
 $(document).ready(function()
 {
     fit_content();
@@ -199,18 +218,6 @@ $(document).ready(function()
     profiles_image();
     
     $(window).on('resize', fit_content);
-    
-    
-    // fake live update, should be removed when we get true live update
-//     function xxxx()
-//     {
-//         var f = $('.analytics').last();
-//         f.hide();
-//         $('#analytics-wrapper').prepend(f);
-//         f.toggle('slow');
-//         window.setTimeout(xxxx, 60000 , true);
-//     }
-//     window.setTimeout(xxxx, 60000 , true);
 });
 
 $(window).load(function() {
@@ -222,12 +229,12 @@ $(window).load(function() {
         heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
     }
     
-    $('section').not('.logo').each(function() {
+    $('.to_mason').each(function() {
         var old_height = $(this).height();
         for (var i = 0; i < heights.length; i++) {
             if (heights[i] >= old_height) {
                 $(this).height(heights[i]); // console.log(old_height, heights[i]);
-    break;
+                break;
             }
         } 
     });
@@ -240,15 +247,17 @@ $(window).load(function() {
             var sec = t.parents('section');
             sec.remove();
             $('#content-wrapper').masonry({
-                itemSelector: 'section',
+                itemSelector: '.to_mason',
                 columnWidth: 100
             })
         });
     });
     
     $('#content-wrapper').masonry({
-        itemSelector: 'section',
-//         isFitWidth: true,
+        itemSelector: '.to_mason',
         columnWidth: 100
     });
+    
+    $('.filter_type').on('click', toggle_pub_type);
+    
 });

@@ -6,7 +6,7 @@ from django.http import HttpResponse, Http404
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
-from spion_app.models import (NewsItem, UserProfile, User, Publication, Organisation, ResearchGroup, WorkPackage, Partner, SpionProject)
+from spion_app.models import (NewsItem, UserProfile, User, Publication, PublicationType, Organisation, ResearchGroup, WorkPackage, Partner, SpionProject)
 
 from datetime import datetime
 
@@ -48,9 +48,17 @@ def profile(request, uslug):
 
 def publications(request, orderby='pub_type'):
     tpl_params = {}
-    tpl_params['publications'] = Publication.objects.all().order_by(orderby)
+    tpl_params['publications'] = Publication.objects.all().order_by(orderby, '-published')
     tpl_params['title'] = 'Publications'
     tpl_params['order_by'] = orderby
+    tpl_params['ordered'] = []
+    for pt in PublicationType.objects.all():
+        pubs = []
+        for p in tpl_params['publications']:
+            if p.pub_type.id == pt.id:
+                pubs.append(p)
+        tpl_params['ordered'].append({'type':pt.name, 'p':pubs})
+    
     return render_to_response("publications.html", tpl_params, context_instance = RequestContext(request))
 
 def publication(request, pslug):

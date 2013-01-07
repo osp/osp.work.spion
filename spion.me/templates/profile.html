@@ -4,7 +4,7 @@
 {% load fs %}
 {% block content %}
 
-<section class="profile" data-sizex="5">
+<section class="to_mason profile" data-sizex="5">
   <div class="titlebar">
   Profile
   </div>
@@ -19,7 +19,7 @@
 </section>
 
 
-<section class="picture" data-sizex="2">
+<section class="to_mason picture" data-sizex="2">
 <div class="titlebar">
 Picture
 </div>
@@ -29,7 +29,7 @@ Picture
 </section>
 
 {% for p in publications %}
-<section class="publication" data-sizex="3">
+<section class="to_mason publication" data-sizex="3">
 <div class="titlebar">
 Publication - {{p.pub_type.name}}
 </div>
@@ -43,7 +43,7 @@ Publication - {{p.pub_type.name}}
 </section>
 {% endfor %}
 
-<section class="work_package" data-sizex="4">
+<section class="to_mason work_package" data-sizex="4">
 <div class="titlebar">
 Workpackage
 </div>
