@@ -16,15 +16,7 @@
  </div>
 </section>-->
 
-{% for n in news %}
-<section class="to_mason news" data-sizex="3">
-<div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">Announcement</a></div>
-<div class="widget-content">
-<h2><a href="{% url spion.spion_app.views.newsitem n.slug %}">{{n.header}}</a></h2>
-{{n.body|md:"large"}}
-</div>
-</section>
-{% endfor %}
+
 
 <section class="to_mason pitch" data-sizex="4">
 <div class="titlebar" style="background-color:white"><a href="{% url spion.spion_app.views.about %}">Project Description</a></div>
@@ -32,6 +24,16 @@
 {{project.introduction|md:"large reglo"}}
 </div>
 </section>
+
+{% for n in news %}
+<section class="to_mason news" data-sizex="3">
+<div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">Announcement</a></div>
+<div class="widget-content">
+<h2><a href="{% url spion.spion_app.views.newsitem n.slug %}">{{n.header}}</a></h2>
+{{n.body|md:"medium"}}
+</div>
+</section>
+{% endfor %}
 
 <section class="to_mason pitch research_group" data-sizex="2">
 <div class="titlebar"><a href="{% url spion.spion_app.views.about %}">Partners</a></div>
