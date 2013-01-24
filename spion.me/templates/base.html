@@ -51,10 +51,10 @@
 <div id="site-header">
     <div id="logo-box">
         <a href="{% url spion.spion_app.views.index %}">
+        </a>
             <object type="image/svg+xml" data="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="120px" height="46px">
                 <img src="{{ STATIC_URL }}logos/SPIONlogoblack.png" width="120px" height="46px">
             </object>
-        </a>
     </div>
     <h1 class="tagline"><div>Security and Privacy </div><div>in Online Social Networks</div></h1>
     
@@ -63,9 +63,6 @@
 
         <span class="label about">
             <a href="{% url spion.spion_app.views.about %}">About</a>
-        </span>
-        <span class="label news">
-            <a href="{% url spion.spion_app.views.newsitems %}">Announcements</a>
         </span>
         <span class="label publication">
             <a href="{% url spion.spion_app.views.publications %}">Publications</a>
@@ -78,6 +75,9 @@
         </span>
         <span class="label advisor">
             <a href="{% url spion.spion_app.views.partners %}">Advisory Group</a>
+        </span>
+        <span class="label news">
+            <a href="{% url spion.spion_app.views.newsitems %}">Announcements</a>
         </span>
     </div>
     

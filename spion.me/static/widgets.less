@@ -139,14 +139,16 @@ section.publication{
     .titlebar{
         background-color:@spion-orange;
         
-        &.deliverable{background-color:lighten(@spion-orange, 10%);}
-        &.talk{background-color:lighten(@spion-orange, 20%);}
-        &.conference{background-color:lighten(@spion-orange, 30%);}
-        &.article{background-color:lighten(@spion-orange, 40%);}
     }
     h1.title{
         margin-top:12px;
         font-size:33pt;
+    }
+    h2{
+        a:hover{
+            color: black;
+            text-shadow: 1px 1px @spion-pink;
+        }
     }
     
     .publication_link{

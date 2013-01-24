@@ -1,20 +1,66 @@
 {% extends 'base.html' %}
 {% load fs %}
 {% load md %}
+{% load prop %}
+
+
 
 {% block content %}
 
-{% for p in publications %}
-<section class="publication" data-sizex="3">
-<div class="titlebar {{p.pub_type|slugify}}"><a href="{% url spion.spion_app.views.publications %}">{{p.pub_type.name}}</a></div>
-<div class="widget-content">
-<h2><a href="{% url spion.spion_app.views.publication p.slug %}">{{p.title }}</a></h2>
-<p class="medium">
-{{ p.summary|fs|md:"tiny" }}
-</p>
-</div>
-</section>
+<script>
+$(document).ready(function(){
+//     var css_pub_color = $('.publication .titlebar').css('backgroundColor');
+var css_pub_color = [ 255, 131, 0];
+    var pub_color = new less.tree.Color(css_pub_color);
+    var decr = 5;
+    var color = pub_color;
+    
+    function color_to_str(color)
+    {
+        return 'rgb('+Math.floor(color.rgb[0])+','+Math.floor(color.rgb[1])+','+ Math.floor(color.rgb[2]) +')';
+    }
+    {% for o in ordered %}
+    {% if o.p %}
+    $('section.{{o.type|slugify}} .titlebar').css({
+        backgroundColor:color_to_str(color)
+    });
+    color = less.tree.functions.lighten(pub_color, new less.tree.Value(decr));
+    decr += decr;
+    
+    console.log('section.{{o.type|slugify}} .titlebar => '+color_to_str(color));
+    {% endif %}
+    {% endfor %}
+});
+</script>
+
+<div id="pub_menu" class="to_mason">
+<div id="pub_menu_label">Filter by type</div>
+{% for o in ordered %}
+{% if o.p %}
+<div class="filter_type_box"><span class="filter_type" id="filter_{{o.type|slugify}}">☒</span> {{o.type}} </div>
+{% endif %}
 {% endfor %}
+</div>
+
+
+
+{% for o in ordered %}
+    {% for p in o.p %}
+    <section class="to_mason publication {{p.pub_type|slugify}}" data-sizex="2">
+    <div class="titlebar">{{p.pub_type}} - {{p.published}}</div>
+    <div class="widget-content">
+    <h2 id="pub_title_{{p.id}}" class="pub_title">
+        <a href="{% url spion.spion_app.views.publication p.slug %}">{{p.title }}</a>
+    </h2>
+    <!-- <div class="pub_published">{{p.published}}</div> -->
+    <div id="pub_summary_{{p.id}}" class="medium pub_summary">
+    {{ p.summary|fs|md:"tiny" }}
+    </div>
+    </div>
+    </section>
+    {% endfor %}
+{% endfor %}
+
 
 {% endblock %}
 

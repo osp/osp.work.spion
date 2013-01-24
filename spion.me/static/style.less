@@ -37,6 +37,14 @@
     
     #logo-box{
         float:left;
+        a{
+            display:block;
+            position:absolute;
+            top:0;
+            left:0;
+            width:150px;
+            height:80px
+        }
     }
     
     .tagline{
@@ -96,10 +104,33 @@
     margin:86px 0 34px 0;
 }
 
+#pub_menu{
+    background-color:white;
+/*     color:white; */
+    border:1px solid @border-colour;
+    width:190px;
+    padding:8px 0;
+    #pub_menu_label{
+        font-family: 'NoticiaText';
+        font-family: monospace;
+        font-style: italic;
+        font-size:9pt;
+        padding:0 0 6px 8px;
+    }
+    .filter_type_box{
+        font-family:'RegloBold';
+        font-size:11pt;
+        padding:2px 8px;
+        .filter_type{
+            cursor:pointer;
+        }
+    }
+}
+
 #analytics-wrapper{
     position:fixed;
     padding:6px 2px 0 6px;
-    top:76px;
+    top:82px;
     bottom:48px;
     right:0;
     width:200px;
