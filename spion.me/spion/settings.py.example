@@ -105,7 +105,6 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
-    'middleware.ProfileMiddleware'
 )
 
 ROOT_URLCONF = 'urls'
@@ -120,7 +119,7 @@ TEMPLATE_DIRS = (
 TEMPLATE_CONTEXT_PROCESSORS = DEFAULT_SETTINGS.TEMPLATE_CONTEXT_PROCESSORS + (
     "context_processors.compress_enabled",
     "context_processors.background_images",
-    "spion_app.views.visitor_context",
+    "context_processors.piwik_settings",
 )
 
 INSTALLED_APPS = (
@@ -134,7 +133,13 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
     # 3rd party:
-    'compressor'
+    'compressor',
+    'south',
+    'markitup',
+    'orderable',
+    #1st party:
+    'analytics',
+    'spion_app',
 )
 
 COMPRESS_ENABLED = not DEBUG
