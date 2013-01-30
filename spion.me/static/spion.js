@@ -4,7 +4,7 @@
   
 function piwik_live_cb(datas)
 {
-    $('#analytics-wrapper').empty();
+    $('.analytics-wrapper').empty();
     var isYou = false;
 //     console.log(datas);
     for(var dx in datas)
@@ -51,7 +51,6 @@ function piwik_live_cb(datas)
         var tpl = { 
             you: '\
                 <div class="analytics analytics-self analytics-live" data-sizex="2" data-sort="33">\
-                <div class="widget-content">\
                 <p><span class="analytics-titlebar"> spion.you </span>On '
                 +data.serverDatePrettyFirstAction+' at '
                 +data.serverTimePrettyFirstAction +' <span class="you">you</span>, from '
@@ -65,11 +64,9 @@ function piwik_live_cb(datas)
                 <p>You have installed: '+data.plugins+'</p>\
                 <p>'+refer+'</p>\
                 <p>'+actions+'</p>\
-                </div>\
                 </div>',
             other:'\
                 <div class="analytics analytics-live" data-sizex="2" data-sort="33">\
-                <div class="widget-content">\
                 <p><span class="analytics-titlebar"> spion.them </span>On '
                 +data.serverDatePrettyFirstAction+' at '
                 +data.serverTimePrettyFirstAction +' someone from '
@@ -83,13 +80,12 @@ function piwik_live_cb(datas)
                 <p>They have installed: '+data.plugins+'</p>\
                 <p>'+refer+'</p>\
                 <p>'+actions+'</p>\
-                </div>\
                 </div>'
         }
         
         
         if ( $('.div.analytics').length === 0 ) {
-            $('#analytics-wrapper').append(isYou ? tpl.you : tpl.other);
+            $('.analytics-wrapper').append(isYou ? tpl.you : tpl.other);
         } else {
             $($('.div.analytics')[0]).before(isYou ? tpl.you : tpl.other);
         }
@@ -113,7 +109,7 @@ function self_piwik()
 
     function refresh_piwik()
     {
-        if($('#analytics-wrapper').is(':visible'))
+        if($('.analytics-wrapper').is(':visible'))
         {
             $.ajax(PIWIK_URL+'index.php?module=API&method=Live.getLastVisitsDetails&idSite='+PIWIK_SITE_ID+'&period=day&date=today&format=JSON&token_auth=anonymous&jsoncallback=piwik_live_cb', 
                    {
@@ -144,7 +140,7 @@ function fit_content()
 {
     var w = $(window);
     var b = $('body');
-    var term = $('#analytics-wrapper');
+    var term = $('.analytics-wrapper');
     var ctnt = $('#content-wrapper');
     
     var bm = 2 * parseInt(b.css('marginLeft'));
