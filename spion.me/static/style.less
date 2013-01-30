@@ -22,86 +22,13 @@
 }
 
 #site-header{
-    margin:0;
-    padding:12px;
-    position:fixed;
-    top:0;
-    left:0;
-    z-index:999999;
-    height:58px;
-    width:100%;
-    min-width: 634px;
-    background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.7);
-    border-bottom:1px solid #ddd; //@spion-pink;
     
     #logo-box{
         float:left;
         a{
             display:block;
-            position:absolute;
-            top:0;
-            left:0;
-            width:150px;
-            height:80px
         }
     }
-    
-    .tagline{
-        float:left;
-        padding-left:18px;
-        padding-top: 4px;
-/*         line-height:52px; */
-        div{
-            font-size:18px;
-            vertical-align:bottom;
-            height:24px;
-        }
-    }
-    
-    #site-navigation{
-        position:absolute;
-        right: 0px;
-        bottom:0;
-        width: 634px;
-    @media all and (max-width: 610px) {
-        left: 0px;
-    }
-    }
-}
-
-#site-footer{
-    padding: 8px 12px 8px 12px;
-    position:fixed;
-    bottom:0;
-    left:0;
-    z-index:999999;
-    height:32px;
-    width:100%;
-    background: rgb(255, 255, 255);
-    background: rgba(255, 255, 255, 0.7);
-    border-top:1px solid #ddd;
-    
-    #funder-box{
-        position:absolute;
-        left:0;
-        width:50%;
-    }
-    #funder-logo{
-        float:left;
-        margin:0 12px;
-    }
-    #funder-description{
-        font-family:sans-serif;
-        font-size:8pt;
-        line-height:12pt;  
-    }
-}
-
-#content-wrapper{
-    /*     position:absolute; */
-    width:84%;
-    margin:86px 0 34px 0;
 }
 
 #pub_menu{
@@ -128,19 +55,8 @@
 }
 
 #analytics-wrapper{
-    position:fixed;
-    padding:6px 2px 0 6px;
-    top:82px;
-    bottom:48px;
-    right:0;
-    width:200px;
-    background-color:#000;
-    overflow:hidden;
-    border-left:1px solid #ccc;
-    @media all and (max-width: 610px) {
-        right: inherit;
-        left: 402px;
-    }
+    height: 640px;
+    background-color: #000;
     .analytics-titlebar{
         font-family: 'RegloBold';
         color:@spion-pink;
@@ -166,5 +82,7 @@
     }
 }
 
-
+#content-wrapper {
+    top: 156px;
+}
 

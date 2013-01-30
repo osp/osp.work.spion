@@ -36,6 +36,7 @@
     {% compress js %}
     <script src="{{ STATIC_URL }}jquery.min.js"></script>
     <script src="{{ STATIC_URL }}jquery.masonry.js"></script>
+    <script src="{{ STATIC_URL }}jquery.gridster.js"></script>
     {% endcompress %}
     <script src="{{ PIWIK_PATH }}piwik.js"> </script>
     <script src="{{ STATIC_URL }}spion.js"> </script>
@@ -46,21 +47,20 @@
 &nbsp;
 </div>
 
-{% block header %}
-<!--   <section class="widget-content header" data-sizex="4"> -->
 <div id="site-header">
-    <div id="logo-box">
+{% block header %}
+    <section id="logo-box" data-sizex="3">
+        <div class="titlebar">
+            &nbsp;
+            
+        </div>
+        <div class="widget-content">
         <a href="{% url spion.spion_app.views.index %}">
-        </a>
+
             <object type="image/svg+xml" data="{{ STATIC_URL }}logos/SPIONlogoblack.svg" width="120px" height="46px">
                 <img src="{{ STATIC_URL }}logos/SPIONlogoblack.png" width="120px" height="46px">
             </object>
-    </div>
-    <h1 class="tagline"><div>Security and Privacy </div><div>in Online Social Networks</div></h1>
-    
-    
-    <div id="site-navigation">
-
+        </a>
         <span class="label about">
             <a href="{% url spion.spion_app.views.about %}">About</a>
         </span>
@@ -79,11 +79,16 @@
         <span class="label news">
             <a href="{% url spion.spion_app.views.newsitems %}">Announcements</a>
         </span>
-    </div>
-    
-</div>
-<!--   </section> -->
+        </div>
+    </section>
+    <section data-sizex="3">
+        <div class="titlebar">&nbsp;</div>
+        <div class="widget-content">
+        <h1 class="tagline"><div>Security and Privacy </div><div>in Online Social Networks</div></h1>
+        </div>
+    </section>
 {% endblock %}
+</div>
 
 <div id="content-wrapper">
 {% block content %}
@@ -91,24 +96,24 @@
 {% endblock %}
 </div>
 
+<section data-sizex="2">
+<div class="titlebar">Spion.you</div>
+<div id="analytics-wrapper" class="widget-content"></div>
+</section>
 
-
-<div id="analytics-wrapper">
-
-</div>
-
-<div id="site-footer">
-    <div id="funder-box">
-        <div id="funder-logo">
-            <a href="http://www.iwt.be">
+<section data-sizex="2">
+    <div class="titlebar">IWT</div>
+    <div class="widget-content">
+            <p><a href="http://www.iwt.be">
                 <img title="IWT" src="{{ STATIC_URL }}logos_spion/iwt_logo.gif">
-            </a>
-        </div>
-        <div id="funder-description">
+            </a></p>
+        <p class="medium">           
             SPION is a Strategic Basic Research (SBO) project with a social objective, funded by the Flemish Agency for Innovation by Science and Technology (IWT).
-        </div>
+        </p>
     </div>
-</div>
+</section>
+
+
 
 </body>
 </html>

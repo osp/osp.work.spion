@@ -1,6 +1,6 @@
 /* spion base js */  
 
-
+var verticalGridHeight = 42;
   
 function piwik_live_cb(datas)
 {
@@ -96,6 +96,12 @@ function piwik_live_cb(datas)
     }
 }
 
+function masonic() {
+    $('#content-wrapper').masonry({
+    itemSelector: 'section',
+    columnWidth: 100
+});
+
 function self_piwik()
 {
     try {
@@ -110,6 +116,9 @@ function self_piwik()
     }
     
 //     if($('.analytics-self').length === 0)
+
+
+    }
 
     function refresh_piwik()
     {
@@ -146,14 +155,11 @@ function fit_content()
     var b = $('body');
     var term = $('#analytics-wrapper');
     var ctnt = $('#content-wrapper');
-    
+    masonic();
     var bm = 2 * parseInt(b.css('marginLeft'));
     var width = w.width() - (term.outerWidth() + bm);
     ctnt.css('width', width + 'px');
-    $('#content-wrapper').masonry({
-        itemSelector: '.to_mason',
-        columnWidth: 100
-    });
+
 //     console.log('W: '+ width+ ' => '+ctnt.css('width'));
 }
 
@@ -222,14 +228,14 @@ $(document).ready(function()
 
 $(window).load(function() {
     var heights = new Array();
-    var box_height_step = 42;
+    var box_height_step = verticalGridHeight;
     var box_vertical_gap = 10;
     for(var i=1; i < 64; i++)
     {
         heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
     }
     
-    $('.to_mason').each(function() {
+    $('section').each(function() {
         var old_height = $(this).height();
         for (var i = 0; i < heights.length; i++) {
             if (heights[i] >= old_height) {
@@ -246,17 +252,11 @@ $(window).load(function() {
         cl.on('click', function(evt){
             var sec = t.parents('section');
             sec.remove();
-            $('#content-wrapper').masonry({
-                itemSelector: '.to_mason',
-                columnWidth: 100
-            })
+            masonic();
         });
     });
     
-    $('#content-wrapper').masonry({
-        itemSelector: '.to_mason',
-        columnWidth: 100
-    });
+    masonic();
     
     $('.filter_type').on('click', toggle_pub_type);
     
