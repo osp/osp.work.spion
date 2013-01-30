@@ -241,7 +241,7 @@ $(window).load(function() {
     
     $('.titlebar').each(function(idx, elem){
         var t = $(elem);
-        var cl = $('<div class="widget-closer">x</div>');
+        var cl = $('<div class="widget-closer">⊗</div>');
         t.prepend(cl);
         cl.on('click', function(evt){
             var sec = t.parents('section');

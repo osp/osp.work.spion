@@ -33,14 +33,14 @@ var css_pub_color = [ 255, 131, 0];
 });
 </script>
 
-<div id="pub_menu" class="to_mason">
+<section id="pub_menu" class="to_mason">
 <div id="pub_menu_label">Filter by type</div>
 {% for o in ordered %}
 {% if o.p %}
 <div class="filter_type_box"><span class="filter_type" id="filter_{{o.type|slugify}}">☒</span> {{o.type}} </div>
 {% endif %}
 {% endfor %}
-</div>
+</section>
 
 
 
