@@ -259,6 +259,7 @@ $(window).load(function() {
         cl.on('click', function(evt){
             var sec = t.parents('section');
             sec.remove();
+            ifEmptyHomePage();
             $('#content-wrapper').masonry({
                 itemSelector: '.to_mason',
                 columnWidth: 100
