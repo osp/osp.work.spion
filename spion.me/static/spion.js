@@ -217,6 +217,7 @@ function ifEmptyHomePage() {
     if ($("section.news").length === 0) {
         $("section#introduction").attr("data-sizex","6");
         $("section#introduction p").removeClass("large").addClass("huge");
+        $("section#introduction").height($("section#introduction div.widget-content").height());
         alignHeights();
     }
 }
