@@ -153,6 +153,26 @@ function fit_content()
 //     console.log('W: '+ width+ ' => '+ctnt.css('width'));
 }
 
+function alignHeights() {
+    var heights = new Array();
+    var box_height_step = 42;
+    var box_vertical_gap = 10;
+    for(var i=1; i < 64; i++)
+    {
+        heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
+    }
+    
+    $('.to_mason').each(function() {
+        var old_height = $(this).height();
+        for (var i = 0; i < heights.length; i++) {
+            if (heights[i] >= old_height) {
+                $(this).height(heights[i]); // console.log(old_height, heights[i]);
+                break;
+            }
+        } 
+    });
+}
+
 // make external links open in new window
 function extern_links()
 {
@@ -197,6 +217,7 @@ function ifEmptyHomePage() {
     if ($("section.news").length === 0) {
         $("section#introduction").attr("data-sizex","6");
         $("section#introduction p").removeClass("large").addClass("huge");
+        alignHeights();
     }
 }
 
@@ -234,23 +255,7 @@ $(document).ready(function()
 });
 
 $(window).load(function() {
-    var heights = new Array();
-    var box_height_step = 42;
-    var box_vertical_gap = 10;
-    for(var i=1; i < 64; i++)
-    {
-        heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
-    }
-    
-    $('.to_mason').each(function() {
-        var old_height = $(this).height();
-        for (var i = 0; i < heights.length; i++) {
-            if (heights[i] >= old_height) {
-                $(this).height(heights[i]); // console.log(old_height, heights[i]);
-                break;
-            }
-        } 
-    });
+    alignHeights();
     
     $('.titlebar').each(function(idx, elem){
         var t = $(elem);
@@ -259,6 +264,7 @@ $(window).load(function() {
         cl.on('click', function(evt){
             var sec = t.parents('section');
             sec.remove();
+            ifEmptyHomePage();
             $('#content-wrapper').masonry({
                 itemSelector: '.to_mason',
                 columnWidth: 100
