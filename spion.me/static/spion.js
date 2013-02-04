@@ -193,6 +193,13 @@ function currentPage() {
     });
 }
 
+function ifEmptyHomePage() {
+    if ($("section.news").length === 0) {
+        $("section#introduction").attr("data-sizex","6");
+        $("section#introduction p").removeClass("large").addClass("huge");
+    }
+}
+
 function toggle_pub_type(evt)
 {
     var that = $(this);
@@ -220,6 +227,8 @@ $(document).ready(function()
     extern_links();
     self_piwik();
     profiles_image();
+    ifEmptyHomePage();
+    currentPage();
     
     $(window).on('resize', fit_content);
 });
@@ -263,6 +272,6 @@ $(window).load(function() {
     });
     
     $('.filter_type').on('click', toggle_pub_type);
-    currentPage();
+
     
 });
