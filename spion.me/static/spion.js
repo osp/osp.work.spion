@@ -185,6 +185,14 @@ function extern_links()
     
 }
 
+function currentPage() {
+    $("#site-navigation .label").each(function() {
+        if ( $(this).children("a").attr('href') == document.location.pathname ) { 
+            $(this).addClass("selected");
+        };
+    });
+}
+
 function toggle_pub_type(evt)
 {
     var that = $(this);
@@ -255,5 +263,6 @@ $(window).load(function() {
     });
     
     $('.filter_type').on('click', toggle_pub_type);
+    currentPage();
     
 });
