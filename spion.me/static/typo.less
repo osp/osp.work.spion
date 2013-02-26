@@ -113,19 +113,23 @@ img a {
 }
 
 h1, h2 {
-//    font-family: 'League Gothic';
-//    font-family: 'league-stroke';
     font-family: 'RegloBold';
-    text-transform: 'uppercase';
+    text-transform: uppercase;
     font-weight: normal;
-//    color: @spion-pink;
+    color: black;
     text-shadow: 1px 1px @spion-pink;
 }
 
+h1 {
+    font-size:20px;
+}
+
 h2 {
-//    font-family: 'league-stroke-thin';
-    font-family: 'RegloBold';
-    color: @spion-pink;//@spion-pink;
+    font-size: 16px;
+}
+
+h1 a:hover, h2 a:hover {
+    color: @spion-pink;
     text-shadow: 1px 1px black;
 }
 
@@ -133,48 +137,20 @@ h2 {
     font-family:RegloBold;
 }
 
-/*h1.tagline{
-    font-size:13px;
-}*/
-
 .colorfont-overlay {
     display: none;
 }
 
 
 .extract {
-	font-size:25px;
-	font-style:italic;
+    font-size:25px;
+    font-style:italic;
 }
-
-h1 {
-	font-size:20px;
-/* 	text-align:right; */
-//	font-weight:bold;
-	text-transform:uppercase;
-}
-
-h2 {
-	font-size: 16px;
-	text-transform:uppercase;
-/* 	padding-left:12px; */
-/* 	text-indent:-7px; */
-}
-
-h1 + h2 {
-/*   text-align: right; */
-}
-
-/* h2 + p {
-    position: absolute;
-    bottom: 8px;
-} */
 
 p {
     margin-top: 8px;
     font-size: 16px;
     line-height: 20px;
-/*     margin-left: 12px; */
 }
 p.tiny{
     font-size: 12px;
