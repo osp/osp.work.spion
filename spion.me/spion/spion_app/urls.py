@@ -1,7 +1,9 @@
 from django.conf.urls.defaults import patterns, include, url
+from django.views.generic.simple import redirect_to
 
 urlpatterns = patterns('spion.spion_app.views',
     url(r'^$', 'index', name='home'),
+    url(r'^feedback$', redirect_to, {'url': 'https://parvati.ugent.be/limesurvey192/index.php?sid=47147&lang=nl'} ),
     url(r'^about/$', 'about'),
     url(r'^publications/$', 'publications'),
     url(r'^publications/(?P<orderby>\w+)$', 'publications'),
