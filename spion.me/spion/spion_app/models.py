@@ -10,6 +10,9 @@ from django.db import models
 from django.contrib import admin
 from orderable.models import Orderable
 
+# Yet another sortable utility which can handle foreignkeys
+from adminsortable.models import Sortable
+
 class Resource(models.Model):
     name = models.CharField(max_length=512)
     path = models.FileField(upload_to='resources/%Y/%m/%d')
@@ -29,6 +32,18 @@ class ExternalAuthor(models.Model):
     def __unicode__(self):
         return self.name
         
+        
+class Authorship(Sortable):
+    class Meta(Sortable.Meta):
+        ordering = ['order']
+        
+    author = models.ForeignKey('UserProfile')
+    publication = models.ForeignKey('Publication')
+    
+    def __unicode__(self):
+        return '%s | %s'%(self.publication.title, self.author.user.get_full_name())
+    
+    
 class Publication(models.Model):
     slug = models.SlugField(max_length=255, editable=False)
     
@@ -39,7 +54,7 @@ class Publication(models.Model):
     publisher = models.CharField(max_length=512, blank=True) 
     
     url = models.URLField()
-    user = models.ManyToManyField('UserProfile', related_name='publications')
+    user = models.ManyToManyField('UserProfile', related_name='publications', through='Authorship')
     external_authors = models.ManyToManyField('ExternalAuthor', related_name='publications', blank=True)
     
     def save(self, force_insert=False, force_update=False, *args, **kwargs):

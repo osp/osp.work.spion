@@ -9,6 +9,9 @@ from spion_app.models import *
 from markitup.widgets import AdminMarkItUpWidget
 from orderable.admin import OrderableAdmin
 
+from adminsortable.admin import SortableAdmin, SortableTabularInline
+
+
 #class PublicationForm(ModelForm):
     #class Meta:
         #model = Publication
@@ -43,11 +46,18 @@ class UserProfileAdmin(admin.ModelAdmin):
         return obj.user.last_name
     def email(self, obj):
         return obj.user.email
+
+        
+class AuthorshipAdmin(SortableAdmin):
+    pass
     
+class AuthorshipAdminInline(SortableTabularInline):
+    model = Authorship
 
 class PublicationAdmin(admin.ModelAdmin):
     formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
     model = Publication
+    inlines = [AuthorshipAdminInline]
 
 class NewsItemAdmin(admin.ModelAdmin):
     formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
@@ -69,7 +79,7 @@ class SpionProjectAdmin(admin.ModelAdmin):
     formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
     model = SpionProject
 
-
+admin.site.register(Authorship, AuthorshipAdmin)
 admin.site.register(Resource)
 admin.site.register(PublicationType, PublicationTypeAdmin)
 admin.site.register(ExternalAuthor)
