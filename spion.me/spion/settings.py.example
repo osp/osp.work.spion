@@ -137,6 +137,7 @@ INSTALLED_APPS = (
     'south',
     'markitup',
     'orderable',
+    'adminsortable',
     #1st party:
     'analytics',
     'spion_app',
