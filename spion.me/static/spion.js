@@ -25,7 +25,7 @@ function piwik_live_cb(datas)
             refer = 'You come from <a href="'+data.referrerUrl +'">'+ data.referrerName +'</a>';
             if(data.referrerKeyword.length > 0)
             {
-                refer += ', searching with the keywords «'+visit.referrerKeyword+'»';
+                refer += ', searching with the keywords «'+ data.referrerKeyword+'»';
             }
         }
         
