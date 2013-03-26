@@ -128,6 +128,7 @@ function self_piwik()
     refresh_piwik();
 };
 
+// Show profile image on rollover of researcher name
 function profiles_image()
 {
     $('.researcher_name').on('mouseover',function(evt){
@@ -153,6 +154,7 @@ function fit_content()
 //     console.log('W: '+ width+ ' => '+ctnt.css('width'));
 }
 
+// Align heights of boxes to a grid (must happen before masonry!)
 function alignHeights() {
     var heights = new Array();
     var box_height_step = 42;
@@ -161,9 +163,10 @@ function alignHeights() {
     {
         heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
     }
-    
+    console.log(heights);
     $('.to_mason').each(function() {
         var old_height = $(this).height();
+        console.log(old_height);
         for (var i = 0; i < heights.length; i++) {
             if (heights[i] >= old_height) {
                 $(this).height(heights[i]); // console.log(old_height, heights[i]);
@@ -205,6 +208,7 @@ function extern_links()
     
 }
 
+// add a class ‘selected’ to the nav button pointing to the current page
 function currentPage() {
     $("#site-navigation .label").each(function() {
         if ( $(this).children("a").attr('href') == document.location.pathname ) { 
@@ -213,15 +217,17 @@ function currentPage() {
     });
 }
 
+// if there is no news we make other boxes bigger
 function ifEmptyHomePage() {
-    if ($("section.news").length === 0) {
+    if (document.location.pathname === "/" && $("section.news").length === 0) {
         $("section#introduction").attr("data-sizex","6");
         $("section#introduction p").removeClass("large").addClass("huge");
-        $("section#introduction").height($("section#introduction div.widget-content").height());
-        alignHeights();
+        $("section#introduction").height($("section#introduction div.widget-content").height() + 20);
     }
+    alignHeights();
 }
 
+// this allows to filter the publications by publication type
 function toggle_pub_type(evt)
 {
     var that = $(this);
@@ -243,21 +249,15 @@ function toggle_pub_type(evt)
     fit_content();
 }
 
+// these functions depend on the basic structure being loaded
 $(document).ready(function()
 {
-    fit_content();
     extern_links();
     self_piwik();
     profiles_image();
-    ifEmptyHomePage();
     currentPage();
     
-    $(window).on('resize', fit_content);
-});
-
-$(window).load(function() {
-    alignHeights();
-    
+    // todo: put in separate function too
     $('.titlebar').each(function(idx, elem){
         var t = $(elem);
         var cl = $('<div class="widget-closer">⊗</div>');
@@ -273,11 +273,21 @@ $(window).load(function() {
         });
     });
     
+    
+    $(window).on('resize', fit_content);
+});
+
+// these functions depend on the images having loaded as well
+$(window).load(function() {
+    ifEmptyHomePage();
+    
+    
     $('#content-wrapper').masonry({
         itemSelector: '.to_mason',
         columnWidth: 100
     });
     
+    fit_content();
     $('.filter_type').on('click', toggle_pub_type);
 
     
