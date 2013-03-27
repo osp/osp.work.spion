@@ -65,7 +65,7 @@ def publication(request, pslug):
     tpl_params = {}
     pub = Publication.objects.get(slug=pslug)
     tpl_params['publication'] = pub
-    tpl_params['authors'] = pub.user.all()
+    #tpl_params['authors'] = pub.user.all()
     tpl_params['title'] = pub.title
     return render_to_response("publication.html", tpl_params, context_instance = RequestContext(request))
 
