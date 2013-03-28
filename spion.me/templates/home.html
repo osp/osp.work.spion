@@ -27,7 +27,7 @@
 
 {% for n in news %}
 <section class="to_mason news" data-sizex="3">
-<div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">Announcement</a></div>
+<div class="titlebar"><a href="{% url spion.spion_app.views.newsitems %}">Announcement — {{ n.publish_start|date:"Ymd" }}</a></div>
 <div class="widget-content">
 <h2><a href="{% url spion.spion_app.views.newsitem n.slug %}">{{n.header}}</a></h2>
 {{n.body|md:"medium"}}
