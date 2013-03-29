@@ -24,7 +24,7 @@
 Picture
 </div>
 <div class="widget-content">
-<img class="user_picture" src="{{MEDIA_URL}}{{profile.picture}}" alt="Picture of {{user.username}}"/>
+<img class="user_picture" src="{% if profile.picture %}{{MEDIA_URL}}{{profile.picture}}{% else %}{{STATIC_URL}}1x1-transparent-pixel.png{% endif %}" alt="Picture of {{user.username}}"/>
 </div>
 </section>
 
