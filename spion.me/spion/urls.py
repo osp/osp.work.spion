@@ -6,6 +6,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^', include('spion_app.urls')),
+    (r'^spy-kit/', include('spy_kit.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
 
