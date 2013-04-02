@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load md %}
+{% load fs %}
+
+{% block content %}
+
+<section class="to_mason profile" data-sizex="5">
+  <div class="titlebar">
+  Spy-kit
+  </div>
+  <div class="widget-content">
+  <h1 class="researcher_name">
+  Privacy Manual
+  </h1>
+  <p>
+    {{ description|md }}
+  </p>
+ </div>
+</section>
+
+
+<section class="to_mason" data-sizex="2">
+<div class="titlebar">
+Documenten
+</div>
+<div class="widget-content">
+<h2>Get</h2>
+<ul>
+    <li><a href="/media/resources/2013/04/02/Privacy_manual_29-68.pdf">Privacy_manual_29-68.pdf (6 MB)</a></li>
+</ul>
+</div>
+</section>
+
+<section class="to_mason publication" data-sizex="3">
+<div class="titlebar">
+&nbsp;
+</div>
+<div class="widget-content">
+<p>
+<img src="{{ STATIC_URL }}/logos/SPYKIT-490.png" width="490" height="114" />
+</p>
+</div>
+</section>
+
+<section class="to_mason work_package" data-sizex="2">
+<div class="titlebar">
+Workpackage
+</div>
+<div class="widget-content">
+<h2><a href="">Work package title</a></h2>
+<p class="medium">
+Work package description
+</p>
+</div>
+</section>
+{% endblock %}

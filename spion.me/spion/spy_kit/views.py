@@ -7,6 +7,7 @@ from django.http import HttpResponse, Http404
 from django.shortcuts import render_to_response
 from django.template import RequestContext
 
+from spion_app.models import SpionProject
 from spion.spy_kit.models import SpyKit
 
 def index(request):
@@ -18,6 +19,7 @@ def index(request):
 def single(request, slug):
     #page = SpyKit.objects.get(slug=slug)
     tpl_params = {}
+    tpl_params['description'] = SpionProject.objects.get(title='privacy_manual').description
     #tpl_params['title'] = 'SPY KIT — ' + page.title
     #tpl_params['page'] = page
     template = 'spy_single.html'
