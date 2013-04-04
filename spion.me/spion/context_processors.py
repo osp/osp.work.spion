@@ -150,4 +150,6 @@ def background_images(context):
     "F590-k610-64-8.png",
     "F590-k620-64-8.png",
     "F590-k630-64-8.png"]
-    return { 'BACKGROUND_IMAGE' : 'background_images/' + choice(background_images) }
+    image = choice(background_images)
+    return { 'BACKGROUND_IMAGE' : 'background_images/' + image,
+             'BACKGROUND_IMAGE_SPYKIT' : 'background_images_spykit/' + image }

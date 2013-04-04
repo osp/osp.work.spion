@@ -25,7 +25,7 @@
     {% endif%}
     <style>
         #fond {
-            background: url('{{ STATIC_URL }}{{ BACKGROUND_IMAGE }}');
+            background: url('{{ STATIC_URL }}{% block backgroundimage %}{{ BACKGROUND_IMAGE }}{% endblock %}');
         }
     </style>
     <script>
