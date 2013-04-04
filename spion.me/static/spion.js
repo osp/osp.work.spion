@@ -164,7 +164,7 @@ function alignHeights() {
         heights.push((i*box_height_step) + ((i-1)*box_vertical_gap));
     }
     console.log(heights);
-    $('.to_mason').each(function() {
+    $('section.to_mason').each(function() {
         var old_height = $(this).height();
         console.log(old_height);
         for (var i = 0; i < heights.length; i++) {

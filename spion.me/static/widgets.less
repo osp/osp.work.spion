@@ -16,13 +16,11 @@ body {
 }
 
 section {
-//    position: absolute;
     .box-sizing(border-box);
     border: 1px solid #ccc;
     .border-radius(4px 4px 6px 6px);
     background-color: white;
     overflow:hidden;
-    min-height: 130px;
     margin-bottom: 10px;
     li {
         list-style: none;
@@ -85,6 +83,15 @@ section.logo-tagline-together{
     margin-right: 10px;
 }
 
+section#spy-kit-logo {
+    padding: 8px 3px 5px 3px;
+}
+
+section#site-navigation {
+    border: none;
+    background: transparent;
+}
+
 section.footer{
     margin-left: 0px;
     width: 591px;
@@ -106,6 +113,10 @@ section.analytics{
     position:absolute;
     top : 85px;
     right:15px;
+    // offset left on small screens (so it doesn’t fill up main text area)
+    @media all and (max-width: 1016px) {
+        left: 811px;
+    }
 
     .titlebar{
         font-family:'RegloBold';

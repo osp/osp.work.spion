@@ -60,33 +60,35 @@
         <h1 class="tagline"><div>Security and Privacy </div><div>in Online Social Networks</div></h1>
     </section> 
     
-    <section class="logo-tagline-together" data-sizex="2">
+    <section class="logo-tagline-together" id="spy-kit-logo" data-sizex="2">
         <a href="{% url spion.spy_kit.views.index %}">
             <img src="{{ STATIC_URL }}logos/SPYKIT-172.png" width="172px" height="40px" />
         </a>
     </section> 
     
-    <div id="site-navigation">
-
-        <span class="label about">
-            <a href="{% url spion.spion_app.views.about %}">About</a>
-        </span>
-        <span class="label publication">
-            <a href="{% url spion.spion_app.views.publications %}">Publications</a>
-        </span>
-        <span class="label work_package">
-            <a href="{% url spion.spion_app.views.work_packages %}">Workpackages</a>
-        </span>
-        <span class="label researcher">
-            <a href="{% url spion.spion_app.views.profiles %}">Researchers</a>
-        </span>
-        <span class="label advisor">
-            <a href="{% url spion.spion_app.views.partners %}">Advisory Group</a>
-        </span>
-        <span class="label news">
-            <a href="{% url spion.spion_app.views.newsitems %}">Announcements</a>
-        </span>
-    </div>
+    <section id="site-navigation" data-sizex="3">
+        
+        <div class="widget-content">
+            <span class="label about">
+                <a href="{% url spion.spion_app.views.about %}">About</a>
+            </span>
+            <span class="label publication">
+                <a href="{% url spion.spion_app.views.publications %}">Publications</a>
+            </span>
+            <span class="label work_package">
+                <a href="{% url spion.spion_app.views.work_packages %}">Workpackages</a>
+            </span>
+            <span class="label researcher">
+                <a href="{% url spion.spion_app.views.profiles %}">Researchers</a>
+            </span>
+            <span class="label advisor">
+                <a href="{% url spion.spion_app.views.partners %}">Advisory Group</a>
+            </span>
+            <span class="label news">
+                <a href="{% url spion.spion_app.views.newsitems %}">Announcements</a>
+            </span>
+        </div>
+    </section>
     
 </div>
 <!--   </section> -->
