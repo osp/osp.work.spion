@@ -10,8 +10,11 @@
 <div class="widget-content">
 <h1 class="title">{{ publication.title }}</h1>
 <div class="authors">
-{% for a in publication.authorship_set.all %}
-<a href="{% url spion.spion_app.views.profile a.author.slug %}">{% if a.author.user.get_full_name %}{{a.author.user.get_full_name}}{% else %}{{a.author.user.username}}{% endif %}</a>{% if not forloop.last%},{% endif %}
+{% for a in publication.author_set.all %}
+<a href="{%if a.user %}{%url spion.spion_app.views.profile a.user.slug%}{% elif a.url %}{{a.url}}{% else %}#{% endif %}">
+{{a.get_full_name}}</a>
+{% if not forloop.last%}, {% endif %}
+
 
 {% endfor %}
 </div>

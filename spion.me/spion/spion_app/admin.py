@@ -4,12 +4,15 @@ admin custom
 
 from django.contrib import admin
 from django.forms import ModelForm
+from django.contrib.contenttypes import generic
 from spion_app.models import *
 
 from markitup.widgets import AdminMarkItUpWidget
 from orderable.admin import OrderableAdmin
 
-from adminsortable.admin import SortableAdmin, SortableTabularInline
+from adminsortable.admin import SortableAdmin, SortableTabularInline, SortableStackedInline
+
+import settings
 
 
 #class PublicationForm(ModelForm):
@@ -20,10 +23,7 @@ from adminsortable.admin import SortableAdmin, SortableTabularInline
         #if 'instance' in kwargs:
             #self.fields['user'] = kwargs['instance'].id
 
-class PublicationRelInline(admin.TabularInline):
-    model = Publication.user.through
-    extra = 0
-    
+
 class PublicationTypeAdmin(OrderableAdmin):
     model = PublicationType
     class Media:
@@ -36,7 +36,7 @@ class UserProfileAdmin(admin.ModelAdmin):
     model = UserProfile
     list_display = ('username', 'first_name', 'last_name', 'email')
     
-    inlines = [PublicationRelInline]
+    #inlines = [PublicationAuthorshipInline]
     
     def username(self, obj):
         return obj.user.username
@@ -47,17 +47,14 @@ class UserProfileAdmin(admin.ModelAdmin):
     def email(self, obj):
         return obj.user.email
 
-        
-class AuthorshipAdmin(SortableAdmin):
-    pass
-    
-class AuthorshipAdminInline(SortableTabularInline):
-    model = Authorship
+class AuthorInline(SortableStackedInline):
+    model = Author
+    extra = 1
 
-class PublicationAdmin(admin.ModelAdmin):
+class PublicationAdmin(SortableAdmin):
     formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
     model = Publication
-    inlines = [AuthorshipAdminInline]
+    inlines = [AuthorInline]
 
 class NewsItemAdmin(admin.ModelAdmin):
     formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
@@ -79,10 +76,9 @@ class SpionProjectAdmin(admin.ModelAdmin):
     formfield_overrides = {models.TextField: {'widget': AdminMarkItUpWidget}}
     model = SpionProject
 
-admin.site.register(Authorship, AuthorshipAdmin)
 admin.site.register(Resource)
 admin.site.register(PublicationType, PublicationTypeAdmin)
-admin.site.register(ExternalAuthor)
+#admin.site.register(ExternalAuthor)
 admin.site.register(Publication, PublicationAdmin)
 admin.site.register(UserProfile, UserProfileAdmin)
 admin.site.register(NewsItem, NewsItemAdmin)

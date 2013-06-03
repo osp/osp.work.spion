@@ -42,7 +42,7 @@ def profile(request, uslug):
     tpl_params['user'] = user_profile.user
     tpl_params['bio'] = user_profile.bio
     tpl_params['work_package'] = user_profile.work_package
-    tpl_params['publications'] = user_profile.publications.all()
+    tpl_params['publications'] = user_profile.publications()
     tpl_params['title'] = tpl_params['user'].get_full_name()
     return render_to_response("profile.html", tpl_params, context_instance = RequestContext(request))
 

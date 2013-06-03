@@ -25,37 +25,40 @@ class PublicationType(Orderable):
     def __unicode__(self):
         return self.name
 
-class ExternalAuthor(models.Model):
-    name = models.CharField(max_length=512)
-    url = models.URLField(blank=True)
-    
-    def __unicode__(self):
-        return self.name
-        
-        
-class Authorship(Sortable):
+
+
+class Author(Sortable):
     class Meta(Sortable.Meta):
-        ordering = ['order']
+        pass
         
-    author = models.ForeignKey('UserProfile')
-    publication = models.ForeignKey('Publication')
+    first_name = models.CharField(max_length=512, blank=True)
+    last_name = models.CharField(max_length=512, blank=True)
+    url = models.URLField(blank=True)
+    user = models.ForeignKey('UserProfile', blank=True, null=True)
+    publication = models.ForeignKey('Publication', blank=True, null=True)
+    
+    def get_full_name(self):
+        if self.user:
+            return self.user.user.get_full_name()
+        return '%s %s'%(self.first_name, self.last_name)
+        
     
     def __unicode__(self):
-        return '%s | %s'%(self.publication.title, self.author.user.get_full_name())
-    
-    
-class Publication(models.Model):
+        return self.get_full_name()
+
+
+class Publication(Sortable):
+    class Meta(Sortable.Meta):
+        pass
+        
     slug = models.SlugField(max_length=255, editable=False)
     
     title = models.CharField(max_length=512)
     summary = models.TextField()
     published = models.IntegerField() # Assumed that year of publication was enough
-    pub_type = models.ForeignKey('PublicationType', related_name='publications') # a la bibtex... but simple!  + deliverable + talks
+    pub_type = models.ForeignKey('PublicationType', related_name='publication') # a la bibtex... but simple!  + deliverable + talks
     publisher = models.CharField(max_length=512, blank=True) 
-    
     url = models.URLField()
-    user = models.ManyToManyField('UserProfile', related_name='publications', through='Authorship')
-    external_authors = models.ManyToManyField('ExternalAuthor', related_name='publications', blank=True)
     
     def save(self, force_insert=False, force_update=False, *args, **kwargs):
         # Automatically generate the slug from the title on save
@@ -75,6 +78,10 @@ class UserProfile(models.Model):
     
     #def __getattr__(self, name):
         #return getattr(self.user, name)
+        
+        
+    def publications(self):
+        return Publication.objects.filter(author__user=self)
     
     def save(self, force_insert=False, force_update=False, *args, **kwargs):
         # Automatically generate the slug from the title on save
