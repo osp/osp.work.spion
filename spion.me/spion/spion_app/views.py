@@ -83,7 +83,8 @@ def work_package(request, wslug):
     tpl_params['title'] = wp.title
     pub_ids = []
     for rs in wp.researchers.all():
-        for p in rs.publications.all():
+        #import ipdb; ipdb.set_trace()
+        for p in rs.publications():
             if p.id not in pub_ids:
                 pub_ids.append(p.id)
                 tpl_params['publications'].append(p)

@@ -47,7 +47,7 @@ class UserProfileAdmin(admin.ModelAdmin):
     def email(self, obj):
         return obj.user.email
 
-class AuthorInline(SortableStackedInline):
+class AuthorInline(SortableTabularInline):
     model = Author
     extra = 1
 

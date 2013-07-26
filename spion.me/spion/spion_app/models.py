@@ -12,6 +12,7 @@ from orderable.models import Orderable
 
 # Yet another sortable utility which can handle foreignkeys
 from adminsortable.models import Sortable
+from adminsortable.fields import SortableForeignKey
 
 class Resource(models.Model):
     name = models.CharField(max_length=512)
@@ -35,7 +36,7 @@ class Author(Sortable):
     last_name = models.CharField(max_length=512, blank=True)
     url = models.URLField(blank=True)
     user = models.ForeignKey('UserProfile', blank=True, null=True)
-    publication = models.ForeignKey('Publication', blank=True, null=True)
+    publication = SortableForeignKey('Publication', blank=True, null=True)
     
     def get_full_name(self):
         if self.user:
