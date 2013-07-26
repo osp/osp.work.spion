@@ -1,0 +1,45 @@
+{% extends 'spy_base.html' %}
+{% load md %}
+{% load fs %}
+
+{% block content %}
+
+<section class="to_mason spykit" data-sizex="5">
+  <div class="titlebar">
+  Spy-kit
+  </div>
+  <div class="widget-content">
+  <h1 class="researcher_name">
+  Privacy Manual
+  </h1>
+  <p>
+    {{ description|md }}
+  </p>
+ </div>
+</section>
+
+
+<section class="to_mason" data-sizex="2">
+<div class="titlebar">
+Documenten
+</div>
+<div class="widget-content">
+<h2>Downloaden</h2>
+<ul>
+    <li><a href="/media/resources/2013/04/02/Privacy_manual_29-68.pdf">Privacy_manual_29-68.pdf (6 MB)</a></li>
+</ul>
+</div>
+</section>
+
+<section class="to_mason work_package" data-sizex="2">
+<div class="titlebar">
+Onderzoek
+</div>
+<div class="widget-content">
+<h2><a href="/workpackage/educational-aspects-of-privacy-in-online-social-networks">Educational Aspects of Privacy in Online Social Networks</a></h2>
+<p class="medium">As the OWK team, we will concentrate our research on the educational part of this project.</p>
+</div>
+</section>
+
+<a href="https://parvati.ugent.be/limesurvey192/index.php?sid=47147&lang=nl" title="Privacy Handleiding Feedback"><img src="{{ STATIC_URL }}/jouw-mening-telt.png" height="177" width="177" class="to_mason" style="margin-left:-22px;margin-top:-22px;"/></a>
+{% endblock %}

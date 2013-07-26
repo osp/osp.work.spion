@@ -1,0 +1,27 @@
+{% extends 'spy_base.html' %}
+{% load md %}
+{% load fs %}
+
+{% block content %}
+<section class="to_mason spykit" data-sizex="6">
+    <div class="titlebar">
+        SPY-KIT
+    </div>
+    <div class="widget-content">
+        <p><img src="{{ STATIC_URL }}/logos/SPYKIT-490.png" width="490" height="114" /></p>
+        <p>Spy Kit is dat onderdeel van ons onderzoek dat voor een groter publiek bedoeld is. </p>
+    </div>
+</section>
+
+<section class="to_mason spykit" data-sizex="2">
+<div class="titlebar">
+SPY-KIT
+</div>
+<div class="widget-content">
+<h1><a href="{% url spion.spy_kit.views.single slug="privacy-manual" %}">Privacy Manual</a></h1>
+</div>
+</section>
+{% for kit in spykits %}
+
+{% endfor %}
+{% endblock %}

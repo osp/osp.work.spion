@@ -18,24 +18,21 @@
     right: 0;
     bottom: 0;
     z-index: -200;
-//    background-size: 40px 40px;
 }
 
 #site-header{
     margin:0;
     padding:12px;
-    position:fixed;
+    position: absolute;
     top:0;
     left:0;
-    z-index:999999;
     height:46px;
     width:100%;
-   min-width: 634px;
-//   background: rgb(255, 255, 255);
-//    background: rgba(255, 255, 255, 0.7);
-//    border-bottom:1px solid #ddd; //@spion-pink;
-
-
+    min-width: 1016px;
+    
+    section {
+        min-height: 59px;
+    }
     
     #logo-box{
         float:left;
@@ -54,34 +51,22 @@
         padding-left:18px;
         padding-top: 4px;
         background-color: white;
-/*         line-height:52px; */
         div{
             font-size:18px;
             vertical-align:bottom;
             height:24px;
         }
     }
-    
-    #site-navigation{
-        position:absolute;
-        right: 0px;
-        bottom:0;
-        width: 634px;
-    @media all and (max-width: 610px) {
-        left: 0px;
-    }
-    }
 }
 
 #content-wrapper{
-    /*     position:absolute; */
     width:84%;
     margin: 86px 0 80px 8px;
+    min-width: 822px;
 }
 
 #pub_menu{
     background-color:white;
-/*     color:white; */
     border:1px solid @border-colour;
     width:190px;
     padding:8px 0;
@@ -101,8 +86,4 @@
         }
     }
 }
-
-
-
-
 
