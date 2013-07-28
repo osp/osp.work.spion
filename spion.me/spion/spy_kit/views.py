@@ -14,6 +14,7 @@ def index(request):
     objects = SpyKit.objects.all()
     tpl_params = {}
     tpl_params['title'] = 'SPY KIT'
+    tpl_params['description'] = SpionProject.objects.get(title='spy_kit').description
     return render_to_response("spy_index.html", tpl_params, context_instance = RequestContext(request))
     
 def single(request, slug):
