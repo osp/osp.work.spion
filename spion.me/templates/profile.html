@@ -28,6 +28,18 @@ Picture
 </div>
 </section>
 
+<section class="to_mason work_package" data-sizex="2">
+<div class="titlebar">
+Workpackage
+</div>
+<div class="widget-content">
+<h2><a href="{% url spion.spion_app.views.work_package work_package.slug %}">{{ work_package.title }}</a></h2>
+<p class="medium">
+{{ work_package.description|fs|md:"medium" }}
+</p>
+</div>
+</section>
+
 {% for p in publications %}
 <section class="to_mason publication" data-sizex="2">
 <div class="titlebar">
@@ -43,17 +55,7 @@ Publication - {{p.pub_type.name}}
 </section>
 {% endfor %}
 
-<section class="to_mason work_package" data-sizex="2">
-<div class="titlebar">
-Workpackage
-</div>
-<div class="widget-content">
-<h2><a href="{% url spion.spion_app.views.work_package work_package.slug %}">{{ work_package.title }}</a></h2>
-<p class="medium">
-{{ work_package.description|fs|md:"medium" }}
-</p>
-</div>
-</section>
+
 
 {% endblock %}
 
